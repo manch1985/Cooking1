@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.GulabSandeshRecipeActivity"
+    tools:showIn="@layout/activity_gulab_sandesh_recipe"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gulab Sandheesh"
+                android:gravity="fill_horizontal"
+                android:id="@+id/gulabsandeesh1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gulabsandeesh2"
+                android:layout_below="@+id/gulabsandeesh1"
+                android:src="@drawable/gulabsandheesh"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+•	350 grams homemade chenna (paneer) \n
+•	1/4 cup sugar, powdered\n
+•	1 teaspoon rose water (gulab jal) \n
+•	1/4 cup sliced pistachios\n
+•	fresh rose for garnishing (optional) \n\n
+METHOD: \n
+1.	To begin making the Gulab Sandesh Recipe, make the homemade paneer/ chenna according to the instructions. \n
+2.	Once all the water from the chenna is drained, place the chenna in a large mixing bowl. Add the sugar and gulab jal (rose water). Using the heel of your hands, knead the chenna to make a very soft and smooth mixture. \n
+3.	This process takes at least 10 minutes to get a really soft and smooth chenna sandesh mixture. \n
+4.	Once you notice you have a smooth ball of sandesh dough, divide the sandesh into equal portions and shape them into tiny bite size balls. \n
+5.	Roll them between the palms of your hand and shape them into smooth balls. Using your thumb make an impression in the center. Place a sliced pistachio or a fresh rose petal in the center and the Gulab Sandesh is ready to be served. \n
+6.	Serve the Gulab Sandesh with a warm cup of Tetley Cinnamon and Honey Green Tea that compliments and balances out the sweetness of the sandesh. \n
+
+"
+                android:id="@+id/gulabsandeesh3"
+
+                android:layout_below="@+id/gulabsandeesh3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

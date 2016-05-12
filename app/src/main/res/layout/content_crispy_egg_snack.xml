@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.CrispyEggSnackActivity"
+    tools:showIn="@layout/activity_crispy_egg_snack"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crispy Egg Snack"
+                android:gravity="fill_horizontal"
+                android:id="@+id/crispyeggsnack1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/crispyeggsnack2"
+                android:layout_below="@+id/crispyeggsnack1"
+                android:src="@drawable/eggsnack"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Hard boiled eggs – 4\n
+•	Egg – 1\n
+•	Basen (kadalamavu) - 1 cup\n
+•	Bread crumbs – 1 cup\n
+•	Baking powder – 1 ½ tsp\n
+•	Water – ¼ cup\n
+•	All purpose flour/Maida – ½ cup\n
+•	Ginger garlic paste – 1 tsp\n
+•	Chilli powder – ¼ tsp\n
+•	Pepper powder – ¼ tsp\n
+•	Coriander leaves chopped – 1 tsp\n
+•	Oil – for frying\n
+•	Salt\n\n
+METHOD: \n\n
+1.	Mix well basen, ½ cup of bread crumbs, salt and baking powder. \n
+2.	Add to it ginger garlic paste, chilli powder, pepper powder and coriander leaves. \n
+3.	Add water and mix it well. Pour 2 tbsp of oil to the vessel and mix well. \n
+4.	Make it to 4 equal portions and cover the vessel and keep in the fridge for 15-20 min ( Apply oil to your palm if the mixture is sticking to your hands) \n
+5.	Beat an egg and keep it ready.\n
+6.	Apply good amount of oil in your palm and spread the mixture in your palm. \n
+7.	Place hard-boiled egg in the center and spread the mixture with your fingers to cover the egg. \n
+8.	Now roll it in bread crumbs, dip it in egg and finally roll it with bread crumbs. \n
+9.	Deep fry in oil and serve hot with tomato sauce. \n
+
+"
+                android:id="@+id/crispyeggsnack3"
+                android:layout_below="@+id/crispyeggsnack2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

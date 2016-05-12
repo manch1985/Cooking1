@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.FishKebabActivity"
+    tools:showIn="@layout/activity_fish_kebab"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish Kebab"
+                android:gravity="fill_horizontal"
+                android:id="@+id/fishkebab1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fishkebab2"
+                android:layout_below="@+id/fishkebab1"
+                android:src="@drawable/fishkebab"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: (Makes 10 Fish Kebabs)\n\n
+•	Fish – 150g (Refer note) \n
+•	Onion – 1 small (finely chopped) \n
+•	Green Chilli – 1 or 2\n
+•	Red chilli powder – ½ tsp\n
+•	Turmeric powder – ¼ tsp\n
+•	Coriander powder – 1 tsp\n
+•	Ginger garlic paste – 2 tsp\n
+•	Garam masala/fish masala – ½ tsp\n
+•	Chaat Masala – ½ tsp\n
+•	Potato – 1 medium (boiled and mashed) \n
+•	Egg – 1\n
+•	Bread – 1 slice (crumbled) \n
+•	Oil for frying\n
+•	Salt\n\n
+( Note: I used one tin of 170g canned Tuna. If you are using regular fish, sprinkle little water and boil the fish with ginger and garlic, little chilli powder and turmeric powder. Remove the bones from the fish and then mince the fish) \n\n
+METHOD: \n
+
+1.	Drain the salt water from the canned fish. Press it to remove water well. If you are using regular fish cook it as per the note and mince it. \n
+
+2.	To this add all spice powders, ginger garlic paste, mashed potato, crumbled bread, salt and mix well. \n
+3.	Beat the egg well and add it to the above mixture. \n
+4.	Mix it well. You should be able to make it into round shape. If the mixture is not tight add more potato or egg. \n
+5.	Make it into medium sized round kebabs. \n
+
+6.	Heat oil in a pan and shallow fry the kebabs until its brown both sides. \n
+
+7.	Drain excess oil in a paper towel and serve hot. \n
+
+8.	Deep fry in oil until it turns brown in color and serve hot with tomato sauce. (When you are frying the cutlet should be immersed in oil. So select the the pan and pour oil accordingly). \n
+
+
+"
+                android:id="@+id/fishkebab3"
+
+                android:layout_below="@+id/fishkebab2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

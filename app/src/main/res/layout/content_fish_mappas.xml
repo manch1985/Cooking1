@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.FishMappasActivity"
+    tools:showIn="@layout/activity_fish_mappas"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish Mappas"
+                android:gravity="fill_horizontal"
+                android:id="@+id/fishmappas1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fishmappas2"
+                android:layout_below="@+id/fishmappas1"
+                android:src="@drawable/fishmappas"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Fish – 500g cut into medium pieces\n
+•	Cardamom – 4\n
+•	Cloves – 3\n
+•	Cinnamon – 1” stick\n
+•	Onion – 2 (finely sliced) \n
+•	Ginger garlic paste – 3 tsp\n
+•	Tomato – 2\n
+•	Green chilli – 3\n
+•	Turmeric powder – ½ tsp\n
+•	Pepper powder – ¾ - 1 tsp\n
+•	Thin coconut milk – 1 ¼ cup\n
+•	Thick coconut milk – ¾ cup\n
+•	Curry leaves – few\n
+•	Oil\n
+•	Salt\n\n
+METHOD:\n
+1.	Heat oil in a pan and add cardamom, cloves and cinnamon and saute for 2 min. \n
+2.	Add sliced onion and curry leaves and cook till onion becomes golden brown in color. \n
+3.	Add green chilli, ginger garlic paste and cook for 2-3 min. \n
+4.	Add turmeric and pepper powder, salt and cook for 2-3 min. \n
+5.	Add chopped tomato and cook for 2 min. \n
+6.	Add thin coconut milk and wait till it starts boiling. \n
+7.	Add fish pieces and cook with the pan covered in low-medium heat till fish is cooked (Swirl the pan in between). \n
+8.	Once fish is cooked add thick coconut milk\n
+9.	Cook for another 4-5 min in low flame. Switch of the stove. \n
+10.	Pour 1 tsp of ghee over the curry prepared. Keep the pan closed for some time and serve hot with Palappam. \n
+
+"
+                android:id="@+id/fishmappas3"
+                android:layout_below="@+id/fishmappas2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+            />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

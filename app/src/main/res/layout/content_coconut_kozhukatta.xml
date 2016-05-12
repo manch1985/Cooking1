@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.CoconutKozhukattaActivity"
+    tools:showIn="@layout/activity_coconut_kozhukatta"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coconut Kozhukatta"
+                android:gravity="fill_horizontal"
+                android:id="@+id/coconutkozhukatta1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coconutkozhukatta2"
+                android:layout_below="@+id/coconutkozhukatta1"
+                android:src="@drawable/coconutkozhukatta"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+Ingredients for the Coconut Jaggery Filling / Thengai Poornam: \n
+•	1-1/2 cups freshly grated coconut\n
+•	1/2 cup powdered jaggery\n
+•	1/4 teaspoon freshly pounded cardamom powder\n
+•	1/4 cup water\n\n
+Ingredients for the Savory Lentil Filling: \n
+•	1 cup white urad dal (whole) \n
+•	2 green chillies\n
+•	1 inch piece of ginger\n
+•	1/4 teaspoon asafoetida powder\n
+•	salt to taste\n
+•	1 teaspoon sesame oil\n
+•	1/2 teaspoon mustard seeds\n\n
+Ingredients for the Rice Wrapper for the Dumplings: \n
+•	2 cups raw rice\n
+•	3 cups hot water\n
+•	1 cup warm milk\n
+•	1/4 teaspoon salt\n
+•	sesame oil\n\n
+METHOD\n\n
+Method for the Coconut Jaggery Filling (Thengai Poorna Kozhukattai): \n
+1.	In a heavy bottomed sauce pan; combine all the ingredients on high heat until the jaggery is dissolved completely. Turn the heat to medium and keep stirring until the mixture thickens and the water begins to evaporate. It takes about 7-10 minutes for the water to evaporate. Towards the end you will notice the mixtures comes together, with all the water evaporated. The coconut filling will now look like sticky mixture. \n
+2.	At this stage, turn off the heat and transfer the mixture to another bowl to cool. Once cool divide the mixture into 10-15 equal portions. This will be the sweet filling for the rice wrapper\n\n
+Method for the Lentil Filling (Uppu Kozhukattai): \n
+1.	Soak the urad dal in 2 cups of water for about 30 minutes. Drain the water completely. Combine the dal, green chillies, ginger, salt and asafoetida powder and blend into a coarse batter. \n
+2.	Place the batter in steamer plates or idli plates and steam for about 10 minutes until cooked (insert a knife in the center and it should come out clean). \n
+3.	Remove from the steamer and allow it to cool. Once partially cool, cut into pieces crumble the steamed lentils until there are no lumps. \n
+4.	Heat oil in a heavy bottomed pan; add the mustard seeds and allow it to crackle. Stir in the crumbled steamed lentils into the seasoning and saute for a few minutes until well combined. \n
+5.	Allow the lentils to cool. Once cool divide the lentils into 10-15 oval shaped portions and keep aside. This will be the savory filling for the rice wrapper. \n\n
+Method To Make Kozhukattai: \n
+1.	Soak the rice in 3 cups of hot water for about 30 minutes. Blend into a fine batter. Once blended, stir in the milk, oil and salt to make a thin batter. \n
+2.	Pour the batter into a heavy bottomed sauce pan and turn on heat to medium. Stir continuously until the batter becomes thick and leaves the sides of the pan. The process takes between 15 to 20 minutes for the batter to getting into a dough like mixture. \n
+3.	It is very important not to let go of the mixture even for a second without stirring, as it will form lumps. To make a smooth wrapper we need to have a dough without any lumps. \n
+4.	Test for doneness: Hold the latter with the cooked batter and it should not fall off. This means the dough for the wrapper is ready. \n
+5.	Turn of heat and transfer the rice dough into another container. Cover with a wet muslin cloth and keep warm. \n\n
+Method for Making the Rice Dumplings with the Filling and Wrapper: \n
+1.	With a little sesame oil in a cup, smear the oil in your hands and knead the dough well to remove any lumps. At all times make sure keep the dough covered with a wet muslin cloth to prevent the dough from drying out. \n
+2.	Note: The sweet fillings are made a round shape with a pointed top and the savory lentil fillings are made in a boat shape/Oval. \n
+3.	Take a lemon size portion of the dough, make into a ball and press the dough in the palm of your hands to make a flat dough, cup your palms a bit so it forms a depression in the center. Place the jaggery filling in the center and bring the edges of the dough together to the center with a pointed top as shown in the image above. Continue the similar process with the remaining portions of the dough and coconut filling. \n
+4.	Make the wrapper for the lentil dough in a oval flat shape, cup your palms and place the lentil filling inside and bring the edges together. Continue the similar process with the remaining portions of the dough and lentil filling. \n
+Note: \n\n
+ Dont make the dough too thin, the filling could come out when you try to wrap it. \n
+Note:
+\n Keep dipping and smearing your fingers and palms with sesame oil when you handle a new portion of the dough. This will prevent the dough from sticking to your hands. \n
+Prepare the steamer filled with water. Place the filled dumplings in the steamer plate and into the steamer. Steam for about 10 minutes until the dumplings look shiny and smooth. You will also notice that if it is not cooked, the rice wrapper will be sticky. \n
+Remove from the steamer and steam the rest of the batches of filled dumplings. \n
+Once they are steamed, the Kozhukattai (Ukadiche Modaks) are ready for an offering to god for the festival of Ganesh Chaturthi. \n
+You can refrigerate Kozhukattai (Ukadiche Modaks) and warm them in a steamer or microwave when you are ready to serve. \n
+
+"
+                android:id="@+id/coconutkozhukatta3"
+                android:layout_below="@+id/coconutkozhukatta2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

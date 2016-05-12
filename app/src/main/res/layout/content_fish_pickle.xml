@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.FishPickleActivity"
+    tools:showIn="@layout/activity_fish_pickle"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FISH"
+                android:gravity="fill_horizontal"
+                android:id="@+id/fishpickle1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fishpickle2"
+                android:layout_below="@+id/fishpickle1"
+                android:src="@drawable/fishpickle"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Sardine/Mathi-1 kg\n
+•	Garlic-20 cloves (long strips) \n
+•	Ginger-2 big pieces (strips) \n
+•	Green chilly-15 (slits) \n
+•	Curry leaves-4 strings\n
+•	Chilly powder-2 1/2 tbsp\n
+•	Turmeric powder-1/2tsp\n
+•	Asafoetida powder-less than 1/4tsp\n
+•	Fenugreek powder-less than 1/4 tsp\n
+•	Salt- to taste\n
+•	Mustard seeds-1tsp\n
+•	Fenugreek seeds-1/2tsp\n
+•	Oil- for frying\n
+•	Vinegar-1cup\n
+•	Hot Water-2 to 3 cups\n
+•	Dry red chilly-5 (slits) \n\n
+FOR MARINATION: \n
+•	Chilly powder-2 1/2 tbsp\n
+•	Turmeric powder-1/2tsp\n
+•	Salt- to taste\n\n
+METHOD: \n
+1.	Choose very small sardines ..Small ones best for pickle than big sardines.. \n
+2.	Cut ,clean and wash them properly using salt and vinegar .. \n
+3.	Then make 5 to 6 gashes on each sides.. \n
+4.	Make a paste of chilly powder,turmeric powder and salt ..Marinate the sardines with this masala ..Keep aside for minimum 15 minutes. \n
+5.	Heat  3 tbsp oil in a heavy bottomed  non stick pan. \n
+6.	Fry ginger pieces,garlic pieces ,green chilly separately,Keep aside. \n
+7.	Then splutter mustard seeds,fenu greek seeds,dry red chilly and curry leaves one by one(Add enough oil ). \n
+8.	Then switch off the gas and add all the powders and saute until the raw smell goes.. \n
+9.	Then add vinegar ,boiled water ,salt and roasted ginger-garlic and curry leaves ..Mix well ..Keep aside .. \n
+10.	Now fry the sardines in batches till they become crisp (dont burn ) \n
+11.	Check the salt and sourness ..So yummy but simple mathi achar is ready. \n
+
+
+
+
+"
+                android:id="@+id/fishpickle3"
+
+                android:layout_below="@+id/fishpickle2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

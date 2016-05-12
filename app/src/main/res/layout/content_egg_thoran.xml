@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.EggThoranActivity"
+    tools:showIn="@layout/activity_egg_thoran"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egg Thoran"
+                android:gravity="fill_horizontal"
+                android:id="@+id/eggthoran1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eggparatha2"
+                android:layout_below="@+id/eggthoran1"
+                android:src="@drawable/eggthoran"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Eggs  – 4\n
+•	Mustard seeds – ½ tsp\n
+•	Onion – 1\n
+•	Chilli Powder  – ½  tsp\n
+•	Ginger  garlic paste – 1 tsp\n
+•	Turmeric powder – ½  tsp\n
+•	Grated coconut  –  ½  cup\n
+•	Black pepper (powdered freshly) – 1 tsp\n
+•	Curry leaves – few\n
+•	Oil\n
+•	Salt\n
+ \n
+METHOD: \n\n
+1.	Beat eggs well and keep it aside. \n
+2.	Heat oil in a nonstick pan and splutter mustard seeds. \n
+3.	Add sliced onions and curry leaves. \n
+4.	Once onion is golden brown in color add ginger garlic paste. Cook for 2-3 min. \n
+5.	Add chilli powder and  turmeric powder and mix well. \n
+6.	Add beaten eggs  and on the top of it add grated coconut and pepper. \n
+7.	Stir well so that eggs are scrambled. \n
+8.	Keep stirring in medium flame till its dry. \n
+9.	Serve hot with rice. \n
+
+
+"
+                android:id="@+id/eggthoran3"
+                android:layout_below="@+id/eggthoran2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.OnamActivity"
+    tools:showIn="@layout/activity_onam"
+    android:background="@drawable/onam2">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Idichakka Thoran"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button1"
+                android:onClick="onam1"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cabage Thoran"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button3"
+                android:onClick="onam2"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ladys Finger Thoran"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button4"
+                android:onClick="onam3"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kootu Curry"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button5"
+                android:onClick="onam4"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tomato Rasam"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button6"
+                android:onClick="onam5"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kaalan"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button7"
+                android:onClick="onam6"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manga Pachadi"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button8"
+                android:onClick="onam7"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sadya Parippu"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button9"
+                android:onClick="onam8"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mango Chutney"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button10"
+                android:onClick="onam9"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steamed Rice"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button11"
+                android:onClick="onam10"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Semiya Payasam"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button12"
+                android:onClick="onam11"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paruppu Payasam"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button13"
+                android:onClick="onam12"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paal Payasam"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button14"
+                android:onClick="onam13"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

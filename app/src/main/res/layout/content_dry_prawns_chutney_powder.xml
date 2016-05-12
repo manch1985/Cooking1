@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.DryPrawnsChutneyPowderActivity"
+    tools:showIn="@layout/activity_dry_prawns_chutney_powder"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dry Prawns Chutney Powder"
+                android:gravity="fill_horizontal"
+                android:id="@+id/dryprawnschutneypowder"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dryprawnschutneypowder2"
+                android:layout_below="@+id/dryprawnschutneypowder1"
+                android:src="@drawable/dryprawnschutneypowder"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Unakka chemmen – ½  cup\n
+•	Grated coconut – ½ cup\n
+•	Small onion – 5\n
+•	Dry Red chilli – 2\n
+•	Kashmiri chill powder – 1/3  tsp\n
+•	Curry leaves – 2 springs\n
+•	Ginger – 1 inch piece\n
+•	Garlic – 2 cloves\n
+•	Tamarind – Small ball sized\n
+•	Salt\n\n
+
+METHOD: \n
+1.	Remove the head of dried prawns. Wash it well and keep it ready. \n
+2.	Heat a pan and dry roast prawns till it becomes brown and crisp. Keep it aside. \n
+3.	To the pan add grated coconut, roughly chopped small onion, ginger, garlic, dry red chilli and curry leaves. Dry roast it till coconut turns brown in color. \n
+4.	Now add tamarind and chilli powder and mix it well for a minute. \n
+5.	Add the roasted prawns and mix it well. Check for salt. Switch of the stove and allow it to cool. \n
+6.	Grind it to a coarse mixture (Few seconds of grinding is sufficient). Chemmen podi is ready. \n
+
+
+
+"
+                android:id="@+id/dryprawnschutneypowder3"
+
+                android:layout_below="@+id/dryprawnschutneypowder2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

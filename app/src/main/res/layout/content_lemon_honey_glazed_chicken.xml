@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.LemonHoneyGlazedChickenActivity"
+    tools:showIn="@layout/activity_lemon_honey_glazed_chicken"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lemon Honey Glazed Chicken"
+                android:gravity="fill_horizontal"
+                android:id="@+id/lemonhoney1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lemonhoney2"
+                android:layout_below="@+id/lemonhoney1"
+                android:src="@drawable/lemonhoney"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+
+•	Boneless Chicken -250gms(bite size pieces) \n
+•	Cornflour-11/2tbsp\n
+•	All Purpose Flour-11/2tbsp\n
+•	Egg White-of 1\n
+•	Salt-to taste\n
+•	Lemon Juice-11/2tbsp\n
+•	Ginger-2tsp\n
+•	Garlic -2tsp\n
+•	Celery-1tsp\n
+•	Big Onion-1\n
+•	Soya Sauce-1tbsp\n
+•	Chilli Paste-1 1/2tbsp\n
+•	Vinegar-1tbsp\n
+•	Tomato Ketchup-1/2tsp\n
+•	Sweet Chilli Sauce-1tbsp\n
+•	Honey-2tbsp\n
+•	Lemon Juice -1tbsp\n
+\n\n
+METHOD: \n\n
+
+1.	Take water in a container add 2 tbsp of salt and mix well.. \n
+2.	Add chicken pieces and soak them in the salt water and close it and keep in the fridge for 2-3 hours ..(Braising ) \n
+3.	U can keep this in the full night and make the dish in the morning also .. \n
+4.	This will help the chicken to be juicy and soft …\n
+5.	After that take out the chicken and wash well .. \n
+6.	Cut  into small bite size pieces.. \n
+7.	In a bowl add cornflour,maida mix well .. \n
+8.	To that add egg white ,lemon juice and salt .. \n
+9.	Mix well …Add chicken pieces and keep aside for 15 minutes .. \n
+10.	Heat oil in pan and shallow fry the pieces .. \n
+11.	Once done drain and keep in a kitchen tissue .. \n
+12.	Take 2tbsp of oil (the same oil we used for frying chicken ) and heat .. \n
+13.	Add finely chopped onion,ginger,garlic and celery .. \n
+14.	Saute for 6-7 minutes in medium flame stirring continuously .. \n
+15.	Then add chilli paste and vinegar .. Saute for 2 minutes and then add sweet chilli sauce ,soya sauce ,lemon juice salt and honey.. \n
+16.	Mix well ..Check the seasoning ..Add anything according to ur taste .. \n
+17.	Then add fried chicken pieces and mix well ..Chicken must be coated well in the sauce .. \n
+18.	Cook for another 5 minutes and then serve hot …\n
+19.	The lovely lemon -honey glazed chicken is ready .. \n
+20.	Can use as a starter .. \n
+
+"
+                android:id="@+id/lemonhoney3"
+
+                android:layout_below="@+id/lemonhoney2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChoclateCakeActivity"
+    tools:showIn="@layout/activity_choclate_cake"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choclate Cake"
+            android:gravity="fill_horizontal"
+            android:id="@+id/choclatecake1"
+            android:textColor="#f4121213"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choclatecake2"
+            android:layout_below="@+id/choclatecake1"
+            android:src="@drawable/choclatecake"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INGREDIENTS:\n\n
+•	185 grams butter, softened (Vegan: 1/4 cup coconut oil or grape seed oil) \n
+•	130 grams brown sugar\n
+•	2 eggs or Flaxmeal Egg Replacer\n
+•	1-1/2 teaspoons baking powder\n
+•	40 grams cocoa powder\n
+•	85 grams all purpose flour (maida) \n
+•	25 grams finger millet flour (ragi) \n
+•	90 ml milk (Vegan: Almond Milk) \n\n
+METHOD:\n
+1.	To begin making the easy Chocolate Cake Recipe we will first preheat the oven to 160 C and grease tan 8 inch cake pan with butter and dust it with flour. Get all the ingredients ready to make the cake and keep them aside. \n
+2.	In a large bowl or the bowl of a stand mixer, beat in the sugar, butter (oil), baking powder and (eggs) flax meal egg replacer and beat until fluffy and combined. \n
+3.	Gradually beat in the cocoa powder, milk (almond milk) and the flours in that order until all the ingredients come together and looks creamy. \n
+4.	Pour the contents of the chocolate cake batter into the greased cake pan and bake in the pre heated oven for 40 minutes or until when a tester when inserted right through comes out clean. \n
+5.	Remove the Vegan/ Eggless Chocolate Cake from the oven and allow it to cool a bit before you can cut it and serve. \n
+6.	Serve the Chocolate cake topped with either chocolate ganache or even seasonal fruits along with whipped cream. You can also serve the cake as it is for a tea time snack. \n
+
+"
+            android:id="@+id/choclatecake3"
+            android:layout_below="@+id/choclatecake2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#030303"
+            android:textIsSelectable="false"
+            />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

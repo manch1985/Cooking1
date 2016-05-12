@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.VegPizzaActivity"
+    tools:showIn="@layout/activity_veg_pizza"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veg Pizza"
+                android:gravity="fill_horizontal"
+                android:id="@+id/pizza1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pizza2"
+                android:layout_below="@+id/pizza1"
+                android:src="@drawable/pizza"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS\n\n
+•	All purpose flour-4cup\n
+•	Yeast-1 1/2tsp\n
+•	Sugar-1/2tbsp\n
+•	Salt -to taste\n
+•	Luke warm water-1cup\n
+•	Olive oil-\n
+•	Mozzarella cheese-\n
+•	Pizza sauce -2tbsp\n
+•	Onion -1\n
+•	Capsicum -1\n
+•	Tomato-1( slices) \n
+•	Olive -5(sliced) \n
+•	Mushroom -10(sliced) \n\n
+METHOD: \n
+
+1.	In a bowl add 250 ml  of  luke warm water. \n
+2.	In to that, add 1 1/2 tsp of yeast , 1/2tbsp of sugar and salt , mix well . \n
+3.	Then add 1 cup of maida (all purpose flour ) into the yeast mix and stir well .. Cover this mix  and keep aside for  about 15 minutes .. \n
+4.	In another bowl add 3 cups of flour ,3tbsp of olive oil and mix well ..Now add the flour -yeast mix .Knead for 5 minutes to get a soft dough (Add water if needed ) .The dough must be very very soft .Sprinkle olive oil in top of the dough .Cover the dough with a wet cloth and keep this in a tight container for about 1 hour (keep this in a warm place ,I kept it my oven ) \n
+5.	After 1 hour take the dough out and again knead well  for 2-3 minutes and keep agian in  the old place for another 30 minutes . \n
+6.	Now take the dough out .Remove the cloth and knead .Take some flour and dust the dough  .Divide the dough .U can make 2 big pizza from this dough .So take a pizza stone or any comfortable vessel (or u can take nonstick pan also ).Grease the vessel with olive oil .Now place the dough into the vessel and shape it by pressing dough with hand ..Let it rest for 5 minutes\n
+7.	.Now spread pizza sauce to the top of the dough (spread it evenly . U can get pizza sauce in any grocery ).Then place all the toppings (all vegetables) .Then spread mozzarella cheese evenly in the top.Here  i used very less amount of cheese ,coz my hubby is very much health conscious (he likes pizza with out cheese !!!) So u can add cheese as much as  like .Finally sprinkle olive oil  in all part of the pizza .Brush olive oil in the edges of the pizza ( u can do it with ur hand itself ) We are doing this to get a soft base . \n
+8.	B4 doing all these pre heat your oven for 30 minutes in 180 degree Celsius  . \n
+9.	Now place the vessel in the stove ,cook for 5 minutes in very very low flame .We are doing this step to cook the bottom portion of the pizza. \n
+10.	When the oven is ready ,place the vessel in the oven ,bake the pizza for 15 minutes in 230 c .So the delicious vegetable pizza is ready to serve …\n
+
+"
+                android:id="@+id/pizza3"
+                android:layout_below="@+id/pizza2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

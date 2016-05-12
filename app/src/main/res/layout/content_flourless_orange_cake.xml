@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.FlourlessOrangeCakeActivity"
+    tools:showIn="@layout/activity_flourless_orange_cake"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange Cake"
+                android:gravity="fill_horizontal"
+                android:id="@+id/orangecakes1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/orangecake2"
+                android:layout_below="@+id/orangecake1"
+                android:src="@drawable/orangecake"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+FOR ORANGE PUREE: \n
+•	3 large oranges (peeled, deseeded and chunked) \n
+•	2 tablespoons orange zest\n
+•	3 tablespoons sugar\n\n
+FOR CAKE: \n
+•	6 eggs\n
+•	175 grams castor sugar\n
+•	150 grams almond meal\n
+•	100 grams hazelnut meal\n
+•	1 teaspoon baking powder\n\n
+FOR CREAM CHEESE FROSTING: \n
+•	200 grams cream cheese\n
+•	3 tablespoons cream\n
+•	3 tablespoons orange juice\n
+•	75 grams icing sugar\n\n
+METHOD: \n
+1.	To begin making the Flourless Orange Cake With Cream Cheese Frosting Recipe first prepare the orange puree\n
+2.	To do this, combine the zest, sugar and orange chunks in a pan. Place the pan over a medium heat and cook, covered, for 6 to 8 mins or until the sugar is dissolved well and oranges have turned very soft and pulpy. \n
+3.	Mix and take the mixture off the heat. Cool it completely and then add it to a blender and blend it to a fine puree. Set it aside for later use. \n
+4.	Proceed to make the flourless cake, next. To do that, first set the oven to pre heat at 170 degrees C. Grease and line a 9 inch spring-form pan and set it aside. \n
+5.	In a large mixing bowl, add sugar and eggs and using a stand mixer or hand mixer, beat well on a high speed until the eggs are pale and fluffy. This will take approximately 5 to 6 minutes. \n
+6.	Next, add in the baking powder and stir to combine. \n
+7.	Gently fold in the measured out almond meal, hazelnut meal and orange puree. Do this gently, by folding it in with a spatula rather than thoroughly mixing it with a whisk or spoon, taking care not to deflate the egg and sugar mixture. \n
+8.	Pour the batter in the lined cake pan and bake it in the preheated oven for about 25 minutes until the top looks set and gets a golden brown hue. \n
+9.	If you feel the top is cooking too fast, place a sheet of aluminium foil over it to avoid burning. \n
+10.	Bake it for another 25 minutes. As the baking continues, the sides of the cake will start leaving the pan and will shrink a bit. \n
+11.	After about 40-50 minutes of baking, insert a skewer into the centre of the cake and if it comes out free of batter, the cake is done. \n
+12.	Remove it from the oven and set it on a cooling rack to cool completely, while you prepare the cream cheese frosting. \n
+13.	To prepare the frosting, beat together all the ingredients mentioned for frosting until soft and smooth. \n
+14.	When the Orange cake has cooled completely, release it from the springform tin and place it on a cake plate or tray. \n
+15.	Frost the cake as you wish by slathering the cream cheese topping on it. Then, place it in the refrigerator for a few hours before serving. \n
+16.	You can garnish the Flourless Orange Cake with almond flakes, orange slices and mint leaves. \n
+17.	Serve the Flourless Orange Cake chilled or at room temperature. \n
+
+"
+                android:id="@+id/orangecake3"
+                android:layout_below="@+id/orangecake2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

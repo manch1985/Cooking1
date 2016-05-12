@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.BurfiActivity"
+    tools:showIn="@layout/activity_burfi"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Burfi"
+                android:gravity="fill_horizontal"
+                android:id="@+id/burfi1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/burfi2"
+                android:layout_below="@+id/burfi1"
+                android:src="@drawable/burfi"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	1/2 cup rajgira atta (Amaranth flour) \n
+•	1/2 cup powdered jaggery\n
+•	1/2 cup melted ghee\n
+•	1/2 teaspoon powdered cardamom\n
+•	1/4 cup halved cashewnuts\n\n
+METHOD: \n
+1.	To begin making the Gluten-Free Rajgira Burfi Recipe, dry roast the rajgira/amaranth flour in a heavy bottomed pan till the color changes to a light golden brown. Remove from the flame and set aside. \n
+2.	Grease a flat plate with ghee and keep aside. \n
+3.	Roast the halved cashewnuts in a little ghee until crisp and golden brown. Take care to do it on low heat to roast it evenly. \n
+4.	Next combine the jaggery and 1/4 cup water in a heavy bottomed pan and place over low heat. (the amount of water should be just enough to soak the jaggery or sugar). Make a syrup of half thread consistency. \n
+5.	To the jaggery syrup, add the roasted flour and powdered cardamom and mix well. \n
+6.	Keep stirring continuously. Add the melted ghee little at a time while stirring the mixture. (if you find that the mixture is sticking to the pan, add more ghee than mentioned in the recipe) \n
+7.	When the Rajgira Burfi  mixture starts leaving the sides and bottom of the pan, turn off the heat. Pour this mixture immediately on to the greased tray and spread it evenly for it to set. \n
+8.	Sprinkle the roasted cashewnuts on top and press gently while the Rajgira Burfi mixture is still hot. \n
+9.	Allow the Rajgira Burfi to cool and then cut into desired sizes and shapes. Store the Rajgira Burfi in an air tight box for a week. \n
+10.	Serve Gluten-Free Rajgira Burfi for Diwali, Raksha Bandhan or any other special occasion in the family. \n
+
+
+"
+                android:id="@+id/burfi3"
+
+                android:layout_below="@+id/burfi2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

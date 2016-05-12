@@ -1,0 +1,2293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alphonsa.cooking1">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChilliChickenActivity"
+            android:label="@string/title_activity_chilli_chicken"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BeefPepperRoastActivity"
+            android:label="@string/title_activity_beef_pepper_roast"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BeefPotatoRoastActivity"
+            android:label="@string/title_activity_beef_potato_roast"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BeefThoranActivity"
+            android:label="@string/title_activity_beef_thoran"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BeefKurmaActivity"
+            android:label="@string/title_activity_beef_kurma"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BeefFryActivity"
+            android:label="@string/title_activity_beef_fry"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NadanBeefCurryActivity"
+            android:label="@string/title_activity_nadan_beef_curry"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DriedBeefStirFryActivity"
+            android:label="@string/title_activity_dried_beef_stir_fry"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SpicyLiverFryActivity"
+            android:label="@string/title_activity_spicy_liver_fry"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BeefMasalaActivity"
+            android:label="@string/title_activity_beef_masala"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BeefRawBananaStirFryActivity"
+            android:label="@string/title_activity_beef_raw_banana_stir_fry"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NonVegActivity"
+            android:label="@string/title_activity_non_veg"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenActivity"
+            android:label="@string/title_activity_chicken"
+            android:parentActivityName=".NonVegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.NonVegActivity" />
+        </activity>
+        <activity
+            android:name=".BeefRecipeActivity"
+            android:label="@string/title_activity_beef_recipe"
+            android:parentActivityName=".NonVegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.NonVegActivity" />
+        </activity>
+        <activity
+            android:name=".NadanChickenCurryActivity"
+            android:label="@string/title_activity_nadan_chicken_curry"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".MincedMeatStirFryActivity"
+            android:label="@string/title_activity_minced_meat_stir_fry"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BeefRecipeActivity" />
+        </activity>
+        <activity
+            android:name=".BeefStroganoffActivity"
+            android:label="@string/title_activity_beef_stroganoff"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BeefRecipeActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenGravyActivity"
+            android:label="@string/title_activity_chicken_gravy"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenRoastActivity"
+            android:label="@string/title_activity_chicken_roast"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChilliChickenGravyActivity"
+            android:label="@string/title_activity_chilli_chicken_gravy"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".SpicyChickenFryActivity"
+            android:label="@string/title_activity_spicy_chicken_fry"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenCutletActivity"
+            android:label="@string/title_activity_chicken_cutlet"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenCrpquettesActivity"
+            android:label="@string/title_activity_chicken_crpquettes"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".KadaiChickenActivity"
+            android:label="@string/title_activity_kadai_chicken"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenLollipopsActivity"
+            android:label="@string/title_activity_chicken_lollipops"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenRoast_no_onionActivity"
+            android:label="@string/title_activity_chicken_roast_no_onion"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".Chicken65Activity"
+            android:label="@string/title_activity_chicken65"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenStewActivity"
+            android:label="@string/title_activity_chicken_stew"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".LemonHoneyGlazedChickenActivity"
+            android:label="@string/title_activity_lemon_honey_glazed_chicken"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenBezuleActivity"
+            android:label="@string/title_activity_chicken_bezule"
+            android:parentActivityName=".ChickenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChickenActivity" />
+        </activity>
+        <activity
+            android:name=".EggActivity"
+            android:label="@string/title_activity_egg"
+            android:parentActivityName=".NonVegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.NonVegActivity" />
+        </activity>
+        <activity
+            android:name=".EggParathaActivity"
+            android:label="@string/title_activity_egg_paratha"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".SpicyPotatoEggCurryActivity"
+            android:label="@string/title_activity_spicy_potato_egg_curry"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".NadanEggCurryActivity"
+            android:label="@string/title_activity_nadan_egg_curry"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".EggRoastActivity"
+            android:label="@string/title_activity_egg_roast"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".EggDosaActivity"
+            android:label="@string/title_activity_egg_dosa"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".EggThoranActivity"
+            android:label="@string/title_activity_egg_thoran"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".StuffedEggBunsActivity"
+            android:label="@string/title_activity_stuffed_egg_buns"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".EggChopsActivity"
+            android:label="@string/title_activity_egg_chops"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".CrispyEggSnackActivity"
+            android:label="@string/title_activity_crispy_egg_snack"
+            android:parentActivityName=".EggActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.EggActivity" />
+        </activity>
+        <activity
+            android:name=".PorkActivity"
+            android:label="@string/title_activity_pork"
+            android:parentActivityName=".NonVegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.NonVegActivity" />
+        </activity>
+        <activity
+            android:name=".PorkSemiGravyActivity"
+            android:label="@string/title_activity_pork_semi_gravy"
+            android:parentActivityName=".PorkActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PorkActivity" />
+        </activity>
+        <activity
+            android:name=".PorkDryActivity"
+            android:label="@string/title_activity_pork_dry"
+            android:parentActivityName=".PorkActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PorkActivity" />
+        </activity>
+        <activity
+            android:name=".MuttonActivity"
+            android:label="@string/title_activity_mutton"
+            android:parentActivityName=".NonVegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.NonVegActivity" />
+        </activity>
+        <activity
+            android:name=".MuttonRoastActivity"
+            android:label="@string/title_activity_mutton_roast"
+            android:parentActivityName=".MuttonActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MuttonActivity" />
+        </activity>
+        <activity
+            android:name=".MuttonSemiGravyActivity"
+            android:label="@string/title_activity_mutton_semi_gravy"
+            android:parentActivityName=".MuttonActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MuttonActivity" />
+        </activity>
+        <activity
+            android:name=".MuttonGravyActivity"
+            android:label="@string/title_activity_mutton_gravy"
+            android:parentActivityName=".MuttonActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MuttonActivity" />
+        </activity>
+        <activity
+            android:name=".MuttonCurryActivity"
+            android:label="@string/title_activity_mutton_curry"
+            android:parentActivityName=".MuttonActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MuttonActivity" />
+        </activity>
+        <activity
+            android:name=".PicklesActivity"
+            android:label="@string/title_activity_pickles"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MangoActivity"
+            android:label="@string/title_activity_mango"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".LemonActivity"
+            android:label="@string/title_activity_lemon"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".GingerActivity"
+            android:label="@string/title_activity_ginger"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".CarrotActivity"
+            android:label="@string/title_activity_carrot"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".OnionActivity"
+            android:label="@string/title_activity_onion"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".BeefActivity"
+            android:label="@string/title_activity_beef"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsActivity"
+            android:label="@string/title_activity_prawns"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".GooseberryActivity"
+            android:label="@string/title_activity_gooseberry"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".SnacksActivity"
+            android:label="@string/title_activity_snacks"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ParrippuVadaActivity"
+            android:label="@string/title_activity_parrippu_vada"
+            android:parentActivityName=".SnacksActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SnacksActivity" />
+        </activity>
+        <activity
+            android:name=".OnionVadaActivity"
+            android:label="@string/title_activity_onion_vada"
+            android:parentActivityName=".SnacksActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SnacksActivity" />
+        </activity>
+        <activity
+            android:name=".SweetcornPotatoCutletsActivity"
+            android:label="@string/title_activity_sweetcorn_potato_cutlets"
+            android:parentActivityName=".SnacksActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SnacksActivity" />
+        </activity>
+        <activity
+            android:name=".VattayappamActivity"
+            android:label="@string/title_activity_vattayappam"
+            android:parentActivityName=".SnacksActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SnacksActivity" />
+        </activity>
+        <activity
+            android:name=".VegPizzaActivity"
+            android:label="@string/title_activity_veg_pizza"
+            android:parentActivityName=".SnacksActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SnacksActivity" />
+        </activity>
+        <activity
+            android:name=".ChillyBajjiActivity"
+            android:label="@string/title_activity_chilly_bajji"
+            android:parentActivityName=".SnacksActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SnacksActivity" />
+        </activity>
+        <activity
+            android:name=".BananaFryActivity"
+            android:label="@string/title_activity_banana_fry"
+            android:parentActivityName=".SnacksActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SnacksActivity" />
+        </activity>
+        <activity
+            android:name=".BreakfastActivity"
+            android:label="@string/title_activity_breakfast"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CakeActivity"
+            android:label="@string/title_activity_cake"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OatsActivity"
+            android:label="@string/title_activity_oats"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SoupActivity"
+            android:label="@string/title_activity_soup"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SaladActivity"
+            android:label="@string/title_activity_salad"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FestivalActivity"
+            android:label="@string/title_activity_festival"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IdliActivity"
+            android:label="@string/title_activity_idli"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SteamCakeActivity"
+            android:label="@string/title_activity_steam_cake"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IdiyappamActivity"
+            android:label="@string/title_activity_idiyappam"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PalappamActivity"
+            android:label="@string/title_activity_palappam"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RavaUpmaActivity"
+            android:label="@string/title_activity_rava_upma"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DosaActivity"
+            android:label="@string/title_activity_dosa"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VattayappambrkActivity"
+            android:label="@string/title_activity_vattayappambrk"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AvalVelayichathuActivity"
+            android:label="@string/title_activity_aval_velayichathu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AvalosPodiActivity"
+            android:label="@string/title_activity_avalos_podi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PaalPidiActivity"
+            android:label="@string/title_activity_paal_pidi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GodhambuAdaActivity"
+            android:label="@string/title_activity_godhambu_ada"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MuttaKozhalappamActivity"
+            android:label="@string/title_activity_mutta_kozhalappam"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VenPongalActivity"
+            android:label="@string/title_activity_ven_pongal"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".OnionUtappamActivity"
+            android:label="@string/title_activity_onion_utappam"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".KuzhiPaniyaramActivity"
+            android:label="@string/title_activity_kuzhi_paniyaram"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".MasalaDosaActivity"
+            android:label="@string/title_activity_masala_dosa"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".KottuParottaActivity"
+            android:label="@string/title_activity_kottu_parotta"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".PulliPongalActivity"
+            android:label="@string/title_activity_pulli_pongal"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".RagiSevaiActivity"
+            android:label="@string/title_activity_ragi_sevai"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".PaalPongalActivity"
+            android:label="@string/title_activity_paal_pongal"
+            android:parentActivityName=".BreakfastActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BreakfastActivity" />
+        </activity>
+        <activity
+            android:name=".VegActivity"
+            android:label="@string/title_activity_veg"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplDishesForChapathiActivity"
+            android:label="@string/title_activity_spl_dishes_for_chapathi"
+            android:parentActivityName=".VegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.VegActivity" />
+        </activity>
+        <activity
+            android:name=".RajmaTomatoGravyActivity"
+            android:label="@string/title_activity_rajma_tomato_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PotatoCreamyYogurtSauceActivity"
+            android:label="@string/title_activity_potato_creamy_yogurt_sauce"
+            android:parentActivityName=".VegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.VegActivity" />
+        </activity>
+        <activity
+            android:name=".VegKurmaActivity"
+            android:label="@string/title_activity_veg_kurma"
+            android:parentActivityName=".VegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.VegActivity" />
+        </activity>
+        <activity
+            android:name=".AlooPeasCurryActivity"
+            android:label="@string/title_activity_aloo_peas_curry"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".ButterPaneerMasalaActivity"
+            android:label="@string/title_activity_butter_paneer_masala"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PotatoStewActivity"
+            android:label="@string/title_activity_potato_stew"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".CapsicumGravyActivity"
+            android:label="@string/title_activity_capsicum_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".RidgeGuardGravyActivity"
+            android:label="@string/title_activity_ridge_guard_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PalakMushroomCurryActivity"
+            android:label="@string/title_activity_palak_mushroom_curry"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".DalFryRecipeActivity"
+            android:label="@string/title_activity_dal_fry_recipe"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".SweetCornGravyActivity"
+            android:label="@string/title_activity_sweet_corn_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".MixedDalActivity"
+            android:label="@string/title_activity_mixed_dal"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PaneerKofthaActivity"
+            android:label="@string/title_activity_paneer_koftha"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".MushroomMutturPaneerActivity"
+            android:label="@string/title_activity_mushroom_muttur_paneer"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".BabyCornMasalaActivity"
+            android:label="@string/title_activity_baby_corn_masala"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".SoyaChunksKurmaActivity"
+            android:label="@string/title_activity_soya_chunks_kurma"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".RajmaMasalaActivity"
+            android:label="@string/title_activity_rajma_masala"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".BrinjalTomatoGravyActivity"
+            android:label="@string/title_activity_brinjal_tomato_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".BlackEyedPeaGravyActivity"
+            android:label="@string/title_activity_black_eyed_pea_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".RadishChannaGravyActivity"
+            android:label="@string/title_activity_radish_channa_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".MaixedBeansGravyActivity"
+            android:label="@string/title_activity_maixed_beans_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PotatoGravyActivity"
+            android:label="@string/title_activity_potato_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".AlooMutterGravyActivity"
+            android:label="@string/title_activity_aloo_mutter_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".OnionTomatoGravyActivity"
+            android:label="@string/title_activity_onion_tomato_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".NavrathanKurmaActivity"
+            android:label="@string/title_activity_navrathan_kurma"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PaneerButterMasalaActivity"
+            android:label="@string/title_activity_paneer_butter_masala"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".MushroomKormaActivity"
+            android:label="@string/title_activity_mushroom_korma"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".DalMakhaniActivity"
+            android:label="@string/title_activity_dal_makhani"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".MirchiKaSalanActivity"
+            android:label="@string/title_activity_mirchi_ka_salan"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".VegKormaActivity"
+            android:label="@string/title_activity_veg_korma"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".DhansakActivity"
+            android:label="@string/title_activity_dhansak"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".AlooGobiMasalaActivity"
+            android:label="@string/title_activity_aloo_gobi_masala"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".ChayoteKootuActivity"
+            android:label="@string/title_activity_chayote_kootu"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PaneerBhurjiActivity"
+            android:label="@string/title_activity_paneer_bhurji"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".ChannaMasalaActivity"
+            android:label="@string/title_activity_channa_masala"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".RajmaChawalActivity"
+            android:label="@string/title_activity_rajma_chawal"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".DumAlooActivity"
+            android:label="@string/title_activity_dum_aloo"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".WhitePumpkinKottuActivity"
+            android:label="@string/title_activity_white_pumpkin_kottu"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".MasoorDalTadkaActivity"
+            android:label="@string/title_activity_masoor_dal_tadka"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".VegMakhaniActivity"
+            android:label="@string/title_activity_veg_makhani"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".TomatoKurmaActivity"
+            android:label="@string/title_activity_tomato_kurma"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".LobiaMasalaActivity"
+            android:label="@string/title_activity_lobia_masala"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".VegGravyActivity"
+            android:label="@string/title_activity_veg_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".RedWineChoclateCakeActivity"
+            android:label="@string/title_activity_red_wine_choclate_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".FlourlessOrangeCakeActivity"
+            android:label="@string/title_activity_flourless_orange_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".PlumCakeActivity"
+            android:label="@string/title_activity_plum_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".StrawberryTeaCakeActivity"
+            android:label="@string/title_activity_strawberry_tea_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".LemonPoppySeedCakeActivity"
+            android:label="@string/title_activity_lemon_poppy_seed_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".ChoclateCakeActivity"
+            android:label="@string/title_activity_choclate_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".RagiBananaChoclateCakeActivity"
+            android:label="@string/title_activity_ragi_banana_choclate_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".CupCakeActivity"
+            android:label="@string/title_activity_cup_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".ChoclateAlmondBrownieActivity"
+            android:label="@string/title_activity_choclate_almond_brownie"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".EgglessStrawberryCakeActivity"
+            android:label="@string/title_activity_eggless_strawberry_cake"
+            android:parentActivityName=".CakeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.CakeActivity" />
+        </activity>
+        <activity
+            android:name=".OatsLadooActivity"
+            android:label="@string/title_activity_oats_ladoo"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".MasalaOatsUpmaActivity"
+            android:label="@string/title_activity_masala_oats_upma"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatmealPancakeActivity"
+            android:label="@string/title_activity_oatmeal_pancake"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatsUthapamActivity"
+            android:label="@string/title_activity_oats_uthapam"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".SambarOatsActivity"
+            android:label="@string/title_activity_sambar_oats"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatsKhichdiActivity"
+            android:label="@string/title_activity_oats_khichdi"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatsDryFruitsLadooActivity"
+            android:label="@string/title_activity_oats_dry_fruits_ladoo"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatsRotiActivity"
+            android:label="@string/title_activity_oats_roti"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatsPongalActivity"
+            android:label="@string/title_activity_oats_pongal"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatsPorridgeActivity"
+            android:label="@string/title_activity_oats_porridge"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".OatsUpmaActivity"
+            android:label="@string/title_activity_oats_upma"
+            android:parentActivityName=".OatsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OatsActivity" />
+        </activity>
+        <activity
+            android:name=".TomatoSoupActivity"
+            android:label="@string/title_activity_tomato_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".VegHotSourSoupActivity"
+            android:label="@string/title_activity_veg_hot_sour_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".VegManchowSoupActivity"
+            android:label="@string/title_activity_veg_manchow_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".SpinachSoupActivity"
+            android:label="@string/title_activity_spinach_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".CreamCelerySoupActivity"
+            android:label="@string/title_activity_cream_celery_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".NarangiShorbaActivity"
+            android:label="@string/title_activity_narangi_shorba"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".GreenCornSoupActivity"
+            android:label="@string/title_activity_green_corn_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenSoupActivity"
+            android:label="@string/title_activity_chicken_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".SweetCornSoupActivity"
+            android:label="@string/title_activity_sweet_corn_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".VegSoupActivity"
+            android:label="@string/title_activity_veg_soup"
+            android:parentActivityName=".SoupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SoupActivity" />
+        </activity>
+        <activity
+            android:name=".AvocadoTomatoSaladActivity"
+            android:label="@string/title_activity_avocado_tomato_salad"
+            android:parentActivityName=".SaladActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SaladActivity" />
+        </activity>
+        <activity
+            android:name=".GreenPappayaSaladActivity"
+            android:label="@string/title_activity_green_pappaya_salad"
+            android:parentActivityName=".SaladActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SaladActivity" />
+        </activity>
+        <activity
+            android:name=".OnionTomatoCurdSaladActivity"
+            android:label="@string/title_activity_onion_tomato_curd_salad"
+            android:parentActivityName=".SaladActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SaladActivity" />
+        </activity>
+        <activity
+            android:name=".SproutSaladActivity"
+            android:label="@string/title_activity_sprout_salad"
+            android:parentActivityName=".SaladActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SaladActivity" />
+        </activity>
+        <activity
+            android:name=".CarrotSaladActivity"
+            android:label="@string/title_activity_carrot_salad"
+            android:parentActivityName=".SaladActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SaladActivity" />
+        </activity>
+        <activity
+            android:name=".ChristmasActivity"
+            android:label="@string/title_activity_christmas"
+            android:parentActivityName=".FestivalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FestivalActivity" />
+        </activity>
+        <activity
+            android:name=".DiwaliActivity"
+            android:label="@string/title_activity_diwali"
+            android:parentActivityName=".FestivalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FestivalActivity" />
+        </activity>
+        <activity
+            android:name=".OnamActivity"
+            android:label="@string/title_activity_onam"
+            android:parentActivityName=".FestivalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FestivalActivity" />
+        </activity>
+        <activity
+            android:name=".GaneshChathurthiActivity"
+            android:label="@string/title_activity_ganesh_chathurthi"
+            android:parentActivityName=".FestivalActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FestivalActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenCutletsActivity"
+            android:label="@string/title_activity_chicken_cutlets"
+            android:parentActivityName=".ChristmasActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChristmasActivity" />
+        </activity>
+        <activity
+            android:name=".Chickenn65Activity"
+            android:label="@string/title_activity_chickenn65"
+            android:parentActivityName=".ChristmasActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChristmasActivity" />
+        </activity>
+        <activity
+            android:name=".ChickenNuggetsActivity"
+            android:label="@string/title_activity_chicken_nuggets"
+            android:parentActivityName=".ChristmasActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.ChristmasActivity" />
+        </activity>
+        <activity
+            android:name=".KesarPedaActivity"
+            android:label="@string/title_activity_kesar_peda"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".BurfiActivity"
+            android:label="@string/title_activity_burfi"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".CocunutLadooActivity"
+            android:label="@string/title_activity_cocunut_ladoo"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".GulabSandeshRecipeActivity"
+            android:label="@string/title_activity_gulab_sandesh_recipe"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".MurukkuActivity"
+            android:label="@string/title_activity_murukku"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".SavoryCrackersActivity"
+            android:label="@string/title_activity_savory_crackers"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".BhakarwadiActivity"
+            android:label="@string/title_activity_bhakarwadi"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".SamoosaActivity"
+            android:label="@string/title_activity_samoosa"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".BakedChivdaActivity"
+            android:label="@string/title_activity_baked_chivda"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".MoongdalGhughraActivity"
+            android:label="@string/title_activity_moongdal_ghughra"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".CrispyGramFlourSnackActivity"
+            android:label="@string/title_activity_crispy_gram_flour_snack"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".DiwaliMixtureActivity"
+            android:label="@string/title_activity_diwali_mixture"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".RibbonPakodaActivity"
+            android:label="@string/title_activity_ribbon_pakoda"
+            android:parentActivityName=".DiwaliActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.DiwaliActivity" />
+        </activity>
+        <activity
+            android:name=".CoconutKozhukattaActivity"
+            android:label="@string/title_activity_coconut_kozhukatta"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".ChickpeaSundalActivity"
+            android:label="@string/title_activity_chickpea_sundal"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".KonganiSweetActivity"
+            android:label="@string/title_activity_kongani_sweet"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".KaranjiRecipeActivity"
+            android:label="@string/title_activity_karanji_recipe"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".SteamedRiceBallsActivity"
+            android:label="@string/title_activity_steamed_rice_balls"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".AluVadiActivity"
+            android:label="@string/title_activity_alu_vadi"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".SpicedBurfiActivity"
+            android:label="@string/title_activity_spiced_burfi"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".WheatLadooActivity"
+            android:label="@string/title_activity_wheat_ladoo"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".CoriandeFrittersActivity"
+            android:label="@string/title_activity_coriande_fritters"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".PuranPoliActivity"
+            android:label="@string/title_activity_puran_poli"
+            android:parentActivityName=".GaneshChathurthiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.GaneshChathurthiActivity" />
+        </activity>
+        <activity
+            android:name=".IdichakkaThoranActivity"
+            android:label="@string/title_activity_idichakka_thoran"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".CabbageThoranActivity"
+            android:label="@string/title_activity_cabbage_thoran"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".LadysFingerThoranActivity"
+            android:label="@string/title_activity_ladys_finger_thoran"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".KootuCurryActivity"
+            android:label="@string/title_activity_kootu_curry"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".TomatoRasamActivity"
+            android:label="@string/title_activity_tomato_rasam"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".KaalanActivity"
+            android:label="@string/title_activity_kaalan"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".MangaPachadiActivity"
+            android:label="@string/title_activity_manga_pachadi"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".SadyaParippuActivity"
+            android:label="@string/title_activity_sadya_parippu"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".MangoChutneyActivity"
+            android:label="@string/title_activity_mango_chutney"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".SteamedCakeActivity"
+            android:label="@string/title_activity_steamed_cake"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".SemiyaPayasaActivity"
+            android:label="@string/title_activity_semiya_payasa"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".ParippuPayasamActivity"
+            android:label="@string/title_activity_parippu_payasam"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".PaalPayasamActivity"
+            android:label="@string/title_activity_paal_payasam"
+            android:parentActivityName=".OnamActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.OnamActivity" />
+        </activity>
+        <activity
+            android:name=".FishActivity"
+            android:label="@string/title_activity_fish"
+            android:parentActivityName=".NonVegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.NonVegActivity" />
+        </activity>
+        <activity
+            android:name=".CrabMasalaActivity"
+            android:label="@string/title_activity_crab_masala"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsPepperRoastActivity"
+            android:label="@string/title_activity_prawns_pepper_roast"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".SpicyCrayFishActivity"
+            android:label="@string/title_activity_spicy_cray_fish"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishDryActivity"
+            android:label="@string/title_activity_fish_dry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishMappasActivity"
+            android:label="@string/title_activity_fish_mappas"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".BeefDryActivity"
+            android:label="@string/title_activity_beef_dry"
+            android:parentActivityName=".BeefRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.BeefRecipeActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsFryActivity"
+            android:label="@string/title_activity_prawns_fry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsRoastActivity"
+            android:label="@string/title_activity_prawns_roast"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishGravyActivity"
+            android:label="@string/title_activity_fish_gravy"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishWithTomatoGravyActivity"
+            android:label="@string/title_activity_fish_with_tomato_gravy"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishFryActivity"
+            android:label="@string/title_activity_fish_fry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsTomatoRoastActivity"
+            android:label="@string/title_activity_prawns_tomato_roast"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".MusselFryActivity"
+            android:label="@string/title_activity_mussel_fry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishFingerActivity"
+            android:label="@string/title_activity_fish_finger"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".PepperFishActivity"
+            android:label="@string/title_activity_pepper_fish"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsCurryActivity"
+            android:label="@string/title_activity_prawns_curry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsWithRoastedCoconutActivity"
+            android:label="@string/title_activity_prawns_with_roasted_coconut"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".NadanFishCurryActivity"
+            android:label="@string/title_activity_nadan_fish_curry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".PrawnsStirFryActivity"
+            android:label="@string/title_activity_prawns_stir_fry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishCurryWithCoconutGravyActivity"
+            android:label="@string/title_activity_fish_curry_with_coconut_gravy"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishMasalaActivity"
+            android:label="@string/title_activity_fish_masala"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishMollyActivity"
+            android:label="@string/title_activity_fish_molly"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishCutletActivity"
+            android:label="@string/title_activity_fish_cutlet"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishKebabActivity"
+            android:label="@string/title_activity_fish_kebab"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".SquidFryActivity"
+            android:label="@string/title_activity_squid_fry"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".DryPrawnsChutneyPowderActivity"
+            android:label="@string/title_activity_dry_prawns_chutney_powder"
+            android:parentActivityName=".FishActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.FishActivity" />
+        </activity>
+        <activity
+            android:name=".FishPickleActivity"
+            android:label="@string/title_activity_fish_pickle"
+            android:parentActivityName=".PicklesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PicklesActivity" />
+        </activity>
+        <activity
+            android:name=".MixedBeansGravyActivity"
+            android:label="@string/title_activity_mixed_beans_gravy"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".BottleGourdRecipeActivity"
+            android:label="@string/title_activity_bottle_gourd_recipe"
+            android:parentActivityName=".SplDishesForChapathiActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.SplDishesForChapathiActivity" />
+        </activity>
+        <activity
+            android:name=".PaneerActivity"
+            android:label="@string/title_activity_paneer"
+            android:parentActivityName=".VegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.VegActivity" />
+        </activity>
+        <activity
+            android:name=".Paneer65Activity"
+            android:label="@string/title_activity_paneer65"
+            android:parentActivityName=".PaneerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PaneerActivity" />
+        </activity>
+        <activity
+            android:name=".PaneerLababdarActivity"
+            android:label="@string/title_activity_paneer_lababdar"
+            android:parentActivityName=".PaneerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PaneerActivity" />
+        </activity>
+        <activity
+            android:name=".PaneerPasandaActivity"
+            android:label="@string/title_activity_paneer_pasanda"
+            android:parentActivityName=".PaneerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PaneerActivity" />
+        </activity>
+        <activity
+            android:name=".AchariPaneerActivity"
+            android:label="@string/title_activity_achari_paneer"
+            android:parentActivityName=".PaneerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.PaneerActivity" />
+        </activity>
+        <activity
+            android:name=".SambarActivity"
+            android:label="@string/title_activity_sambar"
+            android:parentActivityName=".VegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.VegActivity" />
+        </activity>
+        <activity
+            android:name=".AviyalActivity"
+            android:label="@string/title_activity_aviyal"
+            android:parentActivityName=".VegActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.alphonsa.cooking1.VegActivity" />
+        </activity>
+    </application>
+
+</manifest>

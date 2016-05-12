@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.EggParathaActivity"
+    tools:showIn="@layout/activity_egg_paratha"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egg Paratha"
+                android:gravity="fill_horizontal"
+                android:id="@+id/eggparatha1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eggparatha2"
+                android:layout_below="@+id/eggparatha1"
+                android:src="@drawable/eggparatha"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:  \n(Makes 8 Egg Paratha)\n
+•	Wheat flour – 2 cup\n
+•	Egg – 4\n
+•	Onion – 1\n
+•	Tomato – 1\n
+•	Green chilli – 2 (Optional) \n
+•	Coriander leaves – few (optional) \n
+•	Oil/Ghee\n
+•	Salt\n\n
+(Note: 1 Cup = 250 ml) \n\n
+
+METHOD: \n\n
+
+1.	Take the wheat flour. Add water, salt and little oil and knead into a soft dough just like the dough you prepare for roti/chappati. \n
+2.	Remove the seeds of tomato and finely chop them and also rest of the vegetables. \n
+3.	Break egg into a bowl and add all chopped vegetables. Add salt and whisk the mixture well. \n
+4.	Heat oil in a pan and pour the mixture into it. Once its half-cooked flip it and make it like scrambled egg. Now the stuffing part is ready. \n
+5.	Make two medium-sized balls from the dough and make it into small circle. \n
+6.	Spread a portion (2 Tbsp) of the stuffing on one of the rolled dough. Cover this with the second rolled dough. \n
+7.	Press the edges, do dusting for both sides and roll the dough into the size of a normal roti/chapatti. (If you are really good in rolling the dough with stuffing inside you can do the way how its done forAloo Paratha) \n
+8.	Heat a tawa and place the rolled out dough. \n
+9.	Once you see small bubbles flip it to other side. Cook both sides well in medium flame by applying oil/ghee. Serve hot with tomato sauce. \n\n
+
+"
+                android:id="@+id/eggparatha3"
+                android:layout_below="@+id/eggparatha2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

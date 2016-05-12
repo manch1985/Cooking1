@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PaneerKofthaActivity"
+    tools:showIn="@layout/activity_paneer_koftha"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paneer Koftha"
+                android:gravity="fill_horizontal"
+                android:id="@+id/paneerkoftha1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/paneerkoftha2"
+                android:layout_below="@+id/paneerkoftha1"
+                android:src="@drawable/paneerkoftha"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+
+   For the Paneer Kofta gravy: \n
+
+•Onion paste - 3/4 cup\n
+•Ginger- 1 inch piece \n
+•Green chilli -1\n
+•Garlic - 3-4 cloves\n
+•Tomato Puree - 1 cup\n
+•Salt to taste\n
+•Cashew nuts -6-7\n\n
+
+   Spice Powder: \n
+
+•Coriander Powder - 2 tsp\n
+•Chilli Powder - 3/4 tsp\n
+•Kitchen king masala or garam masala - 1 tsp\n
+•Turmeric Powder - 1/4 tsp\n\n
+
+  For the seasoning: \n
+•Oil - 2 tbsp\n
+•Cumin seeds/jeera seeds - 1 tsp\n
+•Cinnamon - 1 inch piece\n
+•Cardamom - 1\n
+•Cloves - 2\n\n
+
+   For the Paneer kofta balls- Yields 6 paneer balls: \n
+
+•Paneer - 1 cup grated\n
+•Cornflour -1/4 cup\n
+•Green chilli - 1 finely chopped\n
+•Ginger - 1/2 tsp grated\n
+•Coriander leaves - 2 tbsp finely chopped\n
+•Chilli powder - 1/2 tsp\n
+•Kitchen king masala - 1/2 tsp\n
+•Salt needed\n
+•Oil for deep frying koftas\n
+
+   For Garnishing : \n
+•Coriander leaves -2 tbsp finely chopped\n
+•Crumbled paneer -1 tbsp\n\n
+
+PREPARATION: \n
+1.	Grind ginger, garlic and green chilli together coarsely. \n
+2.	Soak cashew nuts in hot water for 15 minutes and grind it to a smooth paste with little water. \n
+3.	Puree tomatoes and keep it aside. We need 1 cup of tomato puree. \n
+4.	Boil water, when water starts boiling, add peeled onions, switch off  and keep it covered for 3-4 minutes. Drain the water completely and grind it to a smooth paste without adding water. \n
+5.	Keep all the ingredients ready to make your job easier and to prevent mess - Onion paste, ginger-garlic-green chilli paste, tomato paste, cashew nut paste and all the spice powder. \n\n
+
+METHOD: \n
+
+1.Heat oil, add cumin seeds, when it splutters, add cinnamon, cardamom and cloves. \n
+
+2.Then add the onion paste and saute nicely until it starts to brown. Add salt to speed up the process. Continuous stirring is necessary for the onions to brown evenly. \n
+
+
+
+3.Add ginger-green chilli-garlic paste and saute for a few more minutes. \n
+
+4.Then add the tomato puree and all the spice powder (mentioned under ingredients - spice powder) and salt needed. Cook the tomato puree well until it oozes out oil. \n
+
+
+
+
+5.Then add the cashew nut paste and cook for another 3-4 minutes. \n
+
+6.Add a cup of water, when it boils, simmer for 15 minutes. This is the paneer kofta gravy. Garnish it with finely chopped coriander leaves. \n\n
+
+
+
+PREPARATION FOR PANEER BALLS (Indian cottage cheese balls): \n
+1.	Grate paneer, add cornflour and the rest of the ingredients mentioned under for the paneer kofta balls except oil. Mix well to form a dough. You can adjust the spices and salt by tasting the paneer mixture. \n
+2.	Divide the paneer mixture equally and make smooth balls. If there are cracks, the balls will break while frying. \n
+
+
+
+3.	Heat oil in a kadai, when the oil is hot, reduce the heat to low. Add the 1 or 2 paneer balls and fry on low heat until it browns evenly on all the sides. Be gently otherwise the balls might break. \n
+
+4.	Remove the fried ball and place it in a colander or on a paper towel to drain excess oil. Repeat the same process for the rest of the paneer balls. Now our paneer balls are ready. \n\n
+
+
+
+
+HOW TO SERVE: \n
+
+1.You have to add paneer balls only at the time of serving. \n
+
+2.Before serving, place paneer balls in a shallow dish, reheat gravy and pour it over the paneer balls. \n
+
+3.Garnish with crumbled paneer and finely chopped coriander leaves. \n
+
+4.Serve hot with rotis, parathas, naan or pulao. It tastes amazing. \n
+
+
+"
+                android:id="@+id/paneerkoftha3"
+                android:layout_below="@+id/paneerkoftha2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

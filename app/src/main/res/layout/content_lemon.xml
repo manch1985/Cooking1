@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.LemonActivity"
+    tools:showIn="@layout/activity_lemon"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lemon"
+                android:gravity="fill_horizontal"
+                android:id="@+id/lemon1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lemon2"
+                android:layout_below="@+id/lemon1"
+                android:src="@drawable/lemon"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Fish  – 500g (cut into medium-sized pieces) \n
+•	Oil – 6 tbsp\n
+•	Fennel seeds – ½ tsp\n
+•	Onion – 2 big\n
+•	Tomato – 2\n
+•	Ginger  garlic paste – 3 tsp\n
+•	Kashmiri  chilli powder – 3/4 tsp\n
+•	Red chilli powder – ½ tsp (optional) \n
+•	Green Chilli  – 2\n
+•	Turmeric powder – ½ tsp\n
+•	Coriander powder – 1 tsp\n
+•	Garam masala – ½ tsp\n
+•	Water – 1/2 cup\n
+•	Curry leaves – few\n
+•	Salt\n\n
+
+TO MARINATE: \n
+•	Chilli powder – 1 tsp\n
+•	Kashmiri  chilli powder – 1 tsp\n
+•	Turmeric powder – ½ tsp\n
+•	Ginger  garlic paste – 2 tsp\n
+•	Lemon juice – 2 tsp\n
+•	Salt\n\n
+ METHOD: \n
+1.	Mix all the ingredients to marinate. Add little water into it and make it to a paste. \n
+2.	Add fish pieces  into it and keep it marinated for some time (Approx 30 min) \n
+3.	Heat oil in a nonstick pan and roast the marinated fish in a low-medium heat until its golden brown in colour. \n
+4.	Heat oil in a pan and splutter fennel  seeds. \n
+5.	Add sliced onion, curry leaves. Keep the pan covered and stir in between till onion becomes brown in color ( It takes 15-20 mins for this) \n
+6.	Add sliced tomato and sauté till it becomes soft. \n
+7.	Add ginger garlic paste, green chilli and sauté for a min or two. \n
+8.	Add all masala, salt and sauté for a min or two. \n
+9.	Add 1/2 cup of water and allow it to boil. \n
+10.	Add roasted fish pieces and gently put the gravy over the fish pieces. \n
+11.	Keep the pan covered and cook for another 5-6 min in low flame. \n
+12.	Pour 2 tbsp of oil on the top. Keep the pan covered for some time. \n
+
+
+"
+                android:id="@+id/lemon3"
+
+                android:layout_below="@+id/lemon2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

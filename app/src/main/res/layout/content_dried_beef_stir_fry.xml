@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.DriedBeefStirFryActivity"
+    tools:showIn="@layout/activity_dried_beef_stir_fry"
+    android:background="@drawable/buttonsveg">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dried Beef Stir Fry"
+            android:gravity="fill_horizontal"
+            android:id="@+id/driedbeefstirfry1"
+            android:textColor="#f4121213"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/driedbeefstirfry2"
+            android:layout_below="@+id/driedbeefstirfry1"
+            android:src="@drawable/driedbeefstirfry"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INGREDIENTS: (Serves 2-3)\n\n
+•	Unakka Erachi – 1 cup\n
+•	Oil – 4 Tbsp\n
+•	Small onion/Shallots – 4\n
+•	Green Chilli – 2\n
+•	Dry red chilli – 1\n
+•	Curry leaves – few\n
+•	Ginger garlic paste – 2 tsp\n
+•	Red chilli powder – ½ tsp\n
+•	Turmeric powder – ¼ tsp\n
+•	Coriander powder – 1 tsp\n\n
+(Note: 1 cup = 250 ml
+Vary the amount of chilli as per your spice level) \n\n
+
+METHOD: \n\n
+1.	Crush the dried beef to make it thin and make it into small pieces. Wash it well and keep it ready. \n
+2.	Coarsely crush shallots, green chilli and dry red chilly. Heat oil in a pan and add the same and curry leaves. Saute till onion becomes soft. \n
+3.	Add ginger garlic paste and sauté for a min. Add all the spice powder and sauté till oil starts appearing on the sides of pan. \n
+4.	Add the dried beef pieces and mix well. Check for salt and add only if required because dried beef have already salt in it. \n
+5.	Saute it till beef pieces are cooked well (Add oil only if its sticking to the pan). Serve hot. \n
+
+
+
+"
+            android:id="@+id/driedbeefstirfry3"
+            android:layout_below="@+id/driedbeefstirfry2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#030303"
+            android:textIsSelectable="false"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

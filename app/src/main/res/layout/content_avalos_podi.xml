@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.AvalosPodiActivity"
+    tools:showIn="@layout/activity_avalos_podi"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avalos Podi"
+                android:gravity="fill_horizontal"
+                android:id="@+id/avalospodi1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/avalospodi2"
+                android:layout_below="@+id/avalospodi1"
+                android:src="@drawable/avalosepodi"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS	:\n\n
+
+1.	Raw Rice Flour – 1 kg\n
+2.	Fresh Grated Coconut – 2 whole coconuts (Approx 8 cups) \n
+3.	Cumin Seeds (Jeerakam) – 1 handful\n
+4.	Salt – to taste\n\n
+METHOD: \n
+
+1.	Thoroughly combine rice flour, grated coconut, half of the cumin seeds and salt using your hands. Keep it aside for 1 hour. \n
+2.	Heat a wide and heavy bottomed pan. Throw in the rest of the cumin seeds and lightly roast it. \n
+3.	Add the rice flour and coconut mixture to the pan. \n
+4.	Fry everything on medium heat, stirring continuously till it becomes a light brown color. \n
+5.	You will need to stir continuously so that the powder does not stick to the bottom of the pan. \n
+6.	It will take atleast 25-30 minutes for the powder to get roasted thoroughly. So, please be patient. \n
+7.	Allow it to cool completely and store in airtight containers. \n\n
+NOTE: \n
+•	You can also use Frozen Shredded Coconut for making Avalos. Defrost the coconut and measure around 8 cups of shredded coconut. \n
+•	If you don’t like lumps in your Avalos Podi, you can powder it in a grinder. \n
+
+"
+                android:id="@+id/avalospodi3"
+                android:layout_below="@+id/avalospodi2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.CocunutLadooActivity"
+    tools:showIn="@layout/activity_cocunut_ladoo"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coconut Ladoo"
+                android:gravity="fill_horizontal"
+                android:id="@+id/coconutladoo1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coconutladoo2"
+                android:layout_below="@+id/coconutladoo1"
+                android:src="@drawable/coconutladoo"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+•	2 cups tightly packed fresh grated coconut\n
+•	1 teaspoon ghee\n
+•	4 to 5 cardamoms, powdered in a mortar-pestle\n
+•	1/2 cup condensed milk\n
+•	2 tablespoons Tetley Long Leaf Green Tea, powdered\n
+•	1/4 cup desiccated coconut for outer cover\n
+METHOD: \n
+1.	To begin making the Green Tea Coconut Ladoo Recipe, first get all the ingredients ready and keep them by the side. \n
+2.	Heat the ghee in the wide pan, add the coconut and roast for about 5 minutes until you get a roasted aroma, taking care not to brown the coconut while roasting it. \n
+3.	Once the coconut is well roasted, add the Tetley Green TeaPowder, cardamom powder and the condensed milk. Cook the coconut in the condensed milk on low to medium heat until the mixture begins to thicken and starts to leave the sides of the pan. This process takes about 5 to 10 minutes. \n
+4.	If at any point you notice that the mixture does not leave the sides of the pan you can add some oats flour to thicken the mixture. Oats makes a great binding agent and does not alter the taste of the ladoo. \n
+5.	When you see the green tea coconut ladoo mixture coming away from the sides of the pan, turn off the heat.  Transfer the Green Tea Coconut Ladoo mixture to a flat plate and allow it to cool. \n
+6.	Once cool enough to handle, roll the ladoo mixture and shape them into round balls. \n
+7.	Rolls these Green Tea Coconut Ladoos over the dessicated coconut to give a snowy finish and serve. You can store the ladoos in the refrigerator for a week. \n
+8.	Serve the Green Tea Coconut Ladoos for the festive season like Diwali and your friends are family are sure to love it. \n
+
+"
+                android:id="@+id/coconutladoo3"
+
+                android:layout_below="@+id/coconutladoo2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

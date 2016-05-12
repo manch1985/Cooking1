@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChayoteKootuActivity"
+    tools:showIn="@layout/activity_chayote_kootu"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chayote Kootu"
+                android:gravity="fill_horizontal"
+                android:id="@+id/chayotekootu1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chayotekootu2"
+                android:layout_below="@+id/chayotekootu1"
+                android:src="@drawable/chowchowkootu"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   INGREDIENTS:\n\n
+•Chayote/chow chow - 2 cups chopped\n
+•Moong dal (split yellow ones) or tur dal - 1/4 cup or a mix of both dals\n
+•Fresh peas - 1/4 cup (optional) \n
+•Sambar powder - 1 tsp\n
+•Turmeric powder - a pinch\n
+•Salt to taste\n\n
+Ingredients for Grinding (no need to fry): \n
+
+•Coconut grated - 3 tbsp\n
+•Fried gram (chutney kadalai/pottukadalai) - 2 tsp\n
+•Cumin seeds/jeera -1 tsp\n
+•Red chilli -1\n\n
+
+For the seasoning: \n
+
+•Oil-1 tsp\n
+•Mustard seeds -1 tsp\n
+•Urad dal (split urad dal) - 1 tsp\n
+•Hing/asafoetida - a pinch\n
+•Curry leaves - little\n\n
+
+PREPARATION: \n
+
+1.Peel the skin, remove the soft seed inside and chop the chayote into small cubes. \n
+
+2.Grind coconut, jeera, red chilli and fried gram with little water to a smooth paste. Keep it aside. \n
+
+3.Soak dal for 15 minutes to reduce cooking time and to save energy. If using tur dal alone, you have to pressure cook tur dal separately as it will take a longer time to get cooked.You do not have to pressure cook dal separately if you are using a mix of moong dal + tur dal or just moong dal alone. \n
+
+
+
+
+
+Easier Method of preparing kootu: \n
+
+1.Take a pressure pan or small cooker, add the chopped chayote, soaked dal, sambar powder, turmeric powder, fresh peas, salt needed and pressure cook for 3 whistles. \n
+
+2.Once the pressure subsides, open the cooker, add the ground coconut paste, 1/4 cup of water and bring it to boil. Switch off the flame. \n
+
+3.Heat a tsp of oil, add mustard seeds, when it splutters, add urad dal, hing and curry leaves. When dal turns golden brown, pour the seasoning over the kootu. \n
+
+4.Garnish with coriander leaves and serve hot with rice or roti. \n\n
+
+Another method : \n\n
+1.Cook chayote in water adding sambar powder, turmeric powder and salt needed until soft. Keep it aside. \n
+
+2.Pressure cook tur dal until soft. (only if you use tur dal alone, otherwise you can add it along with the chow chow and cook chow chow and dal together) \n
+
+3.Now add the dal mixture (if you have used tur dal), ground coconut paste to the cooked chayote and bring it to boil. \n
+
+4.Add the seasoning to the kootu, garnish with coriander leaves and serve hot. Enjoy! \n
+
+"
+                android:id="@+id/chayotekootu3"
+                android:layout_below="@+id/chayotekootu2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

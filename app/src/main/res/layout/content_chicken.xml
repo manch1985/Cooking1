@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChickenActivity"
+    tools:showIn="@layout/activity_chicken">
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="historical.com.example.ahmed.historicalplacesbd.Division">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NADAN CHICKEN CURRY"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button1"
+            android:onClick="chicken1"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN GRAVY"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button3"
+            android:onClick="chicken2"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN ROAST"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button4"
+            android:onClick="chicken3"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHILLI CHICKEN"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button5"
+            android:onClick="chicken4"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPICY CHICKEN FRY"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button6"
+            android:onClick="chicken5"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN CUTLET"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button7"
+            android:onClick="chicken6"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN CROQUETTES"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button8"
+            android:onClick="chicken7"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KADAI CHICKEN"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button9"
+            android:onClick="chicken8"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN LOLLIPOPS"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button10"
+            android:onClick="chicken9"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN ROAST(NO ONION)"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button11"
+            android:onClick="chicken10"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN 65"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button12"
+            android:onClick="chicken11"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN STEW"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button13"
+            android:onClick="chicken12"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEMON_HONEY GLAZED CHICKEN"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button14"
+            android:onClick="chicken13"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHICKEN BEZULE"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button15"
+            android:onClick="chicken14"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/button14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1" />
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

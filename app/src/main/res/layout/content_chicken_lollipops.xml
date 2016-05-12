@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChickenLollipopsActivity"
+    tools:showIn="@layout/activity_chicken_lollipops"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken lollipops"
+                android:gravity="fill_horizontal"
+                android:id="@+id/chickenlollipop1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chickenlollipop2"
+                android:layout_below="@+id/chickenlollipop1"
+                android:src="@drawable/chickenlollipop"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS FOR MARINATION:\n\n
+•	All Purpose Flour-5tbsp\n
+•	Cornflour-2 1/2 tbsp\n
+•	Ginger-Garlic paste-2tbsp\n
+•	Garam masala-1/2tsp\n
+•	Cumin powder-1/4tsp\n
+•	Coriander powder-3/4tsp\n
+•	Soya sauce-1tbsp\n
+•	Green chilli-3 finely chopped\n
+•	Red chilli powder-2tbsp\n
+•	Salt-to taste\n
+•	Egg-2\n
+•	Vinegar or Lime-1 1/2tbsp\n
+•	Water-1/2 to 1 cup\n\n
+\n\n
+METHOD: \n\n
+
+1.	Whisk the egg well and keep aside .. \n
+2.	In  a big bowl add all the powders and mix well.. \n
+3.	Then add rest of the ingredients except egg and water .. Mix well .. \n
+4.	Then slowly add egg and mix thoroughly ..Then add water in small amount till we get a idly batter consistency .. \n
+5.	Check the salt and sourness ..Adjust accordingly .. \n
+6.	Cut the chicken wings and make lollipop ,we will get two pieces from each wings ..here i used 10 chicken wings .. \n
+7.	Wash the pieces thoroughly in salt and vinegar first and then with plain water .. Drain them for few minutes .. \n
+8.	Then add chicken pieces to the batter and mix well ..Keep this marinated chicken pieces in fridge for minimum one hour .. \n
+ \n
+In between we have to prepare the sauce
+ \n\n
+INGREDIENTS: \n\n
+•	Ginger – medium piece (finely chopped) \n
+•	Garlic-2pods (finely chopped) \n
+•	Chilli paste -2 1/2 to 3 tbsp or as per ur taste  .. \n
+    (U can buy chilli paste ,otherwise take 20-25 dry red chilli..
+     Wear glows then cut each chilli and run a knife or scissors to deseed them ..
+     Then soak these chilli in hot water for 1 hour and then make fine paste ..
+     If u want to make and keep them for future use then add vinegar while grinding the chilli .. :) )
+•	Soya sauce-2tbsp\n
+•	Chilli sauce -1tbsp\n
+•	Vinegar-1tbsp\n
+•	Sugar-1tbsp\n
+•	Salt-to taste\n
+•	Pepper powder-1/2tsp\n
+•	Oil-2tbsp\n\n
+METHOD: \n\n
+1.	Heat oil and when medium hot add finely chopped ginger and garlic and saute well until light golden shade .. \n
+2.	Then add chilli paste and lower the flame and saute for 5 minutes or until the raw smell goes .. \n
+3.	Then add pepper ,soya sauce and chilli sauce .. \n
+4.	Mix well .. then add 1/4 cup of hot water and mix well.. Add salt ,vinegar and sugar .. Stir well .. \n
+5.	Check the taste ..Adjust the seasoning according to ur taste .. \n
+6.	Let the sauce boil for some time ,if u find the sauce to be too thick can add hot water and mix.. So keep aside the sauce .. \n
+7.	Now heat oil in a kadai and deep fry the lollipops till golden colour .. \n
+8.	It will take approximately 10 minutes .. U should take one chicken piece  and check .. If its not cooked enough cook for another few minutes ..always in medium heat.. \n
+9.	Fry rest of the batch of chicken lollipops like the same and drain and mix with the sauce .. \n
+10.	Finally sprinkle some chopped spring onion greens and lemon wedges and serve hot .. \n
+
+\n
+"
+                android:id="@+id/chickenlollipop3"
+
+                android:layout_below="@+id/chickenlollipop2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

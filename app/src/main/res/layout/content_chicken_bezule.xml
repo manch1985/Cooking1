@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChickenBezuleActivity"
+    tools:showIn="@layout/activity_chicken_bezule"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken Bezule"
+                android:gravity="fill_horizontal"
+                android:id="@+id/chickenbezule1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chickenbezule2"
+                android:layout_below="@+id/chickenbezule1"
+                android:src="@drawable/chickenbezule"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Chicken (boneless)-500gms\n
+•	Ginger-1 big piece\n
+•	Garlic-4 cloves\n
+•	Curryleaves-3strings\n
+•	Coriander leaves-handful\n
+•	Lemon juice-2tbsp\n
+•	Curd-1 tbsp\n
+•	Green chilli-3\n
+•	Chilli powder-1tbsp\n
+•	Garam masala-1/4tsp (opt) \n
+•	Salt – to taste\n
+•	Rice Flour-4 tbsp\n
+•	Al purpose flour-4tbsp\n
+•	Red Colour -opt\n
+•	Water\n
+•	Oil\n
+\n
+METHOD: \n\n
+
+1.	Grind green chilli,curry leaves,coriander leaves,ginger,garlic,chilli powder,lemon juice ,salt ,curd and make a fine paste .. \n
+2.	Mix this with rice flour and maida along with enough water to make a smooth thick batter ..Check the seasoning .. \n
+3.	Marinate the small chicken pieces in this batter and refrigerate for minimum 2 hours .. \n
+4.	Heat oil and deep fry the chicken in medium flame .. \n
+5.	Transfer to kitchen tissue and serve hot .. \n\n
+Note:I didn’t add gram masala in this fry ,but if u want u can add .. \n\n
+
+
+
+"
+                android:id="@+id/chickenbezule3"
+
+                android:layout_below="@+id/chickenbezule2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

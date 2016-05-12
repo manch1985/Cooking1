@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.OnionVadaActivity"
+    tools:showIn="@layout/activity_onion_vada"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Onion Vada"
+                android:gravity="fill_horizontal"
+                android:id="@+id/onionvada1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/onionvada2"
+                android:layout_below="@+id/onionvada1"
+                android:src="@drawable/onionvada"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	All purpose Flour/Maida -1cup  \n
+•	Big Onion /savala-1(chopped finely) \n
+•	Green chilly-3(chopped finely) \n
+•	Ginger -1tsp(chopped nicely)\n
+•	Curry leaves-1 string(chopped) \n
+•	Yeast or baking soda -1/4tsp \n
+•	Salt-to taste\n
+•	Water\n
+•	Oil-for frying\n\n
+METHOD:\n
+1.	Add 1/4tsp of yeast in quarter glass of luke warm water and mix well .
+Keep  this aside  for about 10 minutes .After 10 minutes  add all purpose flour ,chopped green chilly ,ginger ,1tsp of oil,curry leaves ,
+onion ,salt and yeast mix into a bowl .Mix well ..Add enough water to make a dough ..It need to  be   bit watery than chappathi mix ..
+Pour 2 tbsp of  oil on top of the dough .Tightly close the bowl and keep aside  the dough for minimum 2 hours .
+(or u can use1/4tsp of baking soda instead of yeast ).Then again mix well.\n
+2.	Now divide the dough into small small balls ..Apply oil or water to the palm  of  your
+ hands and shape  dough  into the shape of uzhunnu vada (press  each balls between ur palms  and make a round shape and make whole in the center  using finger .\n
+3.	Heat oil in a kadai .Deep fry the vada in hot oil.When it become golden brown and crisp remove from the oil and drain  .Serve with chutney or tomato sauce ..\n
+
+"
+                android:id="@+id/onionvada3"
+                android:layout_below="@+id/onionvada2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

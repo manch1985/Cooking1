@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PaneerBhurjiActivity"
+    tools:showIn="@layout/activity_paneer_bhurji"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paneer Bhurji"
+                android:gravity="fill_horizontal"
+                android:id="@+id/paneerburji1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/paneerburji2"
+                android:layout_below="@+id/paneerburji1"
+                android:src="@drawable/paneerburji"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" INGREDIENTS:\n\n
+
+•Paneer - 100 grams ( homemade paneer recipe) \n
+•Capsicum/Bell Pepper - 1/3 cup (chopped) \n
+•Onion - 1\n
+•Green chilli - 1 finely chopped\n
+•Ginger-garlic paste - 1/2 tsp\n
+•Tomato - 1\n\n
+
+Spice powder: \n
+
+•Turmeric powder - a pinch\n
+•Chilli powder -1/2 tsp\n
+•Garam Masala -1/2 tsp\n\n
+
+For the seasoning: \n
+
+•Oil - 2 1/2 tsp\n
+•Cumin Seeds/Jeera - 1 tsp\n\n
+
+PREPARATION:
+
+1.Crumble or grate paneer. \n
+
+2.Chop capsicum into small pieces.(Green color or a mix of colored capsicums can be used) \n\n
+
+METHOD: \n
+1.Heat oil, add cumin seeds, when it sizzles, add finely chopped onions and fry till they turn slightly brown. \n
+
+2.Add ginger-garlic paste, green chilli and saute for some more time. \n
+
+3.Then add finely chopped tomatoes, turmeric powder, chilli powder, salt needed, garam masala powder and cook until tomatoes turn mushy. \n
+
+4.Then add capsicum and cook for a few minutes.(do not overcook the capsicum, make sure it is crunchy ) \n
+
+5.Add crumbled paneer and cook until everything gets blended well with the masala. \n
+
+Garnish with coriander leaves and serve hot with chapati or any Indian Bread.You can also use it as a stuffing for chapati rolls or sandwiches. \n
+
+"
+                android:id="@+id/paneerburji3"
+                android:layout_below="@+id/paneerburji2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

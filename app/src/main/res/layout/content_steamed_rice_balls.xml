@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SteamedRiceBallsActivity"
+    tools:showIn="@layout/activity_steamed_rice_balls"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steamed Rice Balls"
+                android:gravity="fill_horizontal"
+                android:id="@+id/steamedriceballs1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/steamedriceballs2"
+                android:layout_below="@+id/steamedriceballs1"
+                android:src="@drawable/steamedriceballs"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	1 cup of rice rava or 1 cup rice, washed drained and dried \n
+•	2 cups water\n
+•	salt to taste\n
+•	1/4 cup of freshly grated coconut\n
+•	1/2 teaspoon cumin or jeera, coarsely pounded\n
+•	1 to 2 green chillies, finely chopped\n
+•	1/2 teaspoon coarsely pounded black pepper\n
+•	1/2 to 1 teaspoon oil (This can be replaced with coconut oil) \n \n
+METHOD: \n
+1.	To begin making the Kobbari Kudumulu Recipe; if you are using whole rice, then take the washed and dried rice and grind it in a mixer until it forms a coarse texture. Sieve this, and keep the flour aside. Only the rava will be used in making this recipe. \n
+2.	Now, boil 2 cups of water in a large vessel over medium heat, adding salt, cumin and oil to it. \n
+3.	Pour the rice rava in the boiling water little by little, ensuring that it is stirred constantly, to prevent lumping. Allow the rava to cook till all the water evaporates and the mixture thickens. \n
+4.	Once done, turn off the heat, add the grated coconut, pepper or green chillies and mix well. Keep the vessel covered for at least 10 minutes. The cooked rava can then be transferred to another large bowl and allowed to cool completely. \n
+5.	Once cooled, take the rava and make them into small even balls or shape them into triangles. Steam them in an idli cooker or steamer for exactly 7 minutes on a high flame and turn off the heat. \n
+6.	When the steamer has cooled down, about 7-10 minutes, open the cooker and take out the rice balls. \n
+7.	Your delicious Kobbari Kudumulu (Indian Spiced Steamed Rice Balls) is ready to served! Serve it as a tea time snack or for breakfast along with a tomato onion chutney. \n
+
+"
+                android:id="@+id/steamedriceballs30"
+                android:layout_below="@+id/steamedriceballs2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.KaalanActivity"
+    tools:showIn="@layout/activity_kaalan"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalan"
+                android:gravity="fill_horizontal"
+                android:id="@+id/kalan1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kalan2"
+                android:layout_below="@+id/kalan1"
+                android:src="@drawable/kalan"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+•	2 raw bananas, peeled and diced\n
+•	1 teaspoon turmeric powder\n
+•	1 cup yogurt\n
+•	1/2 teaspoon turmeric powder\n
+•	1/2 teaspoon chilli powder\n
+•	salt to taste\n\n
+Ingredients to be ground: \n
+•	2 green chilis\n
+•	1 teaspoon cumin seeds\n
+•	1 cup coconut, freshly grated\n\n
+Ingredients for the seasoning\n
+•	1 teaspoon of coconut oil\n
+•	1 teaspoon of cumin seeds\n
+•	1/2 teaspoon mustard seeds\n
+•	1/8 teaspoon fenugreek seeds or methi seeds\n
+•	2 red chillies, slit into two\n
+•	2 sprigs curry leaves\n\n
+METHOD: \n
+1.	In a saucepan or a pressure cooker, cook the banana pieces, turmeric powder, a few curry leaves and salt along with 1/4 cup of water until the bananas are soft. \n
+2.	Once done, open the cooker and stir in the yogurt and chili powder and keep this aside. \n
+3.	Next, grind the grated coconut along with green chillies and cumin seeds into a fine paste. \n
+4.	Add the ground coconut mixture to the raw banana and yogurt curry and bring the mixture to a boil in the saucepan or pressure cooker you cooked the raw bananas in. \n
+5.	While the Kaalan is coming to a boil, we will prepare the seasoning for the Kaalan. \n
+6.	Heat coconut oil in a small pan; add in the mustard seeds, cumin seeds, fenugreek seeds, curry leaves and red chilies. Allow them to roast and crackle on medium heat. \n
+7.	Once roasted pour the seasoning into the Kurukku Kaalan and stir till everything blends together well. \n
+8.	Turn off the heat and transfer the Kurruku Kaalan to a serving bowl and serving warm. \n
+9.	Serve the Kuruku Kaalan (Raw Bananas in Coconut Curry) along with steamed rice for a dinner or family sunday lunch. \n\n
+Note: \n
+ Traditionally the coconut paste is fried in oil until it becomes thick and gets a roasted aroma. But in this recipe, I have not roasted the coconut, to keep it healthy and preventing excess saturated oil formation from the coconut.
+
+"
+                android:id="@+id/kalan3"
+
+                android:layout_below="@+id/kalan2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

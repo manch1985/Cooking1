@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SweetCornSoupActivity"
+    tools:showIn="@layout/activity_sweet_corn_soup"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sweet Corn Soup"
+                android:gravity="fill_horizontal"
+                android:id="@+id/sweetcornsoup1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sweetcornsoup2"
+                android:layout_below="@+id/sweetcornsoup1"
+                android:src="@drawable/sweetcornsoup"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: (240 ml cup used)\n
+•	250 gms chicken (bone-in chicken) \n
+•	1 cup mixed vegetable carrot, potatoes, peas etc (choose any) \n
+•	½ cup of corn(to thicken soup) \n
+•	Few tbsp. Lemon juice (helps in fighting flu and cold) \n
+•	1 tbsp. ginger shredded or grated or paste\n
+•	1 tsp ghee or oil\n\n
+SPICES: \n
+•	1 bay leaf\n
+•	Few pepper corn\n
+•	2 Small cinnamon stick\n
+•	3 to 4 cloves\n\n
+METHOD: \n
+1.	Add potatoes, peas, corn, chicken, salt, 1 cinnamon stick and few pepper corn to a pressure cooker. Pour enough water (3 to 4 glasses) and cook for 3 whistles. \n
+2.	Heat a deep pan with oil, sauté the rest of the spices along with ginger\n
+3.	Add carrots and fry for a min. cook till the carrots are cooked. \n
+4.	Drain off the stock to the pan and set aside chicken. \n
+5.	Shred the chicken and add it back to the pan. \n
+6.	Squeeze in the lemon juice and add pepper powder. \n
+7.	Serve chicken soup warm. \n
+
+
+"
+                android:id="@+id/sweetcornsoup3"
+                android:layout_below="@+id/sweetcornsoup2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

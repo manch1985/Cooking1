@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChickenStewActivity"
+    tools:showIn="@layout/activity_chicken_stew"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken Stew"
+                android:gravity="fill_horizontal"
+                android:id="@+id/chickenstew1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chickenstew2"
+                android:layout_below="@+id/chickenstew1"
+                android:src="@drawable/chickenstew"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Chicken -300gm(with bone) \n
+•	Green chilli-3 finely chopped \n
+•	Ginger – small piece(slice finely )\n
+•	Garlic- 1 (thin slices) \n
+•	Curry leaves-1 string\n
+•	Pepper powder-less than 1/4tsp\n
+•	Salt-to taste\n
+•	Potato-1 medium\n
+•	Coconut Oil-2tbsp\n
+•	Thin coconut milk-2 cup\n
+•	Thick coconut milk-1/2 cup\n
+•	Water-1/4cup\n\n
+For sauting: \n\n
+•	Onion-1 medium\n
+•	Green chilli-2(long slits) \n
+•	Curry leaves-few\n
+•	Ginger-1tsp thin slices\n
+•	Garam masala-1/2tsp(handful of fennel seeds(perumjeerakam),10 cloves(karayam poo),4 medium stick of cinnamon(patta),3 cardamom (elakkaya )  1 star anise (thakkolam) ) Grind well to fine powder ..Sieve and use .. No need to roast them\n
+\n
+METHOD: \n\n
+1.	Cut the chicken into small pieces.. \n
+2.	Wash well with salt .. Drain .. \n
+3.	To the chicken add ginger ,garlic,green chilli ,curry leaves ,pepper powder and salt and mix well with hand …\n
+4.	Keep aside for 15 minutes.. \n
+5.	Then add 1/4 cup of water and pressure cook .. 4 whistle is enough .. \n
+6.	Keep aside ..Allow to cool.. \n
+7.	In between wash one potato peel and cut into cubes and pressure cook it by adding salt  and water.. \n
+8.	Now heat oil in a kadai .. \n
+9.	Saute onion slices for 3 minutes in medium flame .. \n
+10.	To that add ginger slices,green chilli slits and curry leaves .. \n
+11.	Saute them till the onion become translucent .. \n
+12.	Now add cooked chicken along with stock .. \n
+13.	Add potato also… To this add 1/4 tsp of garam masala and mix well … Allow to cook for 2 minutes ..Slightly mash  potato with back of the spoon …\n
+14.	Then add thin coconut milk and stir well.. Cook for 5 minutes or until the stew start thickening .. \n
+15.	In that point add our thick coconut milk and stir slowly .. Sprinkle the remaining garam masala(1/4 tsp ) if u don’t prefer garam masala decrease the amount .. Cook for 2 minutes. \n
+16.	No need to boil after adding thick milk ..Remove from the fire and sprinkle few curry leaves and 1 tsp of coconut oil .. \n
+17.	Close the kadai for few minutes and serve with appam ,idiyappam ,chapati ….\n
+18.	If u want u can roast cashew nuts in ghee and season the stew .. Or can season with small onion also …\n\n
+Note : The spice of the dish is depending up on the green chilli u r using .. So adjust the spice accordingly \n\n
+
+
+"
+                android:id="@+id/chickenstew3"
+                android:layout_below="@+id/chickenstew2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

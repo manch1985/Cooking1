@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.VegKormaActivity"
+    tools:showIn="@layout/activity_veg_korma"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veg Korma"
+                android:gravity="fill_horizontal"
+                android:id="@+id/vegkorma1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vegkorma2"
+                android:layout_below="@+id/vegkorma1"
+                android:src="@drawable/vegkorma"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•Onion - 1 \n
+•Cauliflower florets -1 cup\n
+•Carrot-Potato-Beans - 1 cup heaped (mixed) \n
+•Peas -1/3 cup\n
+•Salt needed\n\n
+Spice powder: \n
+•Turmeric powder -1/4 tsp\n
+•Coriander powder -1 tsp\n\n
+Ingredients needed for Paste 1 - (Fry and grind ):\n
+•Onion -1 (chopped)\n
+•Garlic -2\n
+•Ginger -1 inch piece\n
+•Green chillies - 2\n
+•Coriander seeds -1 tsp\n\n
+Heat a tsp of oil and fry onion, ginger-garlic-green chilli and coriander seeds.Grind to a paste and keep aside.\n\n
+•Paste -2 (Grind Raw )\n
+•Coconut -1/3 cup\n
+•Fennel seeds (sombu) - 1 tsp
+•Fried gram (Pottukadalai) -1 tsp
+Grind raw with little water and keep it aside. \n\n
+For the seasoning: \n
+•Whole garam masala -1 inch cinnamon-1 cardamom-2 cloves\n
+•Fennel seeds -1/4 tsp\n
+•Oil -1 tbsp\n\n
+PREPARATION: \n
+1.Wash and blanch cauliflowers (put it in boiling water with a little salt).
+Cook till soft. Keep aside\n
+2.Wash, peel the skin and chop potatoes and carrots .Cut beans into 2 inch pieces. \n
+3.Cook beans,carrot, peas and potato till soft or you can also pressure cook for 1 whistle. Keep aside. It should be half boiled and not overcooked. \n
+4.Keep paste 1 and Paste 2 ready. \n\n
+METHOD: \n
+1.Heat oil in a pan, add whole garam masala, fennel seeds followed by chopped onions. Saute till onions turn transparent. \n
+2.Then add paste 1 and saute for a few seconds.(since we have already fried it, there is no need to saute for a long time ) \n
+3.Then add all the vegetables.(carrot, beans, peas, potato and cauliflower) \n
+4.Now add turmeric powder,coriander powder and salt needed . \n
+5.Add paste 2, little water and cook for a few minutes till everything gets blended well with the masala. You can adjust the consistency of the gravy as per your preferences. \n
+6.Garnish with coriander leaves and serve hot with pooris or chapati or jeera pulao or ghee rice. \n
+"
+                android:id="@+id/vegkorma3"
+                android:layout_below="@+id/vegkorma2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

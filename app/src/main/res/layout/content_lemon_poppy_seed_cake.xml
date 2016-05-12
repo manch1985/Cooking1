@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.LemonPoppySeedCakeActivity"
+    tools:showIn="@layout/activity_lemon_poppy_seed_cake"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lemon Cake"
+                android:gravity="fill_horizontal"
+                android:id="@+id/lemoncake1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lemoncake2"
+                android:layout_below="@+id/lemoncake1"
+                android:src="@drawable/lemoncake"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	1/2 cup softened butter (Vegan: 1/4 cup grapeseed oil or coconut oil or olive oil) \n
+•	1-1/2 teaspoon baking powder\n
+•	1/4 teaspoon salt\n
+•	3/4 cup castor sugar (granulated sugar) \n
+•	1 teaspoon finely grated fresh lemon zest\n
+•	2 tablespoons lemon juice\n
+•	2 eggs or Flaxmeal Egg Replacer\n
+•	3 tablespoons yogurt (Vegan: 2 tablespoons soy yogurt or 2 tablespoons applesauce orcoconut yogurt) \n
+•	2 tablespoons poppy seeds\n
+•	1/4 teaspoon salt\n
+•	1-1/4 cups all-purpose flour\n\n
+INGREDIENTS FOR LEMON GLAZE: \n
+•	1 cup confectioners sugar (icing sugar) \n
+•	2 tablespoons fresh lemon juice\n\n
+METHOD: \n
+1.	To begin making the Vegan/ Eggless Lemon Poppy Seed Cake, we wil first preheat the oven to 180 C and butter and dust a 8 inch round cake pan and keep aside. \n
+2.	In a large bowl or the bowl of a stand mixer, whisk together butter (oil), sugar, baking powder, lemon zest, lemon juice,  salt, flax eggs until light and fluffy for about 40 seconds. You will see the mixture begins to foam as the lemon juice reacts with the baking powder. \n
+3.	Gradually beat in the yogurt (or apple sauce), poppy seeds and flour in that order and beat until just combined. Dont over beat. The cake batter will be thick and not pourable but if it is too dry then add in just a bit of yogurt (almond milk or apple sauce). \n
+4.	Transfer lemon poppy seed cake batter to prepared cake pan and place it in the preheated oven to bake for about 30 minutes or until a tester like a wooden pick or knife inserted in center of cake comes out clean. \n
+5.	Once the cake is baked, remove from the oven and allow it to cool in cake pan for about 5 minutes. \n\n
+TO MAKE LEMON GLAZE: \n
+1.	Whisk together confectioners sugar and lemon juice in a bowl until smooth. Pour glaze over warm lemon poppy seed cake, spreading it with a spatula to drizzle over edge. Let the cake stand until glaze is set, about 15 minutes. \n
+2.	Serve the Vegan/ Eggless Lemon Poppy Seed Cake warm or at room temperature. \n
+
+"
+                android:id="@+id/lemoncake3"
+                android:layout_below="@+id/lemoncake2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+               />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.VattayappambrkActivity"
+    tools:showIn="@layout/activity_vattayappambrk"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vattayappam"
+                android:gravity="fill_horizontal"
+                android:id="@+id/vattayappambrk1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vattayappambrk2"
+                android:layout_below="@+id/vattayappambrk1"
+                android:src="@drawable/vattayapambrk"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS	:\n\n
+
+•	Rice Flour – 2 cups\n
+•	Urad Dal (Uzhunnu Paripuu) – 3/4 Cup\n
+•	Salt – 1 tsp\n
+•	Baking Soda – 1/4 tsp (Optional) \n
+•	Water – As Required\n
+•	Oil – As Required\n\n
+METHOD: \n
+1.	Soak Urad Dal in water for at least 2-3 hours. \n
+2.	Grind dal adding required quantity of water to form a thick paste. \n
+3.	Mix the rice flour, salt and grinded dal to form a loose batter. You may have to add more water to get the required consistency. \n
+4.	Keep the batter overnight to ferment. \n
+5.	You can add a pinch of Baking Soda if you are living in USA or any other cold country. It is better to preheat the oven for a few minutes and then place the batter inside the oven so that it ferments. \n
+6.	Heat a non stick Tava or griddle and pour one ladle full of batter  and spread it as thin as possible to make thin and crisp dosas. If you are not using a Non Stick Tava, then apply a dab of oil to prevent the Dosa from sticking on to the pan. \n
+7.	When the edges begin to become crisp (3-4 minutes), flip it over and keep for 2 more minutes. \n
+8.	You can apply few drops of oil on the edges of the dosa to give it a better taste. \n
+9.	Serve the Dosa along with Sambar or any Chutney of your choice. \n
+10.	Here are a few Chutneys which go well with Dosa\n
+
+
+"
+                android:id="@+id/vattayappambrk3"
+                android:layout_below="@+id/vattayappambrk2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SamoosaActivity"
+    tools:showIn="@layout/activity_samoosa"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samoosa"
+                android:gravity="fill_horizontal"
+                android:id="@+id/samoosa1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/samoosa2"
+                android:layout_below="@+id/samoosa1"
+                android:src="@drawable/samosa"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+Ingredients For the dough: \n
+•	500 grams whole wheat flour\n
+•	50 grams sooji (fine semolina/rava) \n
+•	1/4 cup ghee\n
+•	1/4 teaspoon ajwain (carom seeds) \n
+•	salt to taste\n
+•	water to knead\n\n
+Ingredients for the Stuffing: \n
+•	500 grams of spinach, washed and finely chopped\n
+•	250 grams of paneer, crumbled\n
+•	2 green chilies, finely chopped\n
+•	1/2 teaspoon gram masala\n
+•	1 teaspoon chaat masala powder\n
+•	salt to taste\n
+•	oil for deep fry or can also be baked. \n\n
+METHOD: \n\n
+Method To make the dough: \n
+1.	Prepare the dough by mixing together the flour, salt, ghee and ajwain/ carom seeds to form a mixture of coarse crumbs. Add in water to the dough a little at a time to make a soft and firm dough. Once the dough comes together knead it continuously for 2-3 minutes and cover it with a moist muslin cloth. Allow the dough to rest for about 15-20 minutes. \n\n
+Method for the stuffing of spinach paneer samosas: \n
+1.	Heat oil in a pan; add in the chopped spinach and saute on high heat until the spinach softens. Once the spinach has softened and all the water is evaporated, turn off the heat. Allow the spinach to cool completely. \n
+2.	Once the spinach has cooled combined all the filling ingredients along with the sauteed spinach. Check the salt and spice levels and adjust to suit your taste. Keep this aside. \n\n
+Method to Fill and Make the Samosas: \n
+1.	Fill a small cup with water and keep aside; this will be used for sealing the edges of the cone. On a floured surface, roll each portion into 3 inch diameter circle and cut each circle into half. \n
+2.	Spread the water lightly all along the edge of the circle. \n
+3.	Place one or two tablespoons of spinach paneer filling in the center and fold the circle into half to make a half moon shape. Press to seal the edges of the samoas and use a fork and press on the edges of the dough to get the forked marks. Continue to make similar filled half moon shaped samosas. \n\n
+Method to Deep fry the Samosa: \n
+1.	Heat oil in a heavy bottomed pan for deep frying on medium heat; gently slip in a couple of samosas into the frying pan and allow them to fry on medium heat. Turn the samosas around in the oil once they come floating to the top. \n
+2.	Fry them till they turn into a light golden-brown colour on all sides. Keep the heat on medium all along. High heat can brown the crust faster but not make the crust crispier. Continue the procedure with the remaining filled cones and drain them on absorbent paper. \n\n
+Method to Bake the Samosa's: \n
+1.	If you plan to bake the Spinach Paneer Samosa; preheat the oven to 200 C. Arrange the samosas on a baking tray, brush the samosa with more ghee or oil on all sides. \n
+2.	Place the filled samosas in the preheated oven and cook for 10-15 minutes. The samosas need to be turned once or twice during baking. Bake them until they are evenly browned on all sides. \n
+3.	Once done, remove them from the oven and allow it to stand for about 5 minutes before serving hot with tomato sauce, green chutney or tamarind chutney. \n
+4.	Serve the delicious Spinach and Paneer Samosas along with Green Chutney and Tamarind Chutney.
+
+
+"
+                android:id="@+id/samoosa3"
+                android:layout_below="@+id/samoosa2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

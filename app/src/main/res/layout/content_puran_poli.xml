@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PuranPoliActivity"
+    tools:showIn="@layout/activity_puran_poli"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puran Poli"
+                android:gravity="fill_horizontal"
+                android:id="@+id/puranpoli1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/puranpoli2"
+                android:layout_below="@+id/puranpoli1"
+                android:src="@drawable/puranpoli"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+Ingredients for the dough: \n
+•	2 cups whole wheat flour\n
+•	2 tablespoons oil\n
+•	Ghee for serving\n\n
+Ingredients for the filling\n
+•	1 cup pigeon peas/toor dal/channa dal\n
+•	1/2 cup jaggery\n
+•	1/2 cup sugar\n
+•	A few strands of saffron\n
+•	1/2 teaspoon cardamom powder\n
+•	1/4 teaspoon nutmeg powder\n
+•	2 tablespoons ghee\n\n
+METHOD: \n
+1.	Add flour into a large bowl; combine it with little water at a time and knead until the dough gathers together to form a firm dough mixture. Add the 2 tablespoons of oil to coat the dough and knead for a couple of more minutes until smooth and firm. Cover and let the dough sit in a cool place until we get the lentil filling ready. \n
+2.	Cook the lentil with 1-1/2 cups of water until soft and is well cooked. Drain any excess water from the lentil and keep aside. \n
+3.	Heat ghee in a pan on medium heat, add the jaggery and sugar and stir until the jaggery and sugar dissolve completely. Stir in the cooked lentils, saffron, cardamom and nutmeg to the jaggery mixture until well combined. \n
+4.	Continue stirring the mixture until the lentil mixture begins to thicken and leaves the sides of the pan. At this point turn off the heat and allow the lentil mixture (puran) to cool completely. Divide the dough and puran mixture into 12 portions. \n
+5.	Keeping a little flour for dusting handy on a plate; roll out the dough into 3 inch diameter circles. Place a portion of the puran mixture into the center of the circle. Bring edges of the circle towards the center and fold over to cover the entire filling; making sure the edges are all sealed well by pinching them together if there is any opening. \n
+6.	Flatten the stuffed dough; dust over a little flour and roll gently into a 4 inch diameter circle taking care not to put too much pressure as the puran can come out of the dough. \n
+7.	Preheat an iron skillet on medium high; place the rolled puran poli’s onto the skillet to cook until golden brown on both sides. \n
+8.	Repeat the above process for all the remaining dough and puran portions. \n
+9.	Serve the Gujarati Puran Poli's hot with ghee smeared on the top. You can alternatively cook the Puran Poli’s in ghee on the skillet; the result is crispier and more delicious. \n
+
+
+"
+                android:id="@+id/puranpoli3"
+                android:layout_below="@+id/puranpoli2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

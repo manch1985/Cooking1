@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PaneerPasandaActivity"
+    tools:showIn="@layout/activity_paneer_pasanda"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paneer Pasanda"
+                android:gravity="fill_horizontal"
+                android:id="@+id/paneerpasanda1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/paneerpasanda2"
+                android:layout_below="@+id/paneerpasanda1"
+                android:src="@drawable/paneerpasanda"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS (measuring cup used, 1 cup = 250 ml) \n\n
+For paneer sandwiches: \n
+•	250 grams paneer/cottage cheese\n
+•	2 to 2.5 tbsp crumbled or grated paneer (can substitute grated cheese instead of paneer) \n
+•	1 tbsp raisins, chopped\n
+•	6 to 8 cashews, finely chopped or 2 tbsp finely chopped cashews\n
+•	1 or 2 green chilies, chopped, about 1 tsp chopped green chilies\n
+•	1 tbsp chopped coriander leaves/dhania patta\n
+•	½ tbsp chopped mint leaves/pudina patta\n
+•	¼ tsp red chili powder/lal mirch powder\n
+•	½ tsp cumin powder/jeera powder\n
+•	¼ tsp salt or add as required\n
+•	4 tbsp oil for frying\n\n
+For corn starch paste: \n
+•	½ cup corn starch\n
+•	4 tbsp water\n\n
+Pasanda gravy: \n\n
+onion paste: \n
+•	2 medium to large onions or 150 grams onions or 1 cup heaped chopped onions\n
+•	2 tbsp oil\n
+•	4 to 5 tbsp water to grind the fried onions, add more if required\n
+tomato paste: \n
+•	3 medium to large tomatoes or 250 grams tomatoes or 1.75 cups roughly chopped tomatoes\n
+•	10 to 12 cashews, halved or roughly chopped\n
+•	½ inch cinnamon/dalchini\n
+•	2 green cardamoms/chotti elachi\n
+•	2 single thin strands of mace/javitri\n
+•	2 cloves/lavang\n
+•	1 cup water for cooking tomatoes\n\n
+For cooking the gravy or sauce: \n
+•	1 to 1.5 tbsp of the fried oil or fresh oil\n
+•	½ tsp caraway seeds/shahjeera (substitute cumin/jeera if shahjeera is not there) \n
+•	1 tej patta or indian bay leaf\n
+•	½ inch ginger + 3 to 4 garlic, crushed to a paste in mortar-pestle or 1 to 1.5 tsp ginger garlic paste\n
+•	¼ tsp turmeric powder/haldi\n
+•	½ tsp kashmiri red chili powder or deghi mirch\n
+•	½ tsp coriander powder/dhania powder\n
+•	¼ tsp garam masala\n
+•	¼ to ½ tsp sugar or as per taste\n
+•	1 tsp kasuri methi/dry fenugreek leaves, crushed\n
+•	1 cup water\n
+•	2 tbsp low fat cream, 25% to 35% fat\n
+•	2 tbsp chopped coriander leaves for garnish\n
+•	salt as required\n\n
+INSTRUCTIONS: \n\n
+Preparing tomato paste: \n
+1.	In a frying pan or kadai take 1.75 cups roughly chopped tomatoes, 10 to 12 cashews, halved or roughly chopped, ½ inch cinnamon, 2 green cardamoms, 2 single thin strands of mace, 2 cloves and 1 cup water. \n
+2.	On a low to medium flame, stir and simmer this mixture till the tomatoes soften. \n
+3.	When the tomatoes soften, switch off the flame. some stock will be left in the pan and we will use it while grinding the tomatoes. let this mixture become warm or cool down completely before you grind. \n
+4.	Add the cooked tomatoes-cashews-spices mixture along with the stock. no need to add any extra water while grinding. \n
+5.	Grind to a smooth paste. there should be no cashew chunks or pieces in the paste. keep this paste aside. \n\n
+Preparing onion paste: \n
+1.	Meanwhile, heat 2 tbsp oil in a pan and add 1 cup heaped chopped onions. \n
+2.	Stir and saute the onions on a low flame. add a pinch of salt for the onions to brown faster. \n
+3.	Once the onions turn to light golden, switch off the flame. let the onions cool. \n
+4.	Now in a grinder jar, take the fried onions. add 4 to 5 tbsp water. \n
+5.	Then grind the fried onions to a smooth paste. keep this paste aside. \n\n
+Assembling, stuffing and frying paneer sandwiches: \n
+1.	In a bowl or plate, take 2 to 2.5 tbsp crumbled or grated paneer (can substitute grated cheese instead of paneer), 1 tbsp raisins, chopped, 6 to 8 cashews, finely chopped or 2 tbsp finely chopped cashews, 1 or 2 green chilies, chopped, about 1 tsp chopped green chilies, 1 tbsp chopped coriander leaves and ½ tbsp chopped mint leaves. \n
+2.	Now add ¼ tsp red chili powder, ½ tsp cumin powder and ¼ tsp salt or add as required.
+3.	Mix everything and keep aside. \n
+4.	slice the paneer in triangles. now slice each triangle into two halves gently. \n
+5.	Slice all triangles this way. \n
+6.	Now place some of the stuffing on the paneer triangle. \n
+7.	Cover it with its top slice gently. don't press. one paneer sandwich is ready. \n
+8.	Make all paneer sandwiches stuffed with the filling this way. \n
+9.	In a bowl, make a paste of ½ cup corn starch with 4 tbsp water. \n
+10.	Dip the paneer sandwich slice in the batter. \n
+11.	Turn over and coat from all sides. you can also use a spoon or small tongs to coat the slices. \n
+12.	Place the paneer slices in a medium hot oil for shallow frying. \n
+13.	Dip eacn triangle this way and then place more paneer triangles in the hot oil. do stir the corn starch paste before you coat the paneer triangles with it as the corn starch settles down. \n
+14.	When the base is golden, turn over and continue to shallow fry. you can also deep fry these paneer triangles. \n
+15.	Now drain the fried paneer sandwiches on paper towels. keep aside. \n\n
+Preparing the paneer pasanda gravy/sauce: \n
+1.	In the same pan, in which we cooked the tomatoes, add oil. add 1 tej patta and ½ tsp shahjeera. saute till the shahjeera crackles,substitute cumin/jeera if shahjeera is not there. \n
+2.	Add 1 to 1.5 tsp ginger garlic paste. \n
+3.	Stir and saute till raw aroma of ginger-garlic goes away. \n
+4.	Now add the tomato-cashew-spice paste, stir and saute for 3 to 4 minutes on a low to medium flame. \n
+5.	Stir and then add the fried onion paste,stir very well and saute for 3 to 4 minutes. \n
+6.	Add ¼ tsp turmeric powder, ½ tsp coriander powder and ½ tsp kashmiri red chili powder or deghi mirch. stir very well. \n
+7.	Then add 1 cup water. \n
+8.	Stir again very well. \n
+9.	Simmer the gravy on a low flame. \n
+10.	If the gravy splutters a lot, then cover the pan with a lid. \n
+11.	Simmer or saute the gravy till you see some oil specks on the top. the gravy will also thicken. about 4 to 5 minutes on a low to medium flame. \n
+12.	Then add salt as required. \n
+13.	Add ¼ to ½ tsp sugar as required. \n
+14.	Stir and then add ¼ tsp garam masala, 1 tsp kasuri methi, crushed and 2 tbsp low fat cream. \n
+15.	Stir till the cream is mixed evenly with the rest of the gravy. \n
+16.	Now you can place the paneer triangles or pasanda in the gravy. or else you can place them in a serving tray or plate and pour the gravy from top as shown in the final pics. \n
+17.	Coat the paneer pasanda in the gravy. \n
+18.	Serve paneer pasanda hot garnished with some coriander leaves. best accompaniments with paneer pasanda are naan, tandoori roti, chapati, lachcha paratha, malabar paratha and jeera rice or veg pulao. \n\n
+NOTES: \n
+Skip cream if you do not have it. \n
+For a vegan option substitute paneer with tofu and skip the cream. you can also use coconut cream instead. \n
+
+
+"
+                android:id="@+id/paneerpasanda3"
+                android:layout_below="@+id/paneerpasanda2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

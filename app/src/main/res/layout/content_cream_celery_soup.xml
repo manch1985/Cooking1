@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.CreamCelerySoupActivity"
+    tools:showIn="@layout/activity_cream_celery_soup"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cream Celery Soup"
+                android:gravity="fill_horizontal"
+                android:id="@+id/creamcelery1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/creamcelery2"
+                android:layout_below="@+id/creamcelery1"
+                android:src="@drawable/creamcelerysoup"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS (measuring cup used, 1 cup = 250 ml)\n\n
+•	1 cup chopped celery\n
+•	1 cup chopped potatoes\n
+•	1 tbsp butter\n
+•	2 tbsp dairy cream, about 20% to 25% fat\n
+•	1 garlic clove, chopped\n
+•	2 pinch of grated nutmeg or nutmeg powder (jaiphal) \n
+•	3 cups water or vegetable stock\n
+•	salt and black pepper as required\n
+•	a few parsley leaves and some bread croutons (optional) for garnish\n
+METHOD:\n\n
+1.	In a pan melt butter. add the celery and garlic. \n
+2.	Saute both the celery and garlic for 2 to 3 mins on a low flame. \n
+3.	Add potatoes and stir. add water or veg stock, salt and pepper. cover and cook till potatoes are cooked.the potatoes need to be completely cooked. \n
+4.	Once the potatoes are cooked, let the mixture cool down a bit\n.
+5.	When the soup mixture is slightly hot or warm, using an immersion blender, blend the soup till smooth. you can also blend the soup in a regular jar blender. \n
+6.	Put the pan back on fire and gently heat through the soup. \n
+7.	You can adjust the consistency of the soup here. add a bit of water or veg stock, if you want a slightly thin soup or if the soup appears thick. \n
+8.	When the soup has heated through, add cream and sprinkle the grated nutmeg or nutmeg powder. switch off the stove and stir well. \n
+9.	Check the seasoning and add more salt or black pepper if required. \n
+10.	Serve cream of celery soup garnished with parsley and bread croutons. \n
+
+
+
+"
+                android:id="@+id/creamcelery3"
+                android:layout_below="@+id/creamcelery2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

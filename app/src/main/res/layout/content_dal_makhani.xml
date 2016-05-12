@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.DalMakhaniActivity"
+    tools:showIn="@layout/activity_dal_makhani"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dal Makhani"
+                android:gravity="fill_horizontal"
+                android:id="@+id/dalmakhani1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dalmakhani2"
+                android:layout_below="@+id/dalmakhani1"
+                android:src="@drawable/dalmakhani"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" INGREDIENTS:\n\n
+•Whole black gram - 1/2 cup\n
+•Rajma/Red Kidney beans - 2 tbsp\n
+•Onion - 1/2 cup finely chopped\n
+•Tomato puree - 1 cup\n
+•Butter - 2 tbsp\n
+•Salt needed\n\n
+For grinding:\n
+
+•Ginger - 1 inch piece\n
+•Garlic - 6 cloves\n
+•Dry red chillies - 2 (soak it in hot water for 15 minutes) \n\n
+Spice Powder: \n
+•Coriander powder - 2 tsp\n
+•Garam masala powder or kitchen king masala - 1 tsp\n
+•Kasuri methi - 1 tsp (optional) \n
+•Chilli powder - 3/4 - 1 tsp\n\n
+For the seasoning: \n
+
+•Oil - 2 tbsp\n
+•Cumin seeds/jeera - 1 tsp\n\n
+
+For garnishing : \n
+•Cream - 2 tbsp (optional) \n
+•Coriander leaves finely chopped -2 tbsp\n
+•Ginger - 1 inch piece (slivered) \n\n
+
+PREPARATION: \n
+
+1.Grind ginger, garlic and red chilies together to a smooth paste. \n
+
+2.Soak both the dals together for 6-7 hours or overnight.Wash it well, add 3 cups of water, half of the ginger-garlic-red chilli paste, salt, turmeric powder and pressure cook for 5 whistles, then simmer and cook for another 15 minutes. The dal should be soft. Mash it a little with the back of the ladle. Keep it aside. \n\n
+
+
+
+
+METHOD: \n
+1.Heat oil in a pan, add cumin seeds, when it sizzles, add finely chopped onions and saute stirring continuously on medium flame until onions turn golden brown. Add a little salt to speed up the process. \n
+2.Now add the remaining ginger-garlic-chilli paste and saute for a few more minutes. \n
+3.Then add coriander powder, chilli powder, garam masala powder, kasuri methi (crush it between your palms and add) mix well and cook for 2-3 minutes. \n
+4.Add tomato puree, butter and cook well until the raw smell of the tomato goes and oil ooze out. (Can you see the change in the color of the tomato puree in the picture below). The tomato puree should be cooked like that. \n
+5.Now add the cooked dal along with water. Add salt needed. (add less as we have already cooked dal with salt). Cook on low flames for another 15 - 20 minutes until everything gets blended well with the masala. \n
+6.Stir in fresh cream and cook for another 3 minutes. \n
+You can adjust the consistency of the dal by adding hot water if it becomes too thick. \n
+
+"
+                android:id="@+id/dalmakhani3"
+                android:layout_below="@+id/dalmakhani2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

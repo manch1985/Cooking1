@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.NarangiShorbaActivity"
+    tools:showIn="@layout/activity_narangi_shorba"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Naragi shorba"
+                android:gravity="fill_horizontal"
+                android:id="@+id/narangishorba1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/narangishorba2"
+                android:layout_below="@+id/narangishorba1"
+                android:src="@drawable/naringishorba"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+•	Fresh orange juice 1 cup\n
+•	Carrots roughly chopped3 medium\n
+•	Red pumpkin (bhopla/kaddu) roughly chopped500 grams\n
+•	Spinach leaves (palak) finely shredded and deep fried10-12\n
+•	Oil 2 tablespoons\n
+•	Onion roughly chopped1 medium\n
+•	Green chillies chopped2\n
+•	Salt to taste\n
+•	Garam masala powder 1/2 teaspoon\n
+•	Sesame seeds (black) toasted1 teaspoon\n
+•	Fresh cream 1/2 teaspoon\n\n
+
+METHOD:\n
+1.	Heat oil in a pressure cooker, add onion, carrots, pumpkin, green chillies, salt and garam masala powder and mix. Add 3 cups water and mix. Cover the cooker with the lid and cook under pressure till 3-4 whistles are given out. \n
+
+2.	Open the cooker when pressure reduces, strain the stock into another bowl and reserve. Cool the solids and transfer into a mixer jar. Add orange juice and blend into a smooth puree. \n
+3.	Transfer the reserved stock and puree into the cooker, adjust salt and bring to a boil.\n
+4.	Transfer into a serving bowl. Garnish with deep fried spinach, sprinkle sesame seeds, drizzle a little fresh cream and serve hot. \n
+
+
+"
+                android:id="@+id/narangishorba3"
+                android:layout_below="@+id/narangishorba2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

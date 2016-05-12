@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.MincedMeatStirFryActivity"
+    tools:showIn="@layout/activity_minced_meat_stir_fry"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minced Meat Stir Fry"
+                android:gravity="fill_horizontal"
+                android:id="@+id/mincedmeatstirfry1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mincedmeatstirfry2"
+                android:layout_below="@+id/mincedmeatstirfry1"
+                android:src="@drawable/mincedmeatstirfry"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Minced meat – 500g\n
+•	Mustard seeds – 1/2 tsp\n
+•	Small onion – 5\n
+•	Green Chilli  – 2\n
+•	Ginger  garlic paste – 3 tsp\n
+•	Red chilli powder – 1 tsp\n
+•	Pepper powder – 1 tsp\n
+•	Turmeric powder – ½  tsp\n
+•	Coriander powder – 4 tsp\n
+•	Garam masala – 1 tsp\n
+•	Curry leaves – few\n
+•	Oil\n
+•	Salt\n\n
+ TO MARINATE: \n\n
+•	Chilli powder – 1 tsp\n
+•	Coriander powder – 2 tsp\n
+•	Turmeric powder – ½ tsp\n
+•	Lemon Juice – 1 tsp\n\n
+ METHOD: \n\n
+1.	Mix all ingredients to marinate. Add little water and make it into a good paste. \n
+2.	Add minced meat and mix well. \n
+3.	Pressure cook marinated meat till its cooked well. \n
+4.	Open the cooker and if stock is there, cook without putting the lid till meat is almost 80% dry. \n
+5.	Heat oil in a pan and splutter mustard seeds. \n
+6.	Add sliced onion and curry leaves. \n
+7.	When onion becomes soft add ginger garlic paste, green chilli and cook for 2-3 min. \n
+8.	Add chilli, turmeric, corriander, pepper powder and garam masala and mix well. \n
+9.	Add cooked meat and mix well. \n
+10.	Add little oil in between if you feel meat is sticking to the pan. \n
+11.	Cook in medium flame till meat is completely dry and becomes dark brown in colour. Serve hot. \n
+
+"
+                android:id="@+id/mincedmeatstirfry3"
+                android:layout_below="@+id/mincedmeatstirfry2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

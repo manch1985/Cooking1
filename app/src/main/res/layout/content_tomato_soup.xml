@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.TomatoSoupActivity"
+    tools:showIn="@layout/activity_tomato_soup"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomato Soup"
+                android:gravity="fill_horizontal"
+                android:id="@+id/tomatosoup1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tomatosoup2"
+                android:layout_below="@+id/tomatosoup1"
+                android:src="@drawable/tomatosoup"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: (measuring cup used, 1 cup = 250 ml)\n\n
+•	4 medium to large tomatoes\n
+•	2-3 garlic cloves/lahsun\n
+•	1 small onion\n
+•	1 bay leaf/tej patta\n
+•	1 tsp corn starch + 2 tbsp water\n
+•	1 or 1.5 tbsp butter\n
+•	1 cup water\n
+•	1 tbsp cream - you can consider adding 2 tbsp cream or dot with cream when serving the soup. \n
+•	½ tbsp organic unrefined cane sugar or as required\n
+•	1 or 2 slices of bread - brown, whole wheat or white bread\n
+•	freshly crushed or powdered black pepper as required\n
+•	salt as required\n\n
+METHOD: \n
+1.	Rinse the tomatoes really well and keep aside. \n
+2.	Remove the stems if there are any. \n
+3.	In a saucepan or pot take enough water so that the tomatoes get immersed completely. \n
+4.	Add 1 tsp salt to the water and bring the water to a rolling boil. \n
+5.	Add the tomatoes and switch off the fire. \n
+6.	Close the saucepan or pot with the lid. \n
+7.	Let the tomatoes be immersed in the hot water for 20-30 minutes. \n
+8.	In the meantime, finely chop the onion and garlic. keep aside. \n
+9.	Heat a frying pan/tava or pre heat the oven. \n
+10.	Place the bread in the pan and on a low flame toast the bread till its browned and crisp from both sides. \n
+11.	If using the oven, place the bread in the oven at 200 degrees C and toast the bread till its browned and crisp. \n
+12.	Once the bread is toasted and golden, slice it into cubes. \n
+13.	Make a smooth paste of the 1 tsp cornflour with 2 tbsp water. \n
+14.	Drain the tomatoes and let them become warm or cool down. \n
+15.	Peel the tomatoes. remove the eyes of the tomatoes. \n
+16.	Then directly chop the tomatoes above the blender jar so that the juices drop directly inside the blender jar. \n
+17.	If you cannot do this, then chop the tomatoes on a chopping board and add everything to the blender including the juices. \n
+18.	Blend the tomatoes to a smooth puree. \n
+19.	Melt butter in a pan. add the bay leaf and saute for 5-6 seconds\n
+20.	Add the garlic and saute for about 10-12 seconds on a low flame. \n
+21.	Add the chopped onion and saute till the onions become translucent. \n
+22.	Aow add the tomato puree. \n
+23.	Stir and then add water, salt and pepper. \n
+24.	On a low to medium flame, let the soup come to a gentle boil. \n
+25.	Stir the corn starch paste (since the corn starch settles down) that we made earlier and add it to the soup. \n
+26.	Stir well and simmer for 3-4 minutes till the soup thickens on a low flame. \n
+27.	Now add sugar and stir. then add the cream and simmer for a minute. \n
+28.	Pour the steaming hot tomato soup in soup bowls. \n
+29.	Add the bread croutons to the soup. garnish tomato soup with parsley or coriander leaves. \n
+30.	Serve the tomato soup hot. \n
+
+"
+                android:id="@+id/tomatosoup3"
+                android:layout_below="@+id/tomatosoup2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

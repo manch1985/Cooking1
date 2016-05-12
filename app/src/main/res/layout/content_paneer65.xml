@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.Paneer65Activity"
+    tools:showIn="@layout/activity_paneer65"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paneer 65"
+                android:gravity="fill_horizontal"
+                android:id="@+id/paneer651"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/paneer652"
+                android:layout_below="@+id/paneer651"
+                android:src="@drawable/paneer65"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS (measuring cup used, 1 cup = 250 ml)\n\n
+For Marination: \n
+•	200 grams paneer/cottage cheese\n
+•	3 tbsp rice flour\n
+•	1 tbsp besan/gram flour\n
+•	2 tbsp corn starch\n
+•	1 tsp green chili paste\n
+•	1 tsp garlic paste\n
+•	1 tsp ginger paste\n
+•	½ tsp red chili powder or kashmiri red chili powder\n
+•	¼ to ½ tsp garam masala powder\n
+•	¼ tsp lime juice or add as required\n
+•	4 tbsp water\n
+•	5 tbsp oil for frying\n
+•	salt as required\n\n
+For paneer 65 tempering: \n
+•	3 tbsp chopped onions\n
+•	2 to 3 green chilies, sliced diagonally\n
+•	½ tsp chopped ginger/adrak\n
+•	½ tsp chopped garlic/lahsun\n
+•	6 to 7 curry leaves/kadi patta\n
+•	1 to 2 dry red chilies\n
+•	½ tsp mustard seeds (optional) \n
+•	¼ tsp sugar or add as per taste (optional) \n
+•	2 to 3 pinches of salt\n
+•	2 tsp oil\n\n
+INSTRUCTIONS: \n
+Preparing the marination: \n\n
+1.	Take 3 tbsp rice flour, 1 tbsp besan/gram flour and 2 tbsp corn starch in a mixing bowl, you can also take corn meal or maize flour (makki ka atta) instead of corn starch. \n
+2.	Add the following spices and herbs - 1 tsp green chili paste, 1 tsp garlic paste, 1 tsp ginger paste, ½ tsp red chili powder, ¼ to ½ tsp garam masala powder and ¼ tsp lime juice. also add salt as required. \n
+3.	Add 4 tbsp water. whisk to a smooth paste. you can also add a few drops of natural color. i used orange natural color extract. \n
+4.	Add the paneer cubes. \n
+5.	Gently mix the paneer cubes with the batter. cover and allow to marinate for about 15 to 20 minutes at room temperature. \n\n
+Shallow frying and preparing paneer 65: \n\n
+1.	Heat 5 tbsp oil in a pan. the oil should be medium hot. coat the paneer cubes with the batter and add them to the hot oil. keep some space between the paneer cubes so that they don't stick. \n
+2.	Once the base is done, flip and fry the other side. flip for a couple of times all the paneer cubes and fry till the outsides become crisp and golden. remember not to over fry the paneer cubes as then they become dense. \n
+3.	Drain the fried paneer cubes on kitchen paper towels to remove excess oil. \n
+4.	In the same pan, heat 2 tsp oil. add ½ tsp mustard seeds. \n
+5.	After the mustard seeds, crackle, add ½ tsp chopped ginger, ½ tsp chopped garlic, 2 green chilies chopped diagonally, 1 to 2 dry red chilies and 6 to 7 curry leaves. stir well. \n
+6.	Then add 3 tbsp chopped onions. stir and saute the onions till they turn translucent. \n
+7.	Add salt and ¼ tsp sugar. you can skip sugar if you want. i added a bit of sugar as then the paneer dish tastes good. \n
+8.	Stir well. add the fried paneer cubes. \n
+9.	Mix and toss the paneer cubes with the rest of the sauteed ingredients. check the taste and add more salt or green chilies if required. switch off the flame. \n
+10.	Lastly add chopped coriander leaves. stir. \n
+11.	Serve paneer 65 hot plain as as a starter or with some chapatis, naan or tandoori rotis. \n
+
+"
+                android:id="@+id/paneer653"
+                android:layout_below="@+id/paneer652"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

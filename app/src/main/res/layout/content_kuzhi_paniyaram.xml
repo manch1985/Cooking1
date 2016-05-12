@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.KuzhiPaniyaramActivity"
+    tools:showIn="@layout/activity_kuzhi_paniyaram"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kuzhi Paniyaram"
+                android:gravity="fill_horizontal"
+                android:id="@+id/kuzhipaniyaram1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kuzhipaniyaram2"
+                android:layout_below="@+id/kuzhipaniyaram1"
+                android:src="@drawable/kuzhipaniyaram"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+FOR BATTER: \n
+•	Use 2 cups of idli/dosa batter to make paniyarams or make this batter the traditional way. \n
+•	Parboiled Rice/Idli Rice - 1/2 cup\n
+•	Raw Rice (or Rice flakes) - 1/2 cup\n
+•	Urad dal - 1/4 cup\n
+•	Fenugreek seeds - 1/2 tsp\n
+•	Salt - to taste\n\n
+FOR SEASONING: \n
+•	Onions - 2 or 15 shallots (chopped) \n
+•	Green Chilies - 4 (chopped) \n
+•	Curry Leaves -1 string (chopped) \n
+•	Grated Coconut - 2 tbsp\n
+•	Urad Dal-1 tbsp\n
+•	Chana Dal -1 tbsp\n
+•	Mustard Seeds-1 tsp\n
+•	Oil - 1 tbsp\n\n
+METHOD: \n\n
+FOR BATTER: \n
+1.	If you do not want to make a separate batter for make paniyarams, you can use idli/dosa batter too. \n
+2.	Wash and soak the rice together and the urad dal with the fenugreek seeds in a separate bowl for about 4 hours. \n
+3.	Grind it to a smooth paste. Mix salt. \n
+4.	Ferment the batter for about 10 hours (or overnight) till the batter doubles in volume. Now the batter is ready to make paniyarams. You can store it in the refrigerator and make it later too. \n\n
+FOR MAKING PANIYARAM:\n
+1.	Add oil to a kadai and temper the mustard seeds, chana dal and urad dal. \n
+2.	Add the chopped onions, green chilies and curry leaves. Sauté for just couple of minutes till it becomes transparent . \n
+3.	Add the seasoned mixture and grated coconut to the batter and mix well.
+4.	Heat the kuzhi paniyaram pan (puffed pancake griddle). Drizzle few drops (about 1/2 tsp) of oil in each mould. \n
+5.	Pour a spoonful of the batter, let it cook for just a minute. Using a wooden stick that comes with it or with a fork, gently flip each paniyaram so that it will cook on the other side. It will automatically form a ball shape. You can cover with a lid to ensure faster cooking. \n
+6.	Cook till both sides are cooked and small brown spots appear. Cooking on medium low flame gives the best results. Tasty kuzhi paniyaram is ready to be served. \n
+
+
+
+
+
+"
+                android:id="@+id/kuzhipaniyaram3"
+                android:layout_below="@+id/kuzhipaniyaram2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SteamedCakeActivity"
+    tools:showIn="@layout/activity_steamed_cake"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steamed Rice"
+                android:gravity="fill_horizontal"
+                android:id="@+id/steamedrice1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/steamedrice2"
+                android:layout_below="@+id/steamedrice1"
+                android:src="@drawable/rice"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n
+•	1 cup rice\n
+•	Salt if required\n
+•	2 cups water\n\n
+METHOD: \n\n
+Method to Cook Rice in Pressure Cooker Method: \n
+Pan Needed: Pressure Cooker\n\n
+1.	Rinse the rice well under running water. Place one cup of washed rice along with two cups of water in the pan of the pressure cooker. \n
+2.	Keep the weight on, cover the pressure cooker. Cook the rice in the pressure cooker on medium high heat and after the first whistle turn the heat to low. Once you turn the heat to low, simmer the rice for 3 minutes. \n
+3.	After 3 minutes, turn off the heat and allow the pressure to release naturally. Rice takes a longer time to cook, hence wait for the pressure to release completely and then open the cooker and use as desired. \n\n
+Method to Cook Rice in Saucepan Method: \n
+Pan Needed: Saucepan\n\n
+1.	Rinse the rice well under running water and optionally soak for about 15 minutes. In a heavy-bottomed sauce pan with a light-fitting lid, combine 2 cups water, washed rice and salt (optional). \n
+2.	Bring the mixture to a boil over high heat. As water begins to boil turn the heat to low, cover the pan with a lid and simmer the rice mixture for about 12 to 15 minutes or until its cooked and all the water is absorbed. \n
+3.	Turn off heat and allow the rice to rest covered in the pan for at least another 10 minutes. Before serving, fluff the rice with a fork and serve. \n
+11. Semiya Payasam/Kheer Recipe (Sweet Vermicelli Pudding)
+INGREDIENTS: \n
+•	2 litres of milk \n
+•	1/2 cup of semiya/ vermicelli\n
+•	1/2 cup sugar\n
+•	3 tablespoons of halved cashewnuts\n
+•	3 tablespoons of raisins\n
+•	a few strands of saffron\n
+•	1/4 teaspoon of cardamom powder\n
+•	1 + 1 teaspoon of ghee\n\n
+METHOD: \n
+1.	To begin making the Semiya Payasam Recipe, cook the Semiya (Vermicelli) in milk. In a heavy bottmed sauce pan; add a teaspoon of ghee roast the vermicelli on low heat until you get a roasted aroma. Add in the milk, turn the heat to high and bring the mixture to a boil. \n
+2.	Once the milk is boiling with the semiya, turn the heat to low and simmer and cook until the semiya is cooked completely. \n
+3.	Add in the sugar, cardamom powder and saffron and stir until the sugar dissolves compeltely. Simmer the Semiya Payasam for another 5 minutes till the flavors absorbed well and the payasam looks thick and creamy. \n
+4.	You can adjust the consistency of the payasam, based on your preference. Note, that once the Semiya Payasam cools down, the semiya will begin to absorb all the milk and get thicker as well. \n
+5.	While the Semiya is simmering, we will roast the cashewnuts. In a small pan, add a teaspoon of ghee on low heat; add in the cashewnuts and roast until crisp and golden. Add in the raisins, stir for a few seconds and keep aside. \n
+6.	Turn off the heat and finally garnish the Semiya Payasam with the roasted cashewnuts and serve the payasam hot or cold as desired. \n
+
+"
+                android:id="@+id/steamedrice3"
+
+                android:layout_below="@+id/steamedrice2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.IdiyappamActivity"
+    tools:showIn="@layout/activity_idiyappam"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idiyappam"
+                android:gravity="fill_horizontal"
+                android:id="@+id/idiyappam1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idiyappam2"
+                android:layout_below="@+id/idiyappam1"
+                android:src="@drawable/iddiyappam"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS	:\n\n
+
+•	Rice Flour – 2 cups\n
+•	Warm Water – 1.5 cups approx\n
+•	Salt – to taste\n
+•	Grated Coconut – 3/4 cup (optional) \n
+•	Sugar – 1 tsp\n\n
+METHOD: \n
+
+1.	Take rice flour in a big bowl and add salt to it. \n
+2.	Start adding warm water and knead the rice flour to form a smooth and soft dough which is not sticky. \n
+3.	Apply a dab of oil on the insides of the “Idiyappam Maker” and fill it with the dough. Close it tightly. \n
+4.	Apply some oil on each mould of the Idli Plate and start squeezing the dough onto the moulds in a circular motion. \n
+5.	You can also use any plain steaming plate instead of Idli Plates. \n
+6.	In a similar fashion, grease the steaming plate and squeeze the dough in a circular motion. \n
+7.	You can garnish each Idiyappam with a little coconut mixed with sugar. \n
+8.	Steam the idiyappam in the Idli Maker for around 10 minutes. \n
+9.	Serve it hot with any curry of your choice. \n
+
+"
+                android:id="@+id/idiyappam3"
+                android:layout_below="@+id/idiyappam2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

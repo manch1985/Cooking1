@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.TomatoRasamActivity"
+    tools:showIn="@layout/activity_tomato_rasam"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomato Rasam"
+                android:gravity="fill_horizontal"
+                android:id="@+id/tomatorasam1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tomatorasam2"
+                android:layout_below="@+id/tomatorasam1"
+                android:src="@drawable/tomatorasam"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n
+•	25 grams tuvar dal/yellow split peas\n
+•	1 teaspoon turmeric powder\n
+•	1/2 cup of freshly prepared tamarind extract or 1 tablespoon lemon juice\n
+•	4 to 5 red ripe tomatoes, blanched and skin removed\n
+•	2 cloves garlic\n
+•	1/2 teaspoon cumin powder, roasted\n
+•	1/2 teaspoon coriander powder, roasted\n
+•	1/2 teaspoon black pepper powder\n
+•	1/4 teaspoon red chilli powder (optional) \n
+•	Salt to taste\n\n
+Ingredients for the Seasoning: \n
+•	3-4 curry leaves\n
+•	1/4 teaspoon mustard seeds\n
+•	1/4 teaspoon cumin seeds\n
+•	1 tablespoon ghee\n
+•	1/4 teaspoon asafoetida (optional) \n
+•	a small bunch of chopped coriander leaves\n\n
+METHOD: \n
+1.	To begin making the Tomato Rasam Recipe, its important to get all the ingredients ready. \n
+2.	Begin the recipe, by cooking the tuvar dal/ yellow split pea dal with 2 cups of water until it becomes very soft. \n
+3.	 When done, pour the dal into a bowl and whisk it, until it becomes nice and smooth. Set this aside. \n
+4.	Next make a puree of the blanched tomatoes. \n
+5.	 Keep all the spices and condiments ready. \n
+6.	Next, heat ghee in a sauce pan on medium; add the mustard seeds, cumin seeds, garlic and curry leaves. \n
+7.	When the mustard seeds begin to crackle, pour in the tomato puree, lemon juice or tamarind water, coriander powder, turmeric powder, cumin powder, asafoetida, pepper and chilli powder. Stir all the masalas together and allow the Rasam to come to a boil. \n
+8.	Now, add the whisked tuvar dal and 2 cups of water into the saucepan and bring everything to a boil. Simmer the Thakali Rasam for 10 minutes on low heat, until you see the Rasam frothing up. Once you notice the Rasam frothing up, turn off the heat. \n
+9.	Finally, garnish the Tomato Rasam with freshly chopped coriander leaves and serve it with hot steaming rice, a dash of ghee, lime pickle and some elai vadam. \n
+
+
+"
+                android:id="@+id/tomatorasam3"
+
+                android:layout_below="@+id/tomatorasam2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.CrispyGramFlourSnackActivity"
+    tools:showIn="@layout/activity_crispy_gram_flour_snack"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gram Flour Snack"
+                android:gravity="fill_horizontal"
+                android:id="@+id/gramfloursnack1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gramfloursnack2"
+                android:layout_below="@+id/gramfloursnack1"
+                android:src="@drawable/crispygramfloursnack"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Ragi (Fingermillet) Flour – 1 cup\n
+•	Water – app. 1.5 cups\n
+•	Salt – to taste\n
+•	Oil – 1 tsp\n\n
+METHOD: \n
+
+1.	Dry roast the ragi flour on low flame till a nice aroma comes. It takes about 3-4 minutes. This step takes off the earthy flavor of ragi and makes the end product very tasty. Alternatively, you can dry roast a whole batch of flour when you buy from the market so that you don’t have to dry roast it each time. \n
+2.	Bring the water to a boil in a sauce pan. Add salt and oil to it. \n
+3.	Add this water little by little to the ragi flour. Keep mixing it with a spoon. Once the flour gets a little crumbly, cover and let it rest for about 5 minutes. \n
+4.	It will cool down a bit. Now add little more water and knead with your hands to form smooth dough. You may or may not need all of the water depending on the freshness of your flour. \n
+5.	Take a idiyappam press and grease it. Also, grease the idli plates or idiyappam plates, whichever you have on hand. If you do not have either, just grease any vessel that fits inside a bigger one for steaming. \n
+6.	Fill water in the pot for steaming. I usually use my idli stand for steaming. \n
+7.	Fill in small portion of the prepared dough inside the idiyappam press. Press in circular motion onto the idli plates or the idiyappam plates. You will get pretty looking strings of the dough. \n
+8.	Stack the plates and place it inside the big pot. Steam for 10 minutes.
+9.	Serving Suggestion\n
+10.	If you have a sweet tooth, enjoy these warm idiyappms with some freshly grated coconut, a sprinkle of cardamom powder and some sugar. \n
+11.	If you are a spicy lover, enjoy it with any curries like coconut milk chutney, kurma, stew etc. \n
+
+
+
+
+"
+                android:id="@+id/gramfloursnack3"
+                android:layout_below="@+id/gramfloursnack2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

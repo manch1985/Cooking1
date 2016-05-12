@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.MuttaKozhalappamActivity"
+    tools:showIn="@layout/activity_mutta_kozhalappam"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mutta Kozhalappam"
+                android:gravity="fill_horizontal"
+                android:id="@+id/muttakozhalappam1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/muttakozhalappam2"
+                android:layout_below="@+id/muttakozhalappam1"
+                android:src="@drawable/coconutfilledcreeps"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS	:\n\n
+
+FOR BATTER: \n
+•	All Purpose Flour/Maida – 1.5 cups\n
+•	Water – 2 cups approx (You can also substitute water with Milk) \n
+•	Egg – 1\n
+•	Sugar – 1 tbsp\n
+•	Salt – A pinch\n\n
+FOR THE FILLING\n
+•	Grated Coconut – 1 cup\n
+•	Sugar – 1.5 tbsp\n
+•	Cardamom Powder – 1/2 tsp\n\n
+METHOD: \n
+1.	Mix the ingredients for filling thoroughly and keep aside. \n
+2.	Prepare a loose batter using all the above mentioned ingredients. If the batter is thick, add more water/milk. \n
+3.	Heat a non stick tava/griddle and pour ladle full of batter on to the tava. \n
+4.	Spread the batter so as to make a very thin crepe. \n
+5.	When one side is cooked (1-2 minutes), flip it over and cook for another minute until golden brown. If you want it more crisp, wait for one more minute so that brown spots start appearing. \n
+6.	Remove the crepe and place it on a plate. Spoon the filling and place it on the center of the crepe and spread it slightly. (Around 3 tbsp of filling for each crepe.) \n
+7.	Fold the crepe to make Madakku San or Coconut Filled Crepes. \n
+
+
+
+
+
+"
+                android:id="@+id/muttakozhalappam3"
+                android:layout_below="@+id/muttakozhalappam2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

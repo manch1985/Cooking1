@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/veg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChilliChickenActivity"
+    tools:showIn="@layout/activity_chilli_chicken">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/veg"
+            android:layout_marginTop="10dp"
+            android:id="@+id/veg" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;In everyday usage, a vegetable is any part of a plant that is consumed by humans as food as part of a savory meal.&quot;"
+            android:layout_below="@+id/veg"
+            android:layout_marginTop="5dp"
+            android:gravity="fill_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/salam_quote1"
+            android:textColor="#f4030ac7"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;In everyday usage, a vegetable is any part of a plant that is consumed by humans as food as part of a savory meal.&quot;"
+            android:layout_below="@+id/veg"
+            android:layout_marginTop="5dp"
+            android:gravity="fill_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/salam_quote"
+            android:textColor="#f4c71a03"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

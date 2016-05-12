@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PrawnsTomatoRoastActivity"
+    tools:showIn="@layout/activity_prawns_tomato_roast"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prawns Tomato Roast"
+                android:gravity="fill_horizontal"
+                android:id="@+id/prawnstomatoroast1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/musselfry2"
+                android:layout_below="@+id/prawnstomatoroast1"
+                android:src="@drawable/prawnstomatoroast"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:(Serves 2-3)\n\n
+
+•	Prawns cleaned – 400g (measured after cleaning) \n
+•	Onion – 2 big\n
+•	Green Chilli – 2\n
+•	Ginger garlic paste – 4 tsp\n
+•	Tomato – 2\n
+•	Kashmiri Chilli Powder – 1 tsp\n
+•	Red chilli powder – ½ tsp\n
+•	Pepper powder – ½ tsp\n
+•	Turmeric powder – ½ tsp\n
+•	Garam masala – 1 tsp (optional) \n
+•	Water – ¼ cup\n
+•	Curry leaves – few\n
+•	Oil – 5 Tbsp\n
+•	Salt\n\n
+ (Note: 1 Cup = 250 ml\n
+Vary the amount of chilli and pepper as per your spice level) \n
+ METHOD: \n
+
+1.	Clean the prawns, devein it and keep it ready. \n
+
+
+2.	Heat oil in a pan and add sliced onion and curry leaves. \n
+3.	Cook with the pan covered and stir in between till onion turns golden brown in color. \n
+4.	Add ginger garlic paste, green chilli and saute for a min or two. \n
+5.	Add chopped tomato and saute till it becomes soft. \n
+6.	Add all spice powder, salt and sauté for a min or two or till oil starts appearing on the sides of the pan. \n
+7.	Add prawns and mix well. \n
+8.	Add water and cook with the pan covered in low-medium heat till prawns are cooked and becomes soft. \n
+9.	Remove the lid and cook for another 4-5 min or till the curry becomes 90 % dry. \n
+10.	Pour 1 Tbsp of oil on the top. (It takes little time for the masala to get into the prawns. Serve this curry after 1 or 2 hrs of preparation). \n
+
+
+"
+                android:id="@+id/prawnstomatoroast3"
+
+                android:layout_below="@+id/prawnstomatoroast2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.KonganiSweetActivity"
+    tools:showIn="@layout/activity_kongani_sweet"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kongani Sweet"
+                android:gravity="fill_horizontal"
+                android:id="@+id/konganisweet1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/konganisweet2"
+                android:layout_below="@+id/konganisweet1"
+                android:src="@drawable/konkinisweet"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+Ingredients for the Fried Bread (Puri): \n
+•	250 grams all purpose flour |maida\n
+•	2 tablespoon melted ghee\n
+•	salt to taste\n
+•	water or milk to make dough\n\n
+Ingredients for stuffing: \n
+•	1 whole dry coconut or copra, peeled and finely grated\n
+•	Powder sugar according to your taste\n
+•	2 tablespoon roasted sesame seeds\n
+•	2 teaspoons cardamom powder\n
+•	Oil for deep frying\n\n
+METHOD: \n\n
+Method for the Stuffing: \n
+1.	In a heavy bottomed pan; dry roasted the grated coconut until you get a roasted aroma. Keep aside to cool completely. \n
+2.	Once cooled, add in the powdered sugar, roasted sesame seeds and cardamom powder. Mix to combine all the ingredients well and keep aside. \n\n
+Method for the Puri Dough: \n
+1.	Add the flour to a large mixing bowl along with the salt. Add in the hot ghee and rub the ghee into the flour. Add a little milk or water at a time and knead to make a soft and smooth dough. Cover the dough and allow it to rest for about 20 minutes. \n\n
+Method to make the Mande | Mandige | Chavde: \n
+1.	Preheat the oil for deep frying. \n
+2.	Divide the dough into 20 equal portions. Dust in a little flour and roll out each portion into 5 to 6 inch diameter circles and prick them with a fork all around, as we don’t want the puri’s to puff when deep fried. \n
+3.	Place the circles into the hot oil and fry either side for about 15 seconds or until the bread is all bubbly and beginning to turn golden brown. Sprinkle about a tablespoon of the coconut mixture over one half of the Chavda | Fried Puri, then fold over the other half to form a semi-circle. Sprinkle a couple more teaspoons of the sugar mixture over half the semicircle and fold over once more. \n
+4.	This folding and sprinkling of coconut mixture has to be done immediately after frying when the puris are soft. Once it gets cool, it becomes hard and crisp. \n
+5.	Repeat this process for rest of the remaining portions of the dough. \n
+6.	Allow all of the Mande to cool serve for festivals like Ganesh Chaturti or a special occation. Store the Mande in an air tight containers. \n
+
+"
+                android:id="@+id/konganisweet3"
+                android:layout_below="@+id/konganisweet2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

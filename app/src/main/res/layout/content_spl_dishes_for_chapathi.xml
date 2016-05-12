@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SplDishesForChapathiActivity"
+    tools:showIn="@layout/activity_spl_dishes_for_chapathi">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajma Tomato Gravy"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button1"
+                android:onClick="chapathi1"
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Potato Creamy Yogurt Sauce"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button2"
+                android:onClick="chapathi2"
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vegetable Korma"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button3"
+                android:onClick="chapathi3"
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button2"
+                android:layout_alignEnd="@+id/button2" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aloo Peas Curry"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button4"
+                android:onClick="chapathi4"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button3"
+                android:layout_alignEnd="@+id/button3" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Butter Paneer Masala"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button5"
+                android:onClick="chapathi5"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:text="Kerala Potato Stew"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button6"
+                android:onClick="chapathi6"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button5"
+                android:layout_alignEnd="@+id/button5" />
+
+            <Button
+                android:layout_width="367dp"
+                android:layout_height="71dp"
+                android:text="Capsicum Gravy"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button7"
+                android:onClick="chapathi7"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button6"
+                android:layout_alignEnd="@+id/button6" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ridge Gourd Gravy"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button8"
+                android:onClick="chapathi8"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button7"
+                android:layout_alignEnd="@+id/button7" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spinach Mushroom Curry"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button9"
+                android:onClick="chapathi9"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dal Fry Recipe"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button10"
+                android:onClick="chapathi10"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button9"
+                android:layout_alignEnd="@+id/button9" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sweet Corn Gravy"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button11"
+                android:onClick="chapathi11"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button9"
+                android:layout_alignEnd="@+id/button9" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mixed Dal Recipe"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button12"
+                android:onClick="chapathi12"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button9"
+                android:layout_alignEnd="@+id/button9" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paneer Kofta Curry"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button13"
+                android:onClick="chapathi13"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button9"
+                android:layout_alignEnd="@+id/button9" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mushroom Matar Paneer Gravy"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button14"
+                android:onClick="chapathi14"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button9"
+                android:layout_alignEnd="@+id/button9" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baby Corn Masala"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button15"
+                android:onClick="chapathi15"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button14"
+                android:layout_alignEnd="@+id/button14" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soya Chunks Kurma Recipe"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button16"
+                android:onClick="chapathi16"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button15"
+                android:layout_alignEnd="@+id/button15" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajma Masala Recipe"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button17"
+                android:onClick="chapathi17"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button16"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button16"
+                android:layout_alignEnd="@+id/button16" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brinjal Tomato Gravy"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button18"
+            android:onClick="chapathi18"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button17"
+            android:layout_alignEnd="@+id/button17" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black Eyed Pea Gravy"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button19"
+            android:onClick="chapathi19"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button18"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button18"
+            android:layout_alignEnd="@+id/button18" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radish Channa Gravy"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button20"
+            android:onClick="chapathi20"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button19"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button19"
+            android:layout_alignEnd="@+id/button19" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mixed Beans Gravy"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button21"
+            android:onClick="chapathi21"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button20"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button20"
+            android:layout_alignEnd="@+id/button20" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Potato Gravy"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button22"
+            android:onClick="chapathi22"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button21"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button21"
+            android:layout_alignEnd="@+id/button21" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aloo Mutter Gravy"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button23"
+            android:onClick="chapathi23"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button22"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button22"
+            android:layout_alignEnd="@+id/button22" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Onion Tomato Gravy"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button24"
+            android:onClick="chapathi24"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button23"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button23"
+            android:layout_alignEnd="@+id/button23" /><Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navratan Korma"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button25"
+            android:onClick="chapathi25"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button24"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button24"
+            android:layout_alignEnd="@+id/button24" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paneer Butter Masala"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button26"
+            android:onClick="chapathi26"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button25"
+            android:layout_alignEnd="@+id/button25" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mushroom Korma"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button27"
+                android:onClick="chapathi27"
+
+                android:background="@drawable/buttonsmiddle3"
+                android:layout_below="@+id/button26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button26"
+                android:layout_alignEnd="@+id/button26" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dal Makhani Recipe"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button28"
+            android:onClick="chapathi28"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button27"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button27"
+            android:layout_alignEnd="@+id/button27" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mirchi ka salan recipe"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button29"
+            android:onClick="chapathi29"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button28"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button28"
+            android:layout_alignEnd="@+id/button28" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vegetable Korma"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button30"
+            android:onClick="chapathi30"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button29"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button29"
+            android:layout_alignEnd="@+id/button29" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhansak-Dhansak"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button31"
+            android:onClick="chapathi31"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button30"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button30"
+            android:layout_alignEnd="@+id/button30" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aloo Gobi masala"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button32"
+            android:onClick="chapathi32"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button31"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button31"
+            android:layout_alignEnd="@+id/button31" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chow Chow Kootu recipe"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button33"
+            android:onClick="chapathi33"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button32"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button32"
+            android:layout_alignEnd="@+id/button32" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paneer Bhurji Recipe"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button34"
+            android:onClick="chapathi34"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button33"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button33"
+            android:layout_alignEnd="@+id/button33" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Channa Masala"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button35"
+            android:onClick="chapathi35"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button34"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button34"
+            android:layout_alignEnd="@+id/button34" /><Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajma Chawal"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button36"
+            android:onClick="chapathi36"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button35"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button35"
+            android:layout_alignEnd="@+id/button35" /><Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dum Aloo"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button37"
+            android:onClick="chapathi37"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button36"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button36"
+            android:layout_alignEnd="@+id/button36" /><Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White Pumpkin Kootu"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button38"
+            android:onClick="chapathi38"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button37"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button37"
+            android:layout_alignEnd="@+id/button37" /><Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masoor Dal Tadka"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button39"
+            android:onClick="chapathi39"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button38"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button38"
+            android:layout_alignEnd="@+id/button38" />
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vegetable Makhani"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button40"
+            android:onClick="chapathi40"
+
+            android:background="@drawable/buttonsmiddle3"
+            android:layout_below="@+id/button39"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button39"
+            android:layout_alignEnd="@+id/button39" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

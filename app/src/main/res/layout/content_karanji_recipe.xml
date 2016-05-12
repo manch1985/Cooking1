@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.KaranjiRecipeActivity"
+    tools:showIn="@layout/activity_karanji_recipe"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karanji Gravy"
+                android:gravity="fill_horizontal"
+                android:id="@+id/karanjirecipe1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/karanjirecipe2"
+                android:layout_below="@+id/karanjirecipe1"
+                android:src="@drawable/karanjirecipe"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+Ingredients for the filling: \n
+•	2 cups jaggery, grated fine\n
+•	1 cup whole wheat flour\n
+•	1 cup dry coconut, either grated or flakes\n
+•	1/2 cup superfine rava/ semolina\n
+•	1/2 cup sesame seeds\n
+•	1/4 cup poppy seeds\n
+•	3 tablespoon almond oil\n
+•	1 teaspoon cardamom powder\n
+•	Pinch of Nutmeg\n\n
+Ingredients for the outer crust: \n
+•	1/2 cup rava/ semolina\n
+•	1/2 cup all-purpose flour\n
+•	1 teaspoon salt\n
+•	1 tablespoon sugar\n
+•	2-3 tablespoon oil or ghee\n
+•	1 cup milk + water mixed together, or as required\n
+•	oil for deep frying\n
+METHOD:\n
+1.	To begin making the Maharashtrian Karanji Recipe (Gujiya), we will first make the make the filling. \n
+2.	Begin by dry-roasting the coconut, sesame seeds and poppy seeds in a pan separately, until they turn golden brown. \n
+3.	Make sure that they are roasted and kept separately, and never together once done. After they cool down, grind them separately in a mixer (poppy seeds, sesame seeds and coconut- in that order) till you get a coarse texture. \n
+4.	Next, roast the semolina on medium heat in a shallow bottom pan with 1 tablespoon ghee or oil till it turns golden brown. Set this aside as well once done. \n
+5.	Roast the whole wheat flour with the remaining ghee/oil in the same pan, until golden brown and keep aside. \n
+6.	Now, put all the filling ingredients including the flour, semolina, coarse powders, jaggery, cardamom and nutmeg in a food processor, and blend them well for 2-3 minutes till they form a fine powder. The delicious coconut filling for the Karanji is now ready and can be set aside to be used later. \n
+The next step is to prepare the crust for the Karanji. \n
+7.	Heat 3 tablespoons of ghee or in a small pan. Once ghee is melted or when the oil is hot, turn off the heat and keep aside. \n
+8.	Add in the all-purpose flour, rava, sugar and salt into a large deep bowl. Make a depression in the centre of the and pour the hot ghee into it mixing it into the flour thoroughly with your fingers.  Knead the flour and other ingredients slowly by pouring the water and milk mixture a little at a time. \n
+9.	Once the dough is pliable yet firm, cover it with a damp cloth and set it aside to rest for at least an hour or two. \n
+10.	Once the dough is well rested, divide it into 4 equal sized balls. Roll each of these balls into a flat circular shape, apply a thin layer of oil evenly and mould them into tight elongated rolls. \n
+11.	Once done, cut each of these 4 elongated rolls into 10 one inch pieces each, having about 40 pieces in total once all the rolling is done. Cover all these pieces with a damp cloth to keep the dough softened until they are ready to be made into the Karanji. \n
+12.	Take one of the small dough pieces and with the help of a rolling pin, shape it into a small circular poori, 3-4 inch in diameter. Divide the poori into half, pour in 1-2 tablespoon of the filling on one side, and carefully fold the other half, closing the poori-shaped dough completely. \n
+13.	In order to shape these pooris, press them on the cutting board, and carefully remove the extra dough using a karanji cutter. Once done, keep it aside to be fried. \n
+14.	Repeat the same procedure for the remaining dough balls and cover the prepared karanjis with cloth when done. \n
+15.	Finally, deep-fry all the prepared karanjis in hot oil, turning them continuously till they turn golden brown. \n
+16.	Your lip-smacking, hot and crunchy Maharastrian Karanjis are now ready to be served for the festival of Dilwai. \n
+Note: \n Instead of the karanji cutter, a fork can be used to shape the karanjis.
+
+"
+                android:id="@+id/karanjirecipe3"
+                android:layout_below="@+id/karanjirecipe2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

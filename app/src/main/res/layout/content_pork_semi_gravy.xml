@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PorkSemiGravyActivity"
+    tools:showIn="@layout/activity_pork_semi_gravy"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pork Semi Gravy"
+                android:gravity="fill_horizontal"
+                android:id="@+id/porksemigravy1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/porksemigravy2"
+                android:layout_below="@+id/porksemigravy1"
+                android:src="@drawable/porksemigravy"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n
+•	Pork – 500g (cut into small pieces) \n
+•	Onion – 2 big\n
+•	Fennel seeds (perumjeerakam) – ½ tsp\n
+•	Green Chilli – 2\n
+•	Ginger garlic paste – 3 tsp\n
+•	Tomato – 1\n
+•	Red chilli powder – 1/2 tsp\n
+•	Pepper powder – ½ tsp\n
+•	Turmeric powder – ½ tsp\n
+•	Coriander powder – 2 tsp\n
+•	Garam Masala – 1 tsp\n
+•	Curry leaves – few\n
+•	Oil\n
+•	Salt\n\n
+TO  MZRINATE: \n\n
+•	Chilli Powder – 1 tsp\n
+•	Coriander Powder – 2 tsp\n
+•	Turmeric powder – ½ tsp\n
+•	Salt\n\n
+METHOD: \n\n
+1.	Mix all the ingredients to marinate. Add little water and make it into a good paste. \n
+2.	Add pork pieces into it and mix well. \n
+3.	Pressure cook it till pork is cooked. \n
+4.	Heat oil in a pan and add sliced onion and curry leaves. \n
+5.	Cook with the pan covered and stir in between till onion turns brown in colour. \n
+6.	Add fennel seeds, green chilli and cook for 2 min. \n
+7.	Add ginger garlic paste and cook for 2-3 min. \n
+8.	Add sliced tomato and cook till tomato becomes soft. \n
+9.	Add red chilli – ½ tsp, turmeric – ½ tsp, coriander – 2 tsp, pepper – ½  tsp, garam masala, salt and cook for 2-3 min. \n
+10.	Add cooked pork (all contents of cooker) and mix well. \n
+11.	Cook with the pan covered in medium flame for 5-6 min or till oil starts appearing on the top. Serve hot. \n
+\n \n Tips: \n
+Make sure that onion becomes brown in color in step 5. It gives a great taste to your dish. \n
+
+"
+                android:id="@+id/porksemigravy3"
+                android:layout_below="@+id/porksemigravy2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

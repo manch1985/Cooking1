@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.BhakarwadiActivity"
+    tools:showIn="@layout/activity_bhakarwadi"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhakarwadi"
+                android:gravity="fill_horizontal"
+                android:id="@+id/bhakarwadi1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bhakarwadi2"
+                android:layout_below="@+id/bhakarwadi1"
+                android:src="@drawable/diwalimixture"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+Ingredients for the dough: \n
+•	2/3 cup all purpose flour\n
+•	1 cup chickpea flour / besan\n
+•	1/2 teaspoon turmeric powder\n
+•	1 teaspoon kashmiri chili powder\n
+•	1 tablespoon ghee\n
+•	Salt to taste\n
+•	enough water to knead\n\n
+Ingredients for the filling: \n
+•	1/4 cup poppy seeds\n
+•	1/4 cup white sesame seeds\n
+•	1/2 cup grated dry coconut\n
+•	1 tablespoon grated ginger\n
+•	1 tablespoon finely chopped green chili\n
+•	1/2 tablespoon coriander powder\n
+•	1/2 teaspoon garam masala\n
+•	1 teaspoon turmeric powder\n
+•	1 teaspoon cumin powder\n
+•	1 teaspoon ajwain\n
+•	1/4 teaspoon asafetida\n
+•	1 tablespoon finely chopped coriander leaves\n
+•	1 tablespoon finely chopped mint leaves\n
+•	1/3 cup of sugar\n
+•	juice from half lemon\n
+•	non stick oil spray\n\n
+ METHOD: \n
+1.	To start making Baked Bhakarwadi Recipe, in a medium bowl add all the ingredients listed under For the Dough and stir well. Add water little by little and knead until you get a firm dough. Cover with a damp cloth and keep aside. \n
+2.	Heat up a saute pan, add poppy seeds and sesame seeds. Roast them on low flame until nice aroma comes out. Remove that to another bowl. \n
+3.	In the same pan roast dry coconut until slightly golden. Remove that and keep aside. In a mixer add roasted poppy seeds, sesame seeds, coconut and all the other ingredients (Except sugar) listed under For the Filling. Pulse couple of times so that everything is mixed well. Now add the sugar and stir with a spoon. Keep the Bhakarwadi filling aside. \n
+4.	Preheat oven to 180 C. Keep your work space ready by greasing the place with a few drops of oil. Divide the Bhakarwadi dough to 3 equal balls. Work one by one. \n
+5.	Place one ball and roll out thin. Brush with some lemon juice. Spread 1/3rd of the prepared filling. Press with your hand to keep the filling set in. Roll in from the corners and until the end. \n
+6.	Press well on the top. Use a knife and cut them in 1/4 inch sized pieces pinwheels. \n
+7.	Arrange the filled Bhakarwadi on a baking tray lined with wax paper. Bake the Bhakarwadi for about 35 to 40 minutes or until brown and crispy. Cool down and store in an airtight container. \n
+8.	Serve the Baked Bhakarwadi as a tea time snack or make it for the festivals like diwali and holi. \n
+
+
+"
+                android:id="@+id/bhakarwadi3"
+                android:layout_below="@+id/bhakarwadi2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SpinachSoupActivity"
+    tools:showIn="@layout/activity_spinach_soup"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spinach Soup"
+                android:gravity="fill_horizontal"
+                android:id="@+id/spinachsoup1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinachsoup2"
+                android:layout_below="@+id/spinachsoup1"
+                android:src="@drawable/spinachsoup"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS (measuring cup used, 1 cup = 250 ml) \n
+•	1.5 to 2 cups, chopped spinach/palak\n
+•	¼ cup chopped onions\n
+•	2-3 garlic, finely chopped\n
+•	1 tbsp besan/gram flour\n
+•	¼ tsp cumin powder/jeera powder\n
+•	1 small bay leaf/tej patta\n
+•	2 cups water\n
+•	1 or 1.5 tbsp olive oil or butter\n
+•	cream for topping (optional) \n
+•	some freshly crushed black pepper or grated cheese or paneer/cottage cheese or cream for garnishing (optional) \n
+•	salt and pepper as required\n\n
+METHOD:\n\n
+1.	First rinse the spinach/palak leaves very well in water. then chop them and keep aside. \n
+2.	Heat oil or butter in a sauce pan. add the bay leaf and fry for 2-3 seconds\n
+3.	Now add the chopped garlic and fry till the garlic is light browned or browned. don't burn the garlic. \n
+4.	Fry the garlic on a low flame. add chopped onions and saute till the onions are softened. \n
+5.	Add the chopped palak/spinach. stir and season with black pepper and salt. \n
+6.	Now add the besan or gram flour. stir well and pour 2 cups water. \n
+7.	Bring the mixture to a boil and then simmer for 3-4 minutes. \n
+8.	Add cumin powder and stir well. \n
+9.	Switch off the fire and let the soup mixture cool. \n
+10.	When the mixture's heat has reduced or has become warm, then blend with a hand blender or in a mixer till smooth. remove the bay leaf/tej patta while blending. \n
+11.	Check the seasoning and add some more salt or pepper if required. \n
+12.	If the palak soup looks thick, then add ¼ or ½ cup water and stir. \n
+13.	keep the well blended palak soup back on the stove for simmering for 2-3 minutes. \n
+14.	Serve palak soup hot sprinkled with some freshly crushed black pepper or grated paneer, cheese or topped with some cream. \n
+
+
+"
+                android:id="@+id/spinachsoup3"
+                android:layout_below="@+id/spinachsoup2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

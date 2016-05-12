@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.BakedChivdaActivity"
+    tools:showIn="@layout/activity_baked_chivda"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baked Chivda"
+                android:gravity="fill_horizontal"
+                android:id="@+id/bakedchivda1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bakedchivda2"
+                android:layout_below="@+id/bakedchivda1"
+                android:src="@drawable/bakedchivda"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+•	500 grams of beaten rice, the super thin and flat variety\n
+•	1/4 cup sesame seeds\n
+•	3 tablespoons of dried curry leaf powder or 10 to 12 springs or curryleafs, finely chopped\n
+•	1/4 cup roasted peanuts, halved and without skin\n
+•	1/4 cup of slivered almonds, roasted\n
+•	1/4 cup raisins\n
+•	4 green chillies or more, finely chopped (the sipce of the green chilli depends on the kind you use) \n
+•	2 teaspoons of turmeric powder\n
+•	1/2 teaspoon or more of red chilli powder\n
+•	1 teaspoon of asafoetida powder\n
+•	2 tablespooons of powdered sugar\n
+•	salt to taste\n
+•	oil for roasting \n\n
+METHOD: \n
+1.	Preheat the oven to 220 C.  \n
+2.	Sift the beaten rice using a large seive sifter to remove any fine excess powders.  Do it in batches. \n
+3.	Next, depending on the size of the oven, place the beaten rice on the baking sheet, drizzle a little bit of oil based on the quantity and then a little bit of salt. Stir to combine the oil and salt into the beaten rice. The oil we add is just to make sure the salt gets coated onto the beaten rice to give a nice taste. \n
+4.	Place the beaten rice into the oven and bake for 5 to 7 minutes until very very lightly browned. Monitor closely as each oven works differently. Once you get used it baking in oven, making this chevdo will be the simplest thing to do. \n
+5.	Proceed the same way with the remaining beaten rice and then keep them all together in a large bowl or a baking tray or onto a newspaper. \n
+6.	Our next steps are to roast each on the the individual ingredients. \n
+7.	In a small pan, dry roast the sesame seeds until it crackles. Once it does, then add it to the baked beaten rice. \n
+8.	Add in the roasted peanuts and almonds into the beaten rice as well. \n
+9.	(Dont stir as yet, the more you keep stirring, the beaten rice will tend to crumble.) \n
+10.	Next heat half a teaspoon of oil in the same small pan; add in the raisins and roast until it bloats up. Remove from the heat and pour it over the beaten rice. If you let it roast for longer than the bloating stage, then the raisins will become stiff. \n
+11.	Next add in half a teaspoon of oil into the above pan and roast the green chillies, until lightly crisp and browned. Pour this over the beaten rice again. \n
+12.	Finally heat a teaspoon of oil in the above pan; once the oil is heated, turn off the heat  - add to this oil - the turmeric powder, red chilli powder and asafoetida powder. Stir to mix well. \n
+13.	Pour this over the bean rice. \n
+14.	Finally add the powdered sugar and the curry leaf powder over the beaten rice. \n
+15.	Now stir all the ingredients that you poured over the rice. The stirring has to be a folding action - gentle and more gentle. The nylon poha also known as the thin poha breaks apart very easily. Although in the process of mixing all the ingredient you will notice that some crumble, but thats ok. \n
+16.	Make sure you mix the  and finally check for the salt levels, adjust the spices like salt, sugar, chilli and asafoetida according to your taste. \n
+17.	The Baked Chevdo  (Chivda Mixture) is now ready to be served along with Chai as a tea time snack \n\n
+Note: \n
+•	 If you are using fresh curry leaves, you need to fry them in a tablespoon of oil until they become crisp:
+•	 To make curry leaf powder, you need to dry the fresh curry leaves on a paper towel for two days in room temperature (not under the sun) until dry and will feel crisp. Once dry and crisp, grind into a powder. I like to make this powder and store in the refrigerator so I can use it in recipes like Chevdo and also in many other dishes to get a curry leaf flavor. The process is the same as making Kasuri Methi (Dried Fenugreek Leaf Powder | Dried Methi Leaves)
+
+"
+                android:id="@+id/bakedchivda3"
+                android:layout_below="@+id/bakedchivda2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

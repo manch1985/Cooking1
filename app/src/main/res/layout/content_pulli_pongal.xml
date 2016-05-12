@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PulliPongalActivity"
+    tools:showIn="@layout/activity_pulli_pongal"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pulli Pongal"
+                android:gravity="fill_horizontal"
+                android:id="@+id/pulliponga1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pulliponga2"
+                android:layout_below="@+id/pulliponga1"
+                android:src="@drawable/pulipongal"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Raw rice - 1 cup\n
+•	Green gram (Moong) dal - 3/4 cup\n
+•	Asaefoetida - a pinch\n
+•	Salt - to taste\n
+•	Ginger - 1 piece (grated) \n
+•	Tamarind - a little piece (marble sized, soaked in water) \n
+•	Water - 5 cups\n\n
+
+FOR TEMPERING:\n
+
+•	Mustard seeds - 1 tsp\n
+•	Cumin seeds - 1 tsp\n
+•	Whole black pepper - 1 tsp\n
+•	Curry leaves - 6-7\n
+•	Ghee/ Sesame oil - 2-3 tblsp \n
+•	Cashew nuts - 6-7\n
+
+TO POWDER: \n
+•	Dry red Chillies - 2-3\n
+•	Corriander Seeds - 1 tsp\n\n
+
+METHOD: \n
+1. In a pressure cooker, take the rice, moong dal, water, required salt, grated ginger, asaefoetida and cook for 3-4 whistles. \n
+2. Wait till the pressure is released. The rice should be little overdone. \n
+3. Heat ghee in a small pan, splutter the mustard seeds, cumin seeds, black pepper, curry leaves. \n
+4. Add this to the cooked rice dal mixture after the pressure is released. \n
+5. Fry the cashews in some ghee and add that too. \n
+6. In the mean time, make a powder of the ingredients under 'to powder' and add that to the pongal too. \n
+7. Add the tamarind juice also to the pongal. \n
+8. Mix everything together and cook the rice for another 5-7 minutes for the tamarind to get cooked. \n
+9. Add a spoon of sesame oil/ ghee and Serve piping hot with sambhar, coconut thuvayal and vadai. \n
+
+
+
+
+            "
+                android:id="@+id/pulliponga3"
+                android:layout_below="@+id/pulliponga2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

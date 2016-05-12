@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.DhansakActivity"
+    tools:showIn="@layout/activity_dhansak"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhansak"
+                android:gravity="fill_horizontal"
+                android:id="@+id/dhansak1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dhansak2"
+                android:layout_below="@+id/dhansak1"
+                android:src="@drawable/dhansak"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•Onion -2 (finely chopped) \n
+•Tomato -3 Big and juicy ones\n
+•Ginger -1 inch piece\n
+•Garlic - 3 cloves\n
+•Green chilli - 1\n
+•Salt as required\n\n
+
+Spice Powder : \n
+
+•Turmeric Powder - 1/4 tsp\n
+•Chilli Powder - 1 1/2 tsp\n
+vCoriander powder - 1 tbsp\n
+vGaram Masala - 1 tsp\n\n
+
+Lentils : \n
+
+•Tur Dal - 1 1/2 tbsp\n
+•Moong dal /split green gram - 1 1/2 tbsp\n
+•Masoor dal - 1 1/2 tbsp\n
+•Channa dal /Bengal gram - 1 1/2 tbsp\n
+•Urad dal - 1 1/2 tbsp\n
+•Black eye pea - 1 1/2 tbsp\n
+•Fresh or dry field beans (Mochai)- 1 1/2 tbsp\n
+•Garbanzo beans (kabuli channa,kondai kadalai) - 1 1/2 tbsp\n\n
+
+Vegetables: \n
+
+•Carrot -1\n
+•Beans -4-5\n
+•Potato - 1\n
+•Radish - 1\n
+•Pumpkin - 1/3 cup\n
+•Ash gourd - 1/3 cup\n
+
+There are no hard and fast rules. You can add less or more of any vegetables but pumpkin is a must for this recipe. \n\n
+
+Greens : \n
+
+•Fenugreek leaves /Methi - handful\n
+•Mint leaves - handful\n
+•Spinach leaves - handful
+•Coriander leaves -handful\n\n
+
+For the Dhansak Masala: \n
+
+•Cumin seeds - 1 tsp\n
+•Whole black Pepper -1/2 tsp\n
+•Coriander seeds -1 tsp\n
+•Red chilli -1\n
+•Sesame seeds - 1/4 tsp\n
+•Fennel seeds ( Sombu)- 1/2 tsp\n
+
+Dry roast everything separately and grind it adding little water.Keep it aside. \n\n
+
+For the seasoning: \n
+
+•Oil - 2 tbsp\n
+•Fennel seeds - 1 tsp\n
+•Bay leaf -1\n
+
+Now do not get intimidated by the long list of ingredients above. Actually the preparation is very simple. \n
+
+PREPARATION: \n
+
+1.Grind green chilli, ginger and garlic to a fine paste.(g-g-g) Keep it aside. \n
+
+2.Soak black eyed pea, channa and field beans overnight. This step is needed only if you are using dried ones. \n
+
+3Wash and chop vegetables and greens. Keep aside. \n
+
+4.Soak all the lentils/dal for 20 minutes in hot water so that they will get cooked faster and energy is also saved. \n
+
+5.Puree tomatoes in a blender. \n\n
+
+METHOD: \n
+1.Pressure cook all the lentils, greens and vegetables with little water for 4 whistles and keep it aside. \n
+2.Heat oil and add fennel seeds, bay leaf, when fennel sizzles, add finely chopped onions and saute till it turns brown stirring continuously. \n
+3.Add ginger garlic and chilli paste and saute for some more time. \n
+4.Add tomato puree,dhansak masala and all the spice powder. Cook till oil separates.
+5.Then add the pressure cooked vegetables+lentils mix, needed salt and little water.
+6.Cook for a few minutes until everything gets blended well. \n
+
+Serve hot with pulao or any Indian bread.
+
+"
+                android:id="@+id/dhansak3"
+                android:layout_below="@+id/dhansak2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.VegMakhaniActivity"
+    tools:showIn="@layout/activity_veg_makhani"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veg Makhani"
+                android:gravity="fill_horizontal"
+                android:id="@+id/vegmakhani1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vegmakhani2"
+                android:layout_below="@+id/vegmakhani1"
+                android:src="@drawable/vegmakhani"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•Onion - 2\n
+•Tomato -3\n
+•Ginger garlic paste - 1 1/2 tsp\n
+•Green chilli -1\n
+•Cashew nut paste - 2 tbsp\n
+•Butter -2 tbsp\n
+•Oil - 1/2 tbsp\n\n
+
+Vegetables: \n
+
+•Carrot -1\n
+•French beans -8-9\n
+•Cauliflower florets -6-7\n
+•Green peas - handful\n
+•Potato -1\n
+•Green Capsicum - 1\n\n
+
+Spice powder: \n
+
+•Garam Masala Powder -1 tsp\n
+•Red chilli powder- 1/2 -1 tsp\n
+•Coriander powder -2 tsp\n
+•Turmeric powder -1/4 tsp\n
+•Kasuri methi -1/2 tsp\n
+•Salt as required\n\n
+
+For the seasoning: \n
+
+•Jeera/ cumin seeds - 1/2 tsp\n
+•Cloves -2\n
+•Cinnamon - 1 inch piece\n
+•Cardamom -1\n
+
+•Fresh cream - 2 tbsp for garnishing\n\n
+
+PREPARATIOn: \n
+
+1.Wash and put cauliflower in salted boiling water. Remove it after 6-7 minutes. \n
+
+2.Blanch tomatoes. \n
+
+3.Cut all the vegetable into medium size pieces. \n
+
+4.Par boil or steam all the vegetables except capsicum with little salt. Keep it aside. \n
+
+5.Boil 1 onion in water for 7-8 minutes. Drain the water and grind it with 1 green chilli. \n
+
+6.Soak 6-10 cashew nuts in hot water, drain the water and grind it to a smooth paste. \n\n
+
+METHOD: \n
+1.Heat butter+oil, add jeera seeds, when it splutters, add whole garam masala and toss for a few seconds. \n
+
+2.Add finely chopped onion and saute till nice golden brown. This step is very important and you have to stir continuously. \n
+
+3.Then add onion paste and ginger garlic paste, saute for few more minutes. \n
+
+4.Add cashew nut paste and cook for a few minutes. \n
+
+5.Now add tomato puree and all the spice powder mentioned under spice powder . \n
+
+6.Cook till the tomatoes leave oil. Then add all the vegetables, chopped capsicum, crushed kasuri methi, salt and needed water. You can add less or more water according to the consistency you need and cook for some more time till everything gets blended well. \n
+
+Garnish with coriander leaves and fresh cream. \n
+
+
+"
+                android:id="@+id/vegmakhani3"
+                android:layout_below="@+id/vegmakhani2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

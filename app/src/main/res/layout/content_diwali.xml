@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.DiwaliActivity"
+    tools:showIn="@layout/activity_diwali"
+    android:background="@drawable/samosa">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kesar Peda"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button1"
+                android:onClick="diwali1"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burfi"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button3"
+                android:onClick="diwali2"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cocunut Ladoo"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button4"
+                android:onClick="diwali3"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gulab Sandesh"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button5"
+                android:onClick="diwali4"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Murukku"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button6"
+                android:onClick="diwali5"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crispy Savory Crackers"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button7"
+                android:onClick="diwali6"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bhakarwadi"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button8"
+                android:onClick="diwali7"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samosa"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button9"
+                android:onClick="diwali8"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chivda"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button10"
+                android:onClick="diwali9"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Moong Dal Ghugra"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button11"
+                android:onClick="diwali10"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crispy Gram Flour Snack"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button12"
+                android:onClick="diwali11"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diwali Mixture"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button13"
+                android:onClick="diwali12"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button12"
+                android:layout_alignEnd="@+id/button12" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ribbon Pakoda"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:id="@+id/button14"
+                android:onClick="diwali13"
+                android:background="@drawable/buttonssoup"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/button13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button1"
+                android:layout_alignEnd="@+id/button1" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

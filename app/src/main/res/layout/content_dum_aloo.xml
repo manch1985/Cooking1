@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.DumAlooActivity"
+    tools:showIn="@layout/activity_dum_aloo"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dum Aloo"
+                android:gravity="fill_horizontal"
+                android:id="@+id/dumaloo1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dumaloo2"
+                android:layout_below="@+id/dumaloo1"
+                android:src="@drawable/dumaloo"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•Baby potatoes -15-20 very small potatoes\n
+•Onion - 2 finely chopped /1 cup\n
+•Tomatoes - 3 big and juicy ones \n
+•Ginger-garlic paste - 1 tsp\n
+•Oil/Butter - 2 tbsp\n
+•Salt as required\n
+•Cashew nuts -5 (optional) \n
+
+•Oil for shallow frying potatoes\n\n
+
+•Spice Powder: \n
+
+•Turmeric powder - 1/4 tsp\n
+•Chilli powder - 3/4 tsp\n
+•Coriander powder - 2 tsp\n
+•Cumin powder -3/4 tsp\n
+•Garam masala powder-1 tsp\n\n
+
+For the seasoning : \n
+
+•Bay leaf -1\n
+•Jeera/Cumin seeds -1 tsp\n\n
+
+For garnishing : \n
+
+•Coriander leaves\n
+•Julienne ginger(ginger cut into thin strips) \n
+•Cream - 2 tbsp (optional) \n\n
+
+PREPARATION: \n
+1.Parboil the potatoes (cook partially). Peel the skin, prick all over with a fork and shallow fry it till golden brown. Keep it aside. I used more than 15 potatoes as my potatoes were very small. \n
+
+2.Puree the tomatoes and keep it aside. You can also blanch tomatoes and then puree it. \n
+
+3.Soak cashew nuts in hot water and grind it to a fine paste. This is added to give richness to the gravy. \n\n
+
+METHOD: \n
+
+1.Heat oil/butter in a pan, add bay leaf, jeera seeds, when jeera sizzles, add finely chopped onions and saute until onions turn brown. Continuous stirring is required. You can add a little salt to speed up the process. \n
+
+
+
+
+2.Then add ginger-garlic paste and saute for a few more minutes. \n
+
+
+
+3.Add tomato puree, all the spice powder, salt needed and saute until tomatoes turn mushy and oil separates. You should not add water without cooking the tomatoes properly. \n
+
+
+
+4.Add cashew nut paste and cook for a few more minutes. \n
+
+
+
+5.Then add the shallow fried potatoes, 3/4 cup of water and cook covered for 6-10 minutes in low flame. \n
+
+6.Add cream (amul cream or dairy cream) if preferred. \n
+
+
+Garnish it with coriander leaves and thinly sliced ginger. \n
+
+Enjoy it hot with rotis,chapati, parathas, plain rice or any pulao (without tomato base). \n
+
+
+"
+                android:id="@+id/dumaloo3"
+                android:layout_below="@+id/dumaloo2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

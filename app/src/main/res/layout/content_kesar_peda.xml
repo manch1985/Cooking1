@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.KesarPedaActivity"
+    tools:showIn="@layout/activity_kesar_peda"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keasar Peda"
+                android:gravity="fill_horizontal"
+                android:id="@+id/kesarpeda1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kesarpeda2"
+                android:layout_below="@+id/kesarpeda1"
+                android:src="@drawable/kesarpeda"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" INGREDIENTS:\n\n
+•	300 grams khoya\n
+•	4 tablespoons sugar\n
+•	15 strands kesar or saffron\n
+•	2 tablespoons milk\n
+•	1/4 teaspoon powdered cardamom\n
+•	1 tablespoon sliced pista\n
+•	1/2 teaspoon ghee (optional) \n\n
+METHOD: \n
+1.	To begin making the Kesar Peda Recipe, gently warm the milk without boiling it and soak then saffron in it. Keep this aside for 10 minutes. \n
+2.	In a pan or kadai, add crumbled khoya and sugar. Cook this on a low heat for 4-5 minutes stirring continuously until the sugar is completely dissolved. The khoya will first liquify and then thicken again. Be careful not to burn the khoya. \n
+3.	Once the khoya has thickened, add saffron milk and powdered cardamom to it. Cook for a few more minutes till the khoya thickens up considerably and resembles a sticky dough like consistency. \n
+4.	At this stage, turn off the heat and allow the peda mixture to cool. \n
+5.	Once the mixture is cool enough to touch, knead it lightly to get rid of any lumps so you have a smooth mixture. You can add a little ghee at this stage to give it a good shine. \n
+6.	Roll the kesar peda mixture into a log and cut 12 equal pieces. \n
+7.	Roll each of peda portions into small balls, make a small dent in the center and add the pista slices. Or you could use a peda mould if you have one, like shown in the image. Once shaped the Kesar Peda is ready to be served. \n
+8.	Refrigerate the Kesar Peda later or serve them for the festive season like Diwali along with a Tetley Ginger and Lemon Green Tea to stay light and healthy. \n
+
+
+"
+                android:id="@+id/kesarpeda3"
+
+                android:layout_below="@+id/kesarpeda2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

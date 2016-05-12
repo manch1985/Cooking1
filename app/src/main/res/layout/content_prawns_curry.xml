@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PrawnsCurryActivity"
+    tools:showIn="@layout/activity_prawns_curry"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prawns Curry"
+                android:gravity="fill_horizontal"
+                android:id="@+id/prawnscurry1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prawnscurry2"
+                android:layout_below="@+id/prawnscurry1"
+                android:src="@drawable/prawnsgravy"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Prawns cleaned – 250g\n
+•	Onion – 2 big\n
+•	Green Chilli – 2\n
+•	Ginger garlic paste – 3 tsp\n
+•	Tomato – 1\n
+•	Kashmiri Chilli Powder – 1 tsp\n
+•	Red chilli powder – ½ tsp\n
+•	Turmeric powder – 1 tsp\n
+•	Coriander powder – 2 tsp\n
+•	Water – 1 ½ cup\n
+•	Cornflour – ¾ tsp\n
+•	Curry leaves – few\n
+•	Oil\n
+•	Salt\n\n
+METHOD: \n
+1.	Heat oil in a pan and add sliced onion and curry leaves. \n
+2.	Cook with the pan covered and stir in between till onion turns golden brown in colour. \n
+3.	Add ginger garlic paste, green chilli and cook for 4-5 min. \n
+4.	Add chopped tomato and cook till it becomes soft. \n
+5.	Add kashmiri chilli, red chilli, turmeric and coriander powder and cook for 2-3 min. \n
+6.	Add prawns and mix well. \n
+7.	Add 1 cup of water and cook with the pan covered in low-medium heat till prawns are cooked. \n
+8.	Add ¾ tsp of cornflour to ½ cup of water. Mix well and add it to the cooked prawns. \n
+9.	Cook for another 3-4 min. Switch of the stove. \n
+10.	Pour 3 tsp of oil/ghee over the curry prepared. Keep the pan closed for some time and serve hot. \n\n
+Tips: \n
+1.	Always cook prawns in low- medium heat. \n
+2.	Don’t skip step 10. It gives a good taste to your dish. \n
+
+"
+                android:id="@+id/prawnscurry3"
+
+                android:layout_below="@+id/prawnscurry2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

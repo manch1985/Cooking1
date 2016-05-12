@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SpicedBurfiActivity"
+    tools:showIn="@layout/activity_spiced_burfi"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spiced Peanut Burfi"
+                android:gravity="fill_horizontal"
+                android:id="@+id/spicedpeanutburfi1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spicedpeanutburfi2"
+                android:layout_below="@+id/spicedpeanutburfi1"
+                android:src="@drawable/spicedpeanutburfi"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	250 grams peanuts, roasted and powdered
+•	150 grams sugar\n
+•	8-10 saffron/ kesar threads\n
+•	1 cup water\n
+•	1 tablespoon ghee\n
+•	1/2 cup pistachios\n\n
+METHOD: \n
+1.	To begin making the Sing Paak Recipe (Spiced Peanut Fudge), we will start by heating the sugar and water in a small pan over medium, till the sugar melts completely and the syrup becomes stringy of two thread consistency. \n
+2.	Once the sugar has reached a string like consistency, add the saffron to it and stir. To this mixture add in the powdered peanuts and mix them together until well combined while still on the heat. \n
+3.	Once well combined turn off the gas and then stir  in the ghee, followed by the dry fruits. Keep stirring until the peanut burfi mixture comes away from the sides of the pan. Turn off the heat. \n
+4.	Spread the mixture evenly on a large tray greased with ghee. Try to get a tray that has a rim and and just right enough to fit the burfi mixture. \n
+5.	Allow the peanut burfi to rest in the tray and cool completely. It takes a good 5 to 6 hours to cool and firm. Once firm, cut it into small square or diamond pieces. \n
+6.	Serve this delicious Sing Paak or the Peanut Burfi as an after-dinner dessert .
+
+"
+                android:id="@+id/spicedpeanutburfi3"
+                android:layout_below="@+id/spicedpeanutburfi2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

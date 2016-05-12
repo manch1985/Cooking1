@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.WheatLadooActivity"
+    tools:showIn="@layout/activity_wheat_ladoo"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wheat Ladoo"
+                android:gravity="fill_horizontal"
+                android:id="@+id/wheatladoo1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wheatladoo2"
+            android:layout_below="@+id/wheatladoo1"
+            android:src="@drawable/wheatladoo"
+
+
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n
+•	2 cups wheat flour\n
+•	1/2 +1/2 cup ghee\n
+•	2 cups shredded jaggery\n
+•	milk as required\n
+•	2 teaspoons cardamom powder\n
+•	1 teaspoon nutmeg powder\n
+•	1/2 cup poppy seeds\n
+•	ghee for frying\n\n
+METHOD: \n
+1.	To begin making the Churma Ladoo recipe, in a large bowl, combine the whole wheat flour and 1/2 cup of the melted ghee and mix well until you get a bread crumb texture. Add a little milk at a time and knead to make a stiff dough. \n
+2.	Knead the mixture by hand for about 5 minutes to make firm dough. Use the palm of hands and roll 2 inch diameter size balls from the dough. The balls should be firm such that if you drop them, it should not break or crumble. \n
+3.	Pre heat the ghee in a kadai on medium heat making sure the ghee does not get into a smoking point. Turn the heat to low and add two balls at a time into the hot ghee and fry these balls until turn golden brown in color. \n
+4.	Don’t get tempted to turn the heat to high to fasten the process; it takes time for the balls need to get cooked from inside as well. \n
+5.	Allow the balls to turn brown gradually. The test is done by breaking a fried ball into half and if you notice it is creamy and not browned then you remember to fry the rest of the balls for a longer period of time; hence maintaining low heat during the frying process of absolutely essential. \n
+6.	Once you have finished frying all the balls allow them to cool completely. Once cool, crush them in a food processor to form a coarse powder like bread crumbs. Add the cardamom powder and nutmeg powder to the mixture and combine well. \n
+7.	In a small pan combine the jaggery and the other 1/2 cup of ghee on low heat. Once the jaggery melts, turn off the heat. \n
+8.	Gradually add the melted ghee jaggery mixture to the wheat crumb mixture and combine well but rubbing it between your hands. Once you feel the mixture is reasonably soft, grease your hands with ghee and using the palm of your hands roll it into two inch diameter balls to make the ladoos. \n
+9.	Place the poppy seeds on a platter and roll the churma ladoos on the poppy seeds to coat them evenly. \n
+10.	Allow the ladoos to set for an hour before serving. You can store the Churma Ladoos in air tight canisters for a couple of weeks in the refrigerator and warm them for a few seconds in the microwave before serving. \n
+
+"
+                android:id="@+id/wheatladoo3"
+                android:layout_below="@+id/wheatladoo2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

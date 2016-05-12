@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.CarrotActivity"
+    tools:showIn="@layout/activity_carrot"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrot"
+                android:gravity="fill_horizontal"
+                android:id="@+id/carrot1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/carrot2"
+                android:layout_below="@+id/carrot"
+                android:src="@drawable/carrot"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Carrots - 1/2 kg\n
+•	Onions - 2 nos (made into a coarse paste) \n
+•	Ginger garlic paste - 1/2 tbsp\n
+•	Red chillies (Kollamulaku) - 3 nos\n
+•	Coriander powder - 2 tsp\n
+•	Mustard powder - 1 tsp\n
+•	Fenugreek (uluva) powder - 1/4 tsp\n
+•	Cumin (jeerakam) powder - 1/2 tsp\n
+•	Jaggery (sharkkara) powder - 1 1/2 tsp\n
+•	Vinegar - 3 tsp\n
+•	Chilly powder - 2 tsp\n
+•	Mustard seeds - 1/4 tsp\n
+•	Cumin seeds (jeerakam) - 1/4 tsp\n
+•	Black gram (uzhunnuparippu) - 1/4 tsp\n
+•	Fenugreek (uluva) seeds - 1/4 tsp\n
+•	Asafoetida (kayam) - a pinch\n
+•	Turmeric powder - a pinch\n
+•	Cooking oil - 1 cup\n
+•	Curry leaves - a stem\n
+•	Salt - as reqd\n\n
+
+METHOD: \n
+1.	Cut carrots lengthwise into four, or six pieces. Keep aside. \n
+2.	Heat oil in a wok. \n
+3.	Add mustard seeds, cumin seeds, fenugreek and blackgram. \n
+4.	While the seeds splutter, add asafoetida, broken red chillies and curry leaves. \n
+5.	Add onion and ginger garlic paste. \n
+6.	Fry till it turns golden brown. Switch off the flame and allow it to cool. \n
+7.	Along with the carrot pieces, add all the powders, salt and vinegar to the wok.Mix well. \n
+8.	Store in an air tight bottle. \n
+9.	Serve after 2 weeks. \n
+
+"
+                android:id="@+id/carrot3"
+
+                android:layout_below="@+id/carrot2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

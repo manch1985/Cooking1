@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.AlooGobiMasalaActivity"
+    tools:showIn="@layout/activity_aloo_gobi_masala"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aloo Gobi Masala"
+                android:gravity="fill_horizontal"
+                android:id="@+id/aloogobimasala1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aloogobimasala2"
+                android:layout_below="@+id/aloogobimasala1"
+                android:src="@drawable/aloogobi"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•Cauliflower Florets -250 grams\n
+•Potatoes -3 medium sized\n
+•Onion -1/2 cup finely chopped\n
+•Tomato - 1 cup finely chopped\n
+•Ginger/garlic paste -1 tsp\n
+•Turmeric powder - a pinch\n
+
+•Chillie powder -1 tsp\n
+•Coriander powder -2 tsp\n
+•Garam masala -3/4 tsp\n\n
+
+For the seasoning: \n
+
+•Oil - 1 1/2 tbsp\n
+•Jeera/cumin seeds -3/4 tsp\n
+•Bay leaf -1\n\n
+
+PREPARATION: \n
+
+1.Wash and peel potatoes.Cut it into cubes. Heat a little oil in a pan and shallow fry potatoes till golden brown, add a pinch of turmeric powder and salt to the potatoes. \n
+
+2.Cut cauliflower into florets and blanch it it hot water. \n\n
+METHOD: \n
+1.Heat 1 1/2 tbsp of oil in a pan, add jeera/cumin seeds and bay leaf. When jeera splutters, add finely chopped onions.Fry well till it turns brown. This is a very important step. \n
+
+2.Add ginger-garlic paste and saute for a few more minutes. \n
+
+3.Add finely chopped tomatoes. \n
+
+4.Then add turmeric powder,chilli powder, coriander powder and garam masala powder. \n
+
+5.Saute continuously till tomatoes turns mushy and leaves oil. \n
+
+6.Then add the blanched cauliflowers, shallow fried potatoes and half cup of water. Add salt needed .(add less as we have already added to the potatoes) \n
+
+7.Cover and cook till potatoes and cauliflowers become soft and everything gets blended well. You can adjust the consistency of the as per your preferences. \n
+
+8.Garnish with coriander leaves. \n
+
+You aloo gobhi gravy/aloo gobi masala is ready to be served. It taste good not only with roti but also with vegetable biryani
+\n
+
+"
+                android:id="@+id/aloogobimasala3"
+                android:layout_below="@+id/aloogobimasala2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.BananaFryActivity"
+    tools:showIn="@layout/activity_banana_fry"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banana Fry"
+                android:gravity="fill_horizontal"
+                android:id="@+id/bananafry1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bananafry2"
+                android:layout_below="@+id/bananafry1"
+                android:src="@drawable/bananafry"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Ripe Bananas - 2, sliced\n\n
+FOR THE BATTER:\n
+•	Atta/Plain flour - ½ cup(refer notes) \n
+•	Rice flour - 1 tbsp\n
+•	Sugar - 1-2 tbsp, depending on the ripeness of banana\n
+•	Salt - to taste\n
+•	Water - ¾ cup - 1 cup\n\n
+
+METHOD: \n
+
+1.	Peel and slice the bananas as per your liking. You can slice it into big pieces or small ones. Make the batter with flour, rice flour, sugar, salt and water. The batter should be thicker than idli batter. Dip the sliced bananas in the batter. Heat oil. The oil should be really hot, but not smoking hot. Deep fry the bananas till golden brown. Drain excess oil and serve hot. \n\n
+NOTES: \n
+The bananas should be ripe but not overly ripe. I normally use plain flour (maida) for making the batter. Amma used atta and I didnt find any taste difference. If you prefer the yellow coloured pazham pori, add ½ tsp turmeric powder to the batter. If there is excess batter you can make bread fritters also. Just cut the bread into small pieces and follow the same procedure.
+
+
+
+
+"
+                android:id="@+id/bananafry3"
+                android:layout_below="@+id/bananafry2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

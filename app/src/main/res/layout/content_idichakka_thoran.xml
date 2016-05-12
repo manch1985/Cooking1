@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.IdichakkaThoranActivity"
+    tools:showIn="@layout/activity_idichakka_thoran"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idichakka Thoran"
+                android:gravity="fill_horizontal"
+                android:id="@+id/idichakkathoran1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idichakkathoran2"
+                android:layout_below="@+id/idichakkathoran1"
+                android:src="@drawable/idichakkathoran"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	1 young jackfruit, with skin shaved off\n
+•	1 teaspoon of turmeric powder\n
+•	1/2 cup of freshly grated coconut\n
+•	2 or 3 dry red chillies\n\n
+Ingredients for Seasoning: \n
+•	1 onion, finely chopped\n
+•	2 green chilies, finely chopped\n
+•	1/2 teaspoon cumin seeds\n
+•	1/2 teaspoon mustard seeds\n
+•	1 teaspoon halved urad dal\n
+•	a sprig of curry leaves\n
+•	1/2 teaspoon asafoetida powder\n
+•	salt to taste\n\n
+METHOD: \n
+1.	To begin making the Idichakka Thoran Recipe (Young Jack Fruit With Spiced Coconut), we will first shave off the skin of the Idichakka (Jackfruit). To do that, apply oil in your knife and palms. Using the oiled knife scrape the skin off the Jackfruit. \n
+2.	Next step is to cut the Idichakka (Jackfruit), into half and remove the middle portion of the fruit from both the halves. Oil and grease your hands and knife once again and cut the Idichakka (Jackfruit) into chunks. \n
+3.	We will now cook the Idichakka (Jackfruit) until it is soft and tender. I like using the pressure cooker to cook the jackfruit. Grease the pressure cooker with oil on all sides. Place the Idichakka (Jackfruit), along with salt and a teaspoon of turmeric powder. Add 1/4 cup of water and cover the pressure cooker with its weight on. Allow it to cook under pressure until you hear two whistles. After couple of whistles, turn off the heat. Allow the pressure to release naturally, as the Idichakka (Jackfruit) will continue to cook under the pressure. \n
+4.	Once the pressure is released, open the pressure cooker. Using a fork or the back of the knife mash the Idichakka (Jackfruit) into crumbled. You will notice it splitting into think lengthy strips like shredded cabbage. That's the texture we are looking to get. Keep the crumbled Idichakka (Jackfruit) aside. \n
+5.	In our next step, grind the coconut and red chillies, adding water little at a time to make a coarse paste. Keep this aside. \n
+6.	In our final step; heat a tablespoon of oil in a work or a kadai; add the mustard seeds, cumin seeds and halved urad dal. Allow them to crackle and roast well. Next add the onion, green chillies and saute until the onions are tender. Finally add the curry leaves, asafoetida powder, coconut mixture and the cooked Idichakka (Jackfruit). Stir well until all the ingredients are well combined. Check the salt and spice levels and adjust to suit your taste. Cover the pan, and allow the Idichakka (Jackfruit) Thoran to simmer and absorb the flavors. Turn off the heat. \n
+7.	Serve the Idichakka (Jackfruit) Thoran as a side dish along with rasam or sambar for lunch. \n
+
+"
+                android:id="@+id/idichakkathoran3"
+                android:layout_below="@+id/idichakkathoran2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

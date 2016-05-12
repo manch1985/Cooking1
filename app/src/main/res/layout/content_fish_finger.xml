@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.FishFingerActivity"
+    tools:showIn="@layout/activity_fish_finger"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fishfinger"
+                android:gravity="fill_horizontal"
+                android:id="@+id/fishfinger1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fishfinger2"
+                android:layout_below="@+id/fishfinger1"
+                android:src="@drawable/fishfinger"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Fish – 500g (Boneless) \n
+•	Egg – 2\n
+•	Bread Crumbs – 1 cup\n
+•	Oil – For frying\n\n
+
+TO MARINATE: \n
+•	Chilli powder – 1 tsp\n
+•	Ginger garlic paste – 4 tsp\n
+•	Turmeric powder – ½ tsp\n
+•	Lemon juice – 2 tsp\n
+•	Soya Sauce – 3 tsp\n
+•	Salt\n\n
+METHOD: \n\
+1.	Cut fish into 2 inch long thin pieces. \n
+2.	Mix all the ingredients to marinate. \n
+3.	Add fish into it, mix well so that fish pieces are coated with the masala, cover it and keep it in the fridge for 2-3 hrs. \n
+4.	Beat the egg well and keep it ready. \n
+5.	Dip the marinated fish pieces in egg and then roll it in bread crumbs. \n
+6.	Heat oil in a nonstick pan and fry the fish in a medium heat until its brown in color. \n
+7.	Serve hot with tomato sauce. \n
+
+
+
+"
+                android:id="@+id/fishfinger3"
+
+                android:layout_below="@+id/fishfinger2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.CabbageThoranActivity"
+    tools:showIn="@layout/activity_cabbage_thoran"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cabbage Thoran"
+                android:gravity="fill_horizontal"
+                android:id="@+id/cabbagethoran1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cabbagethoran2"
+                android:layout_below="@+id/cabbagethoran1"
+                android:src="@drawable/cabbagethoran"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n\n
+Ingredients for the thoran: \n
+•	1 small size cabbage, washed and finely chopped\n
+•	1 sprig curry leaves\n
+•	1/4 teaspoon mustard seeds\n
+•	1 dry red chilli\n
+•	1 teaspoon half urad dal\n
+•	1/4 teaspoon turmeric powder\n
+•	salt to taste\n
+•	Teaspoon of oil, or as required (coconut oil can even be used here) \n\n
+Ingredients to be ground to paste: \n
+•	4 - 5 tablespoons of grated coconut, add more if required\n
+•	5 to 6 shallots or small onions, cut into halves\n
+•	3 cloves garlic, halved\n
+•	1 to 2 green chillies, halved\n
+•	2-3 sprigs curry leaves\n\n
+METHOD: \n\n
+Method for grinding masala into paste: \n
+•	Grind all the ingredients together into a coarse mixture in a blender or mixer. Once done, keep it aside. \n
+1.	To begin making the Cabbage Thoran, heat the oil in wok. Once the oil is hot, add a few grains of urad dal and fry them till lightly browned. Add in the mustard seeds and allow them to crackle. \n
+2.	Next, add in the red chilli and sauté for a few seconds. Next add in the finely chopped cabbage leaves, cover the pan and and cook it on medium heat till the vegetable reduces in quantity or becomes soft. This should take no more than 1-2 minutes. \n
+3.	Next add in the coarsely ground coconut paste, add in the salt, turmeric powder and curry leaves. Stir to combine the ingredients well. Cover the pan and cook the vegetable on high flame till it steams well, for about 3-5 minutes. \n
+4.	Continue stirring the cabbage till it gets coated with the paste evenly. Check again if more salt is required. Once done and cooked, turn off the heat and the Cabbage Thoran is ready to be served. \n
+5.	Serve the Cabbage Thoran along with steamed rice and a Tomato Garlic Rasam\n\n
+Note: \n
+•	Adding water to the cabbage is not required. The cabbage releases water during cooking that is enough to prepare the dish, adding more will only make it very soggy.
+
+"
+                android:id="@+id/cabbagethoran3"
+
+                android:layout_below="@+id/cabbagethoran2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

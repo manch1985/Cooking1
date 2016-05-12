@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PaneerLababdarActivity"
+    tools:showIn="@layout/activity_paneer_lababdar"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paneer Lababdar"
+                android:gravity="fill_horizontal"
+                android:id="@+id/paneerlababdar1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/paneerlababdar2"
+                android:layout_below="@+id/paneerlababdar1"
+                android:src="@drawable/paneerlababdar"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS (measuring cup used, 1 cup = 250 ml):\n\n
+For the tomato-cashew paste: \n
+•	250 grams ripe red tomatoes, 1.5 cup chopped tomatoes\n
+•	10 to 12 cashews/kaju\n
+•	½ inch ginger/adrak, chopped\n
+•	2 to 3 garlic/lahsun, chopped\n
+•	½ cup water\n
+•	1 green cardamom/chotti elachi\n
+•	2 cloves/lavang\n\n
+Remaining ingredients: \n
+•	200 grams paneer/cottage cheese\n
+•	2 tbsp grated paneer\n
+•	100 grams onion, ½ cup finely chopped onions\n
+•	1 tej patta or indian bay leaf\n
+•	1 or 2 green chilies, slit\n
+•	½ tsp cumin powder/jeera\n
+•	½ tsp coriander powder/dhania powder\n
+•	½ tsp red chili powder/lal mirch powder or deghi mirch or kashmiri red chili powder\n
+•	¼ tsp garam masala powder\n
+•	¼ cup low fat cream, 25% to 35% fat\n
+•	1 tsp kasuri methi/dry fenugreek leaves, crushed\n
+•	2 tbsp butter\n
+•	1 tbsp butter to be added later (optional) \n
+•	¼ to ½ tsp sugar or add as required\n
+•	1 or 1.25 cups water\n
+•	salt as required\n\n
+For garnish: \n
+•	1 tbsp chopped coriander leaves\n
+•	½ inch ginger, julienne\n\n
+INSTRUCTIONS: \n
+Preparing tomato-cashew-spices paste: \n
+1.	Take 1.5 cups chopped tomatoes, 10 to 12 cashews, ½ inch chopped ginger, 2 to 3 garlic (chopped), 1 green cardamom, 2 cloves and ½ cup water in a small pan. use tomatoes which are not too tangy or sour. \n
+2.	Switch on flame and simmer this mixture on a low flame. \n
+3.	Cook till the tomatoes are softened. if the water dries up and the tomatoes are not softened, then add about 2 to 3 tbsp water and continue to cook. \n
+4.	Allow this mixture to become warm or cool completely and add to a grinder or blender jar. \n
+5.	Grind to a smooth paste without any cahsews or tomato chunks or pieces. you may add some water if required while grinding. keep this ground tomato-cashew-spices paste aside. \n\n
+Preparing paneer lababdar gravy: \n
+1.	Heat 2 tbsp butter in pan or kadai/wok,add 1 tej patta and saute for a couple of seconds. \n
+2.	Add ½ cup finely chopped onions,stir well. \n
+3.	Then continue to saute as well as stir and cook till the onions become light golden or golden. \n
+4.	Then add the tomato-cashew-spices paste,the mixture will splutter if there is water in it, so be careful. stir very well. \n
+5.	Add ½ tsp cumin powder, ½ tsp coriander powder and ½ tsp red chili powder. \n
+6.	Stir and saute this masala,you will see the masala clumping and gathering around itself. \n
+7.	Saute till you see fat leaving the sides of the masala paste. \n
+8.	Then add 1 cup water. stir very well. \n
+9.	Add 1 or 2 slit green chilies. \n
+10.	Stir and allow the gravy to come to a simmer,then season with salt and sugar. \n
+11.	Add 200 grams paneer which have been cubed,also add 2 tbsp grated paneer. \n
+12.	Stir and simmer the gravy for about a minute. \n
+13.	Then sprinkle 1 tsp kasuri methi which has been crushed along with ¼ tsp garam masala. stir very well again and simmer for a minute. \n
+14.	Lastly add the low fat cream. switch off the flame and stir very well. you can also add 1 tbsp butter at this step. this is optional. \n
+15.	Garnish paneer lababdar with chopped coriander leaves and ginger julienne. serve with chapatis, tandoori rotis or naan. paneer lababdar also goes well with jeera rice or veg pulao. \n\n
+
+"
+                android:id="@+id/paneerlababdar3"
+                android:layout_below="@+id/paneerlababdar2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

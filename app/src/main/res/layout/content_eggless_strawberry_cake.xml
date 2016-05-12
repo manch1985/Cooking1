@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.EgglessStrawberryCakeActivity"
+    tools:showIn="@layout/activity_eggless_strawberry_cake"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eggless Strawberry Cake"
+                android:gravity="fill_horizontal"
+                android:id="@+id/egglesscake1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/egglesscake2"
+                android:layout_below="@+id/egglesscake1"
+                android:src="@drawable/egglesscake"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	1/2 cup whole wheat flour\n
+•	1/2 cup all purpose flour\n
+•	1/2 cup white granulated sugar (castor sugar) \n
+•	1/2 cup buttermilk\n
+•	1 teaspoon baking powder\n
+•	1/4 cup melted butter\n
+•	1 teaspoon vanilla essence\n
+•	1/3 cup chopped strawberries\n
+•	1/4 cup pistachio flakes\n
+•	2 tablespoon dried rose petals\n
+•	a pinch of salt \n
+•	1/4 cup water\n\n
+METHOD:\n
+1.	To prepare the Eggless Strawberry, Rose and Pistachio Cake Recipe, we will first preheat the oven to 180 C. Line a 6-inch cake tin with parchment paper or grease with little butter and keep aside until required. \n
+2.	Next sift together the baking powder, salt and both the flours. In amixing bowl, whisk together the buttermilk, vanilla essence and melted butter for few minutes till the mixture turns light and creamy in texture. \n
+3.	To the wet ingredients, add the sugar and half of the flour mixture. Combine using a spatula or wooden spoon. Fold in the remaining sifted flour, water along with chopped strawberries, pistachio and rose petals. \n
+4.	The cake batter should be of a dropping consistency. When a dollop of the batter is raised in a spoon and dropped from a small height, it must fall off and not pour. \n
+5.	Transfer the batter to the lined cake tin and bake in preheated oven for 25-30 minutes or till a skewer inserted in the center comes out clean. \n
+6.	Take it out on a cooling rack and let it sit in the tin till completely cool before unmolding. Serve warm with a dollop of\n
+7.	Serve Strawberry, Rose and Pistachio Cake warm with a dollop of ice cream for the summer party dessert. \n
+8.	Note: To make buttermilk, to 1 cup of lukewarm milk add a teaspoon of white vinegar. Stir to combine. Allow the mixture to curdle. This should take about 5 minutes or so. \n
+
+"
+                android:id="@+id/egglesscake3"
+                android:layout_below="@+id/egglesscake2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+               />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

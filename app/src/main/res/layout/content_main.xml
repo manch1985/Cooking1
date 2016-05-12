@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout="@drawable/buttonsveg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.MainActivity"
+android:background="@drawable/main6"
+    tools:showIn="@layout/activity_main">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="historical.com.example.ahmed.historicalplacesbd.Division">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VEGETARIAN"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button"
+        android:onClick="veg"
+        android:drawableRight="@drawable/veg"
+        android:background="@drawable/buttonsmain"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+        <Button
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:text="NON VEGETERAIN"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button2"
+        android:onClick="nonveg"
+        android:drawableRight="@drawable/nonveg"
+        android:background="@drawable/buttonsmain"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+        <Button
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:text="PICKLE"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button3"
+            android:onClick="pickle"
+            android:drawableRight="@drawable/nonveg"
+            android:background="@drawable/buttonsmain"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SNACKS"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button4"
+        android:onClick="snack"
+        android:drawableRight="@drawable/snack"
+        android:background="@drawable/buttonsmain"
+
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BREAKFAST SPL"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button5"
+        android:onClick="breakfast"
+        android:drawableRight="@drawable/breakfast"
+        android:background="@drawable/buttonsmain"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:text="CAKE RECIPES"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button6"
+        android:onClick="cake"
+        android:drawableRight="@drawable/cake"
+        android:background="@drawable/buttonsmain"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5" />
+
+    <Button
+        android:layout_width="329dp"
+        android:layout_height="71dp"
+        android:text="OATS RECIPES"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button7"
+        android:onClick="oats"
+        android:drawableRight="@drawable/oats"
+        android:background="@drawable/buttonsmain"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button6"
+        android:layout_alignEnd="@+id/button6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOUP"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button8"
+        android:onClick="soup"
+        android:drawableRight="@drawable/soup"
+        android:background="@drawable/buttonsmain"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignEnd="@+id/button7" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALADS"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:id="@+id/button9"
+            android:onClick="salad"
+            android:drawableRight="@drawable/salad"
+            android:background="@drawable/buttonsmain"
+            android:layout_below="@+id/button4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FESTIVAL RECIPES"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button10"
+        android:onClick="festival"
+        android:drawableRight="@drawable/festival"
+        android:background="@drawable/buttonsmain"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button9"
+        android:layout_alignEnd="@+id/button9" />
+
+    </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

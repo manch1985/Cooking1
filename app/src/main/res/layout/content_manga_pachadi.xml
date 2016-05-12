@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.MangaPachadiActivity"
+    tools:showIn="@layout/activity_manga_pachadi"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manga Pachadi"
+                android:gravity="fill_horizontal"
+                android:id="@+id/mangapachadi1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mangapachadi2"
+                android:layout_below="@+id/mangapachadi1"
+                android:src="@drawable/mangapachadi"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: \n
+•	2 mangoes, peeled and chopped roughly (reserve the seeds) \n
+•	Salt, to taste\n
+•	1 teaspoon turmeric powder\n
+•	1 teaspoon red chilli powder (add according to taste) \n
+•	2-3 sprigs of curry leaves\n
+•	2 teaspoons mustard seeds, ground coarsely using a mortar pestle/ spice grinder\n
+•	3 tablespoons shredded fresh coconut\n
+•	1/2 tablespoon jaggery, powdered\n\n
+METHOD: \n
+1.	To make the Pazhutha Manga Pachadi Recipe, first place the chopped mangoes, mango seeds, salt, red chilli powder, haldi powder, mustard powder, curry stalks, coconut and jaggery in a saucepan, along with 1 cup water. \n
+2.	Place the saucepan on high heat and bring it to a boil. Lower the heat to medium, cover the saucepan and cook for about 10 minutes until the mangoes are softened. \n
+3.	Next, stir it, check for salt and mash the mangoes lightly, still leaving some chunks and the seeds in the pan. Turn off the heat and serve. \n
+4.	Serve the Pazhutha Manga Pachadi along with hot rice orphulkas for a comforting lunch or even make it for the festival of onam. \n
+
+"
+                android:id="@+id/mangapachadi3"
+
+                android:layout_below="@+id/mangapachadi2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

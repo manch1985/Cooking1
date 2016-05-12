@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.ChoclateAlmondBrownieActivity"
+    tools:showIn="@layout/activity_choclate_almond_brownie"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Almond Brownie"
+                android:gravity="fill_horizontal"
+                android:id="@+id/almondbrownie1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/almondbrownie2"
+                android:layout_below="@+id/almondbrownie1"
+                android:src="@drawable/almondbrownie"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	250 grams fine dark chocolate, chopped\n
+•	3/4 cup butter, softened\n
+•	3/4 cup brown sugar\n
+•	1 teaspoon vanilla essence \n
+•	3 eggs or Flaxmeal Egg Replacer\n
+•	1 cup all purpose flour\n
+•	1/4 cup cocoa powder\n
+•	1 teaspoon of baking powder\n
+•	1 tablespoon coffee liqueur or brandy (optional) \n
+•	1 cup semi sweet chocolate chips\n
+•	1 cup of blanched and peeled almonds, slivered, sliced or chopped\n\n
+METHOD:\n\n
+1.	To begin making the Rich Chocolate Almond Brownies recipe, we will first preheat the oven to 180 C. Grease an 8 inch cake pan with butter and dust it with flour. Keep this aside. \n
+2.	In a double boiler, place a large mixing bowl on the water and melt the chocolate and butter, stirring until the mixture is smooth. \n
+3.	Once melted remove the mixing bowl from the double boiler and add in the sugar, liqueur and the vanilla essence. Next add the eggs (or the flaxmeal egg replacer), 1 at a time, whisking well after each addition. \n
+4.	Continue to whisk and adding in the salt, cocoa powder, baking powder and the flour. Whisk until well combined and finally fold in the chocolate chips and the almonds into the brownie batter. \n
+5.	Pour the rich chocolate almond brownie cake batter into the cake pan, smoothen the top and place the brownie into the preheated oven. \n
+6.	Bake for about 30 to 40 minutes until you notice that when a tester when inserted into the cake, comes out clean. Remove the brownie from the oven and allow it to cool. \n
+7.	Once cooled cut the Rich Chocolate Almond Brownies into squares and serve. You can serve the brownies hot with chocolate sauce and whipped cream or just as it is with a cup of coffee. \n
+
+
+
+
+"
+                android:id="@+id/almondbrownie3"
+                android:layout_below="@+id/almondbrownie2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

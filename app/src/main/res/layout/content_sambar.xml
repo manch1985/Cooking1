@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.SambarActivity"
+    tools:showIn="@layout/activity_sambar"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sambar"
+                android:gravity="fill_horizontal"
+                android:id="@+id/sambar1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sambar2"
+                android:layout_below="@+id/sambar1"
+                android:src="@drawable/sambar"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS (measuring cup used, 1 cup = 250 ml)\n\n
+For the Sambar: \n
+•	1½ or 1¾ cups of tuvar dal (arhar dal) \n
+•	1 small onion, sliced or chopped (optional) \n
+•	a pinch or two of asafoetida (hing) \n
+•	10-12 shallots or sambar onions\n
+•	8-10 okra\n
+•	5-7 aubergines (brinjal) \n
+•	1 large tomato or 2 medium size tomatoes\n
+•	1 sprig curry leaves\n
+•	½ tsp turmeric powder\n
+•	¾ cup tamarind pulp – made with ¾ cup water and 1 lemon sized ball of tamarind\n
+•	salt\n
+•	water\n\n
+For the tempering/tadka/chaunk/vaghar/phodni: \n
+•	1 to 2 tbsp coconut oil or any vegetable oil\n
+•	1 tsp mustard seeds\n
+•	1 tsp urad dal\n
+•	1 sprig curry leaves\n
+•	2-3 dry red chillies ( I used small red bor chillies for the tadka) \n\n
+For the Sambar Masala: \n
+•	½ coconut, grated – will yield about 1 to 1½ cups of coconut\n
+•	1 inch ginger, chopped (optional) \n
+•	5-7 garlic flakes, chopped (optional) \n
+•	2-3 shallots or sambar onions, chopped\n
+•	12-15 curry leaves\n
+•	2 tbsp coriander seeds\n
+•	1 tbsp cumin seeds\n
+•	¼ tsp black peppercorns\n
+•	¼ tsp hing\n
+•	¼ tsp methi seeds\n
+•	3-4 dry red chilies ( I used 2 kashmiri and 2 guntur red chillies) \n
+•	2 to 3 tsp coconut oil or any vegetable oil\n\n
+INSTRUCTIONS: \n
+To make the sambar masala: \n
+1.	On a skillet, tava or a shallow frying pan, heat up 2 or 3 tsp oil. Add all the shallots and fry till they become translucent. Now add the ginger and garlic and fry for a minute. Add the rest of the spice and fry till they are light brown. Now add the grated coconut and roast it with the rest of the spices till everything is browned and you get a fragrant aroma in your kitchen. Let this mixture cool. \n
+2.	Once, cooled, grind this roasted spice mixture in the grinder with some water. This is how the sambar masala paste will look like. \n\n
+To make the sambar: \n
+3.	First, boil the tuvar dal till in a pressure cooker with the sliced or chopped onion and hing, till the dal is soft and well cooked. Mash the cooked dal slightly with a spoon when done. \n
+4.	Chop all your vegetables. Add all the vegetables except for the okras (bhindi) to the cooked tuvar dal along with turmeric powder and some water. Give a nice stir to the entire mixture. \n
+5.	Cook the dal with the vegetables until they are half cooked. This takes about 11-12 minutes. \n
+6.	Now add the chopped okra, tamarind pulp, and the ground masala. Add some more water if the sambar has become thick. \n
+7.	Add salt and give the sambar a rolling boil once and then simmer till the veggies are cooked. This will approximately take about 15-16 minutes. \n
+8.	Close the flame when all the ingredients in the sambar have nicely infused with one another and you have a lovely sambar aroma pervading all around in your kitchen. Keep the sambar closed with a lid and move on to the next step of tempering the sambar. Ignore the frothy layer on top of the sambar. When you add the tempering all that disappears. \n
+9.	In a pan or the tadka utensil, heat oil. Add the mustard seeds and let them pop. Then add all the other ingredients and fry them till they become fragrant. Take care they do not get burnt. \n
+10.	Once the tadka is ready, directly pour the hot tadka on the hot sambar. \n
+11.	Immediately, cover the sambar with a lid and let it stay closed for some 5 minutes. We do this at home, so that the flavors and aroma of the tadka gets very well infused with the sambar or dal. \n\n
+Serving the Sambar: \n
+12.	Give the kerala sambar a standing time of 2-3 hrs. The sambar tastes good when kept for some hours after making it. The taste of a freshly prepared sambar is different than the taste of a sambar which has been made a few hours ago. \n
+13.	Serve the kerala sambar with boiled rice and pappadums, accompanied by a side vegetable dish and a bowl of yogurt or raita. Enjoy\n
+14.	If there is any leftover kerala sambar, you could have it the next day with dosa, idli, medu vada or dal vada. But keep the leftover kerala sambar in the fridge. \n\n
+NOTES: \n
+Traditionally ginger and garlic is not added. you can skip them if you don't want to add.
+
+
+
+
+"
+                android:id="@+id/sambar3"
+
+                android:layout_below="@+id/sambar2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

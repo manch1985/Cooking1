@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.OatsRotiActivity"
+    tools:showIn="@layout/activity_oats_roti"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oats Roti"
+                android:gravity="fill_horizontal"
+                android:id="@+id/oatsroti1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/oatsroti2"
+                android:layout_below="@+id/oatsroti1"
+                android:src="@drawable/oatsroti"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS (240 ml cup used): \n
+•	½ cup rolled oats\n
+•	½ cup millet flour(ragi flour, jowar flour or bajra flour (can use mixed)) \n
+•	½ cup whole wheat flour\n
+•	1 tbsp. oil\n
+•	¾ cup hot water\n
+•	Additional hot water as needed\n\n
+
+METHOD: \n
+
+
+1.	Powder oats finely in a blender. \n
+2.	Add the powder to ¾ cup of hot water and stir well to break lumps. keep this aside for 5 minutes\n
+3.	Add whole wheat and millet flours to the same bowl and mix with hot water. Knead till it becomes a soft, pliable and sticky dough. \n
+4.	Pour oil and repeat kneading. \n
+5.	Smear more oil over the dough.Cover it in a moist cloth. keep aside for about 30 minutes. \n
+6.	Divide the dough to 8 to 10 equal sized balls and knead them again, roll to smooth balls, put them back to the moist cloth and cover. \n
+7.	Sprinkle wheat flour lightly on the rolling area. Lightly roll each ball to a chapathi . If needed sprinkle flour. Do not make them very floury. \n
+8.	Heat a griddle. Add water to a bowl and roll a cloth to a ball and dunk it in the bowl. \n
+9.	Prepare a small bowl half filled with water and roll a clean cloth to a ball and dunk it in the water. \n
+10.	Transfer the roti with floury side facing towards you, With the damp cloth apply water to the roti including the edges.Do not pour the water. \n
+11.	Flip it to the other side and repeat the dampening on the other side too. Flip to the moist side, press the roti gently to puff it. \n
+12.	Transfer to a plate or insulated casserole. cover to retain the softness. You could keep a kitchen tissue at the bottom to prevent the roti from becoming moist or wet. \n
+13.	Repeat the process abd finish cooking all the rotis, Stack them. \n
+14.	Keep covered till you serve. \n\n
+Notes: \n
+Multi grain rotis can be refrigerated for 48 hours. Microwave for 15 to 20 seconds on high when needed.
+
+
+"
+                android:id="@+id/oatsroti3"
+                android:layout_below="@+id/oatsroti2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

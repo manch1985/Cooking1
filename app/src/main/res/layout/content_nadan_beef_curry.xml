@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.NadanBeefCurryActivity"
+    tools:showIn="@layout/activity_nadan_beef_curry"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nadan Beef Curry"
+                android:gravity="fill_horizontal"
+                android:id="@+id/nadanbeefcurry1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nadanbeefcurry2"
+                android:layout_below="@+id/nadanbeefcurry2"
+                android:src="@drawable/nadanbeefcurry"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS: (Serves 4-5)\n\n
+•	Beef – ½ kg (cut into small pieces) \n
+•	Oil – 5 Tbsp\n
+•	Onion – 2 big\n
+•	Fennel seeds (perumjeerakam) – ½ tsp\n
+•	Ginger garlic paste – 4 tsp\n
+•	Tomato – 2 medium\n
+•	Green chilli – 2\n
+•	Red chilli powder – ¾ -1 tsp\n
+•	Kashmiri chilli powder – ¾ tsp\n
+•	Pepper powder – ½ tsp\n
+•	Turmeric powder – 1 tsp\n
+•	Coriander powder – 4 tsp\n
+•	Garam Masala – 1 ½ tsp\n
+•	Water – ½ cup\n
+•	Curry leaves – few\n
+•	Salt\n\n
+(Note: Vary the amount of chilli and pepper as per your spice level)
+ \n\n
+METHOD: \n\n
+
+1.Heat oil in a pan and splutter fennel seeds. \n
+2.Add sliced onion and curry leaves. Cook with the pan covered and stir in between till onion turns brown in color. \n
+3.Add sliced tomato and cook till tomato becomes soft. \n
+ 4.Add green chilli, ginger garlic paste and saute for a min or two. (Note the color of onion by this time. It should become really brown. It takes approx 20 min till this step ). \n
+5.Add all the spice powders, salt and sauté for a min or two. \n
+6.Add beef pieces and mix well. \n
+7.Add water and cook till beef is cooked well and becomes soft. (For faster cooking I transferred it into a pressure cooker. Go for 4-5 whistles, switch of the stove and wait for the steam to go completely. Once beef is cooked, if you want to add any spices additional heat the curry again, add the spices and boil it for 2-3 min. If you have the option to prepare this curry in earthen ware it will taste best). \n
+
+
+
+"
+                android:id="@+id/nadanbeefcurry3"
+                android:layout_below="@+id/nadanbeefcurry2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

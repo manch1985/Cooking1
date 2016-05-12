@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.FishGravyActivity"
+    tools:showIn="@layout/activity_fish_gravy"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;         android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;match_parent&quot;>      &lt;LinearLayout         xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish Gravy"
+                android:gravity="fill_horizontal"
+                android:id="@+id/fishgravy1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fishgravy2"
+                android:layout_below="@+id/fishgravy"
+                android:src="@drawable/fishgravywithcocunutgravy"
+
+
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•	Fish – ½ kg (cut to medium pieces) \n
+•	Mustard seeds - ½ tsp\n
+•	Fenugreek seeds (uluva) – ¼ tsp\n
+•	Curry leaves – 10\n
+•	Onion – 1 big\n
+•	Ginger garlic paste – 4 tsp\n
+•	Tomato - 1\n
+•	Chilli powder – 1 tsp\n
+•	coriander powder – 3 tsp\n
+•	Turmeric powder – ½ tsp\n
+•	Water – 2 cup\n
+•	Salt – 1 tsp\n\n
+TO ROAST AND GRIND: \n
+•	Coconut grated – 1 cup\n
+•	Whole black pepper – 1 tsp\n
+•	Dry red chilli – 5\n
+•	Fennel seeds (perumjeerakam) – ½ tsp\n
+•	Small onion – 5\n\n
+TO MARINATE: \n
+•	Chilli powder – 3 tsp\n
+•	Ginger garlic paste – 3 tsp\n
+•	Turmeric powder – 1 tsp\n
+•	Lemon juice – 2 tsp\n
+•	Salt\n\n
+METHOD: \n
+1.	Add all the ingredients to marinate and mix well. Add little water to it and make it to a paste. \n
+2.	Add cut fish pieces to it and keep it in the fridge for ½ hr. \n
+3.	Heat oil in a pan and add coconut, dry red chilli, whole black pepper, cloves, cinnamon, small onion, fennel seeds. \n
+4.	Roast till the coconut turns golden brown. Remove from fire and let it cool. \n
+5.	Grind the same into good paste by adding little water. Keep it aside. \n
+6.	Heat oil in a pan and gently fry the marinated fish pieces. Keep it aside.. \n
+7.	Heat oil in a pan and crackle mustard seeds. \n
+8.	Add fenugreek seeds, curry leaves and sliced onions. \n
+9.	When onion turns golden brown, add ginger and garlic. Cook for 2-3 mins. \n
+10.	Add sliced tomato and cook till it turns soft. \n
+11.	Add chilli powder and coriander powder, turmeric powder and cook for 2-3 mins. \n
+12.	Add the masala paste prepared and mix well. \n
+13.	Add 2 cups of water and wait till the water starts boiling well. \n
+14.	Add it to fried fish and cook on low flame for 5-8 mins. Swirl the pan in between. Remove from the fire. \n
+15.	Add 2 tbsp of oil on the top and keep pan closed for 5 min. Serve hot.
+\n
+
+
+"
+                android:id="@+id/fishgravy3"
+
+                android:layout_below="@+id/fishgravy2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

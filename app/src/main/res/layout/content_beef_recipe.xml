@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.BeefRecipeActivity"
+    tools:showIn="@layout/activity_beef_recipe">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="historical.com.example.ahmed.historicalplacesbd.Division">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF FRY"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button1"
+        android:onClick="beef1"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF STROGANOFF"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button3"
+        android:onClick="beef2"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF PEPPER ROAST"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button4"
+        android:onClick="beef3"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF POTATO ROAST"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button5"
+        android:onClick="beef4"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF THORAN"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button6"
+        android:onClick="beef5"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF KORMA"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button7"
+        android:onClick="beef6"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NADAN BEEF CURRY"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button8"
+        android:onClick="beef7"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DRIED BEEF STIR FRY"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button9"
+        android:onClick="beef8"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPICY LIVER FRY"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button10"
+        android:onClick="beef9"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF MASALA"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button11"
+        android:onClick="beef10"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF BANANA STIR FRY"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button12"
+        android:onClick="beef11"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MINCED MEET STIR FRY"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button13"
+        android:onClick="beef12"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEEF DRY"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:id="@+id/button14"
+        android:onClick="beef13"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1" />
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

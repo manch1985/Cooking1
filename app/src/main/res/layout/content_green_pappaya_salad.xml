@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.GreenPappayaSaladActivity"
+    tools:showIn="@layout/activity_green_pappaya_salad"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pappaa Salad"
+                android:gravity="fill_horizontal"
+                android:id="@+id/pappayasalad1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pappayasalad2"
+                android:layout_below="@+id/pappayasalad1"
+                android:src="@drawable/greenpapayasalad"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+
+•	Thai Papaya Salad/Som Tum\n
+•	Raw green papaya – 1small or half of one big\n
+•	Carrot-1\n
+•	Thai fresh red chilli-2 small\n
+•	Garlic -2\n
+•	Fish Sauce – 1/4 tsp\n
+•	Lemon Juice-1 1/2 tbsp\n
+•	Jaggery or Sugar-1 tbsp\n
+•	Roasted Peanuts-2tbsp\n
+•	Fresh Green long beans(Achinga Payar)-3\n
+•	Cherry Tomatoes -5 or Normal tomato-1 (Remove seeds if u r using big one )\n
+•	Salt-to taste\n\n
+
+METHOD:\n
+
+
+1.To make green papaya salad,First prepare the papaya by peeling the dark green skin.
+ Then, hold the papaya in your hand, and smack the fruit lengthwise with a good sized knife.
+ You want to create 1/2″ or so deep cuts into the fruit. Do this over and over until you’ve
+ created a good amount of cuts. Watch your fingers! Then, cut the papaya lengthwise to produce long strips.
+  You can also buy tools which can create long shreds, or even use a cheese grater (the big holes). \n
+
+2.Same way cut carrot also .. \n
+3.Cut the long beans into 2 inch pieces ..And cut the cherry tomato into 4 pieces .\n
+
+4.You would need a wooden or earthen mortar and pestle for this recipe as the ingredients
+have to be lightly pounded to combine together. Don’t have one, you can still make this salad by just combining the ingredients using your hands :) \n
+So crush garlic and chilli together ..Then add sugar followed by fish sauce and lemon juice ..Give taste and add salt if needed ..If u r a pure vegetarian  u can omit fish sauce .. \n
+5.And u can vary the amount of chilli according to ur taste .. \n
+To the crushed mix add tomato and shredded papaya ,carrot and long beans ....
+ mix well with ur hand ..Give a taste and add if anything needed .. \n
+6.So the wonderful sweet-sour-salty papaya salad is ready ..Transfer to a serving plate and decorate with some roasted peanuts .. \n
+
+"
+                android:id="@+id/pappayasalad3"
+                android:layout_below="@+id/pappayasalad2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

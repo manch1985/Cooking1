@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PaneerButterMasalaActivity"
+    tools:showIn="@layout/activity_paneer_butter_masala"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paneer Butter Masala"
+                android:gravity="fill_horizontal"
+                android:id="@+id/paneerbuttermasala1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/paneerbuttermasala2"
+                android:layout_below="@+id/paneerbuttermasala1"
+                android:src="@drawable/paneerbuttermasala"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+•Onion - 2\n
+•Tomato puree - 1 cup\n
+•Ginger garlic paste -1 tbsp\n
+•Paneer - 200 grams (I used home made paneer) \n
+•Cashew nuts -2 tbsp\n
+•Kasuri Methi -3/4 tsp (dry fenugreek leaves) \n
+•Salt as required\n\n
+Spice Powder: \n
+•Garam masala powder - 1 tsp\n
+•Coriander powder - 2 tsp\n
+•Chilli Powder - 3/4 tsp\n
+•Turmeric powder - 1/4 tsp\n\n
+For the seasoning: \n
+•Butter- 2 tbsp + Oil-1 tbsp\n
+•Cinnamon -1 inch piece\n
+•Cloves- 2\n
+•Cardamom -1\n\n
+For Garnishing: \n
+•Fresh cream - 3 tbsp (dairy cream) \n
+•Finely chopped coriander leaves - 1 tbsp\n
+•Kasuri methi - 3/4 tsp (optional) \n\n
+PREPARATION: \n
+1.Making paneer butter masala is a breeze if you keep all the 4 paste ready. \n
+2.Onion Paste -Remove the skin, chop the onion into 4 pieces and boil them in water for 10 minutes. Drain the water completely and grind it to a paste. \n
+3.Tomato puree - Blanch tomatoes- (ie) put the tomatoes in boiling water and close it. After 10 minutes, drain the water, remove the skin and puree the tomatoes. \n
+4.Cashew nut paste- Soak 2 tbsp of cashew nuts in hot water for 15 minutes and grind it to a paste. \n
+5.Keep Ginger garlic paste ready -1 tbsp\n
+6.Cut paneer into cubes. \n\n
+METHOD\n
+1.Heat 2 tbsp butter + 1 tbsp oil, add cinnamon, cardamom and cloves, when it splutters, add onion paste and saute till it becomes golden brown, then add ginger garlic paste and saute for some more time. \n
+2.Then add cashew nut paste and saute nicely for a few minutes till the raw smell goes. \n
+3.Then add tomato puree and all the spice powder mentioned under spice powder.\n
+4.Cook until the raw smell of the tomato goes and it starts leaving oil. \n
+5.Meant time shallow fry the paneer in just 2 -3 tsp of oil till it becomes slightly brown. \n
+6.Add the paneer cubes to the cooked tomato paste. \n
+7.Add 3/4 cup of water, needed salt, kasuri methi and coriander leaves. Simmer and cook for a few minutes. You can adjust the consistency as per your personal preferences. \n
+8.Garnish with fresh cream (I used amul cream) and serve hot with pulao or roti or chapati. \n
+9.Hope you found it easy. So next time you can prepare restaurant style paneer butter masala at home itself and win the appreciation of family members. \n\n
+Important tips for beginners : \n
+1.You have to brown the onions or onion paste well. If needed you can add more oil than mentioned for sauteing the onion paste. Do not add tomato paste before that. \n
+2.Do not add water without cooking the tomatoes well. You have to cook till the tomatoes starts leaving oil, only then, you should add water. \n
+3.Adjust water according to the consistency required. \n
+"
+                android:id="@+id/paneerbuttermasala3"
+                android:layout_below="@+id/paneerbuttermasala2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

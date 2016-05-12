@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alphonsa.cooking1.PlumCakeActivity"
+    tools:showIn="@layout/activity_plum_cake"
+    android:background="@drawable/buttonsveg">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" &lt;ScrollView
+         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+           android:layout_width=&quot;match_parent&quot;
+           android:layout_height=&quot;match_parent&quot;>
+           &lt;LinearLayout
+            xmlns:tools=&quot;http://schemas.android.com/tools&quot; android:layout_width=&quot;match_parent&quot;         android:layout_height=&quot;wrap_content&quot;         android:orientation=&quot;vertical&quot;         tools:context=&quot;historical.com.example.ahmed.historicalplacesbd.Division&quot;>">
+
+        <LinearLayout
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="historical.com.example.ahmed.historicalplacesbd.Division"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plum Cake"
+                android:gravity="fill_horizontal"
+                android:id="@+id/plumcake1"
+                android:textColor="#f4121213"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plumcake2"
+                android:layout_below="@+id/plumcake1"
+                android:src="@drawable/plumcake"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INGREDIENTS:\n\n
+INGREDIENTS TO BE SOAKED IN RUM OR ORANGE JUICE:\n
+•	100 grams raisins\n
+•	100 grams cherries\n
+•	100 grams figs\n
+•	100 grams tutti frutti\n
+•	50 grams almonds\n
+•	50 grams cashewnuts\n
+•	100 ml rum or orange juice (or more if required) \n\n
+MAIN INGREDIENTS:\n
+•	100 grams unsalted butter\n
+•	125 grams clarified butter/ghee\n
+•	300 grams powdered sugar/castor sugar\n
+•	4 egg yolks\n
+•	1 teaspoon vanilla essence\n
+•	3 tablespoons candied orange peel\n
+•	1/4 cup caramel syrup\n
+•	1 orange\n
+•	250 grams all purpose flour/maida\n
+•	1/2 teaspoon baking powder\n
+•	1/4 teaspoon baking soda\n
+•	1 teaspoon cinnamon powder\n
+•	1/4 teaspoon nutmeg powder\n
+•	1/4 teaspoon clove powder\n
+•	1/2 teaspoon dry ginger powder\n
+•	1/4 cup milk\n
+•	4 egg whites\n
+•	3 tablespoons lime juice\n
+•	4 tablespoons granulated sugar\n\n
+METHOD:\n
+1.	To begin making the Kerala Style Christmas Plum Cake Recipe first line a 9″ tin with greaseproof paper and set it aside for later use. \n
+2.	Soak the dry fruits (raisins, dry cherries, cashew, almond, tutti frutti, dry figs, soaked in rum or the juice of 3 oranges, preferably for a month, if not a day in advance, at least) \n
+3.	Drain the soaked dry fruits, next and retain the soaked rum in a bottle for later use. \n
+4.	Place the soaked dry fruits and the juice of an orange in a sauce pan. Cover it, place it over a medium heat and allow it to cook until the juice is absorbed. \n
+5.	If you are making a non-alcoholic version, soak the dry fruits in the juice of 3 oranges overnight or for a couple of hours at least. When baking the cake, cook them in the same juice until all the juices are absorbed. \n
+6.	If for some reason you have not pre-soaked the fruit, you can also soak and cook them instantly in 50-50 mix of rum and orange juice to get the intensity of flavour in a shorter time. For best results, pre-soaking the fruit is recommended. \n
+7.	Next, spread the cooked dry fruits on a plate and let it cool completely. \n
+8.	At this stage, preheat the oven to 180 C. \n
+9.	In a large mixing bowl, sieve together the all purpose flour, baking powder, baking soda and all the spice powders. \n
+10.	Add the soaked, cooked mixed fruits in the flour and mix well so that the fruit is completely coated. Keep this aside. Tossing fruits in flour is to avoid fruits falling to the bottom of the cake during baking time. It will ensure that the cake remains studded with fruit, right through. \n
+11.	Cream together the butter, ghee, egg yolks and the castor sugar until it is light and fluffy. \n
+12.	Add flour-fruits to the butter mixture, alternating with milk. Ensure that you begin and end with additions of the fruit mixture. Stir well with spatula to blend uniformly. \n
+13.	Next, beat the egg whites till they are stiff peaks. Add 4 tablespoons sugar and lime juice and beat again. Now, fold in the egg whites to the cake mixture. \n
+14.	Pour plum cake batter into prepared pan. Smoothen it well (If you like an uneven top, save a small handful of floured dry fruits and sprinkle it on top or arrange some blanched and peeled almonds in a pattern or you can sprinkle some dried cherries on top ) \n
+15.	Place the plum cake in the preheated oven and bake for about 90 - 105 minutes or till a toothpick inserted in center comes out clean. \n
+16.	Check for doneness after 60 minutes, as the cooking time will vary from one oven to another. \n
+17.	When cooked through, remove the tin from the oven and let it sit in the cake tin to cool slightly. \n
+18.	When the cake is still warm pour 1/8th cup rum or brandy over the cake and remove from the tin and cool it over a cooling rack. \n
+19.	Serve it at Christmas or slice and store away for a tea time treat. \n
+20.	Once the cake has cooled completely, sprinkle some more alcohol over it and cover it tightly with clingfilm. Then wrap it in aluminium foil or brown paper and store it in a dark cool place. \n
+21.	Sprinkle some alcohol over the Kerala Style Plum Cake once in 4 days or a week, as this really deepens the flavours. \n
+22.	If you do not want to keep it out, you can also refrigerate it, and remember to thaw it a day before Christmas or when you are serving it. \n
+23.	The Kerala Style Plum cake keeps refrigerated for at least 3 months. \n
+
+"
+                android:id="@+id/plumcake3"
+                android:layout_below="@+id/plumcake2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#030303"
+                android:textIsSelectable="false"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
